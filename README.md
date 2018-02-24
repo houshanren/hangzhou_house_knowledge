@@ -542,8 +542,8 @@ Q群:554239288
 
 ### 4.当前杭州交通地图(2017)
 
-\*\*![](attachments/1086212/1246048.jpg)
-\*\*
+![](attachments/1086212/1246048.jpg)
+
 
 ### 5.规划局杭州道路交通规划图2017版(2022)
 
@@ -563,7 +563,7 @@ Q群:554239288
 
 ## 六：拆迁
 
-### <span style="color: rgb(0,0,0);">1.三改一拆是什么</span>
+### 1.三改一拆是什么
 
 
        “三改一拆”指的是旧住宅区、旧厂区、城中村改造和拆除违法建筑。
@@ -588,21 +588,20 @@ Q群:554239288
 
 ![](attachments/1086212/1246806.jpeg)
 
-\#\## 
-3.<span>主城区城中村改造五年（2016-2020）攻坚行动计划</span>
+### 3.<span>主城区城中村改造五年（2016-2020）攻坚行动计划</span>
 
 ![](attachments/1086212/1245994.jpeg)
 
 <span>2017年1月，杭州主城区城中村改造攻坚行动被列入了《杭州市城市建设“十三五”规划》。作为全面实施“十三五”规划和市区城中村改造的攻坚之年。</span>
 
-### <span>4.2017年主城区拆迁表</span>
+### 4.2017年主城区拆迁表
 
-<span>![](attachments/1086212/1246052.png)</span>
+![](attachments/1086212/1246052.png)
 
-### <span>5.</span>余杭区2017-2019年城中村改造示意图
+### 5.余杭区2017-2019年城中村改造示意图
 ![](attachments/1086212/1246055.jpeg)
 
-### <span>6.<span style="color: rgb(38,38,38);">杭州各区拟订</span><span style="color: rgb(38,38,38);">2018 年“三改一拆”旧住宅区改造计划</span></span> 
+### 6.杭州各区拟订 2018 年“三改一拆”旧住宅区改造计划<
 
 截至2017年10月16日，杭州全市拆除违法建筑10856.1万平方米，
 
@@ -610,7 +609,7 @@ Q群:554239288
 
 累计“三改”13590万平方米，其中2017年完成2003.6万平方米，完成今年1435万“三改”目标任务的139.6%。
 
-<span><span style="color: rgb(38,38,38);"><span style="color: rgb(38,38,38);">目前，各区正对照上述要求，结合实际开展前期勘察、设计，合理确定项目实施主体、范围、内容、工期、方案、经费等具体要素，编排项目计划和资金预算。</span></span></span>
+目前，各区正对照上述要求，结合实际开展前期勘察、设计，合理确定项目实施主体、范围、内容、工期、方案、经费等具体要素，编排项目计划和资金预算。
 
 ## 七：2017-2021年杭州市区住宅用地供应中期规划汇总表
 <div class="table-wrap"><table class="confluenceTable"><colgroup><col /> <col /> <col /> <col /> </colgroup><tbody><tr><th rowspan="2" class="confluenceTh">序号</th><th rowspan="2" class="confluenceTh">城区</th><th colspan="2" class="confluenceTh">2017年住宅供应规模</th><th colspan="2" class="confluenceTh">2018年住宅供应规模</th><th colspan="2" class="confluenceTh">2019年住宅供应规模</th><th colspan="2" class="confluenceTh">2020年住宅供应规模</th><th colspan="2" class="confluenceTh">2021年住宅供应规模</th><th colspan="2" class="confluenceTh">5年合计</th></tr><tr><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th></tr><tr><td class="confluenceTd">1</td><td class="confluenceTd">主城区</td><td class="confluenceTd">38</td><td class="confluenceTd">2271</td><td class="confluenceTd">41</td><td class="confluenceTd">2226</td><td class="confluenceTd">44</td><td class="confluenceTd">2240</td><td class="confluenceTd">39</td><td class="confluenceTd">2251</td><td class="confluenceTd">41</td><td class="confluenceTd">2365</td><td class="confluenceTd">203</td><td class="confluenceTd">11353</td></tr><tr><td class="confluenceTd">2</td><td class="confluenceTd">萧山区</td><td class="confluenceTd">35</td><td class="confluenceTd">2213</td><td class="confluenceTd">30</td><td class="confluenceTd">2522</td><td class="confluenceTd">37</td><td class="confluenceTd">2479</td><td class="confluenceTd">20</td><td class="confluenceTd">2452</td><td class="confluenceTd">17</td><td class="confluenceTd">2497</td><td class="confluenceTd">139</td><td class="confluenceTd">12163</td></tr><tr><td class="confluenceTd">3</td><td class="confluenceTd">大江东产业
