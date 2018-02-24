@@ -1,90 +1,81 @@
-<!DOCTYPE html>
-<html>
-    <head>
-       杭州房产知识扫盲
-        <link rel="stylesheet" href="styles/site.css" type="text/css" />
-        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
 
-   
+	   杭州房产知识扫盲
 
-<div class='toc-macro rbtoc1515900824813'>
 
-*   [一：认识杭州从板块说起](#id-杭州房产-一：认识杭州从板块说起)
 
-    *   [1.房产板块划分图](#id-杭州房产-1.房产板块划分图)
-    *   [2.杭州行政区域主城区](#id-杭州房产-2.杭州行政区域主城区)
-    *   [3.杭州其他区域行政划分](#id-杭州房产-3.杭州其他区域行政划分)
-    *   [4.19大后杭州的重点建设区域划分和定位](#id-杭州房产-4.19大后杭州的重点建设区域划分和定位)
-    *   [5.两个主中心](#id-杭州房产-5.两个主中心)
-    *   [6.七大城市副中心](#id-杭州房产-6.七大城市副中心)
+	<a href='#id-杭州房产-一：认识杭州从板块说起'>一：认识杭州从板块说起</a>
+	*   [1.房产板块划分图](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E6%88%BF%E4%BA%A7%E6%9D%BF%E5%9D%97%E5%88%92%E5%88%86%E5%9B%BE)
+	*   [2.杭州行政区域主城区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E6%9D%AD%E5%B7%9E%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%9F%9F%E4%B8%BB%E5%9F%8E%E5%8C%BA)
+	*   [3.杭州其他区域行政划分](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-3.%E6%9D%AD%E5%B7%9E%E5%85%B6%E4%BB%96%E5%8C%BA%E5%9F%9F%E8%A1%8C%E6%94%BF%E5%88%92%E5%88%86)
+	*   [4.19大后杭州的重点建设区域划分和定位](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-4.19%E5%A4%A7%E5%90%8E%E6%9D%AD%E5%B7%9E%E7%9A%84%E9%87%8D%E7%82%B9%E5%BB%BA%E8%AE%BE%E5%8C%BA%E5%9F%9F%E5%88%92%E5%88%86%E5%92%8C%E5%AE%9A%E4%BD%8D)
+	*   [5.两个主中心](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E4%B8%A4%E4%B8%AA%E4%B8%BB%E4%B8%AD%E5%BF%83)
+	*   [6.七大城市副中心](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E4%B8%83%E5%A4%A7%E5%9F%8E%E5%B8%82%E5%89%AF%E4%B8%AD%E5%BF%83)
+*   [二：关于房子要知道的一些概念](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%BA%8C%EF%BC%9A%E5%85%B3%E4%BA%8E%E6%88%BF%E5%AD%90%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5)
 
-*   [二：关于房子要知道的一些概念](#id-杭州房产-二：关于房子要知道的一些概念)
+	*   [1.用地性质 ](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E7%94%A8%E5%9C%B0%E6%80%A7%E8%B4%A8)
+	*   [2.容积率](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E5%AE%B9%E7%A7%AF%E7%8E%87)
+	*   [3.买房时定金 订金 诚意金 认筹金 区别](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-3.%E4%B9%B0%E6%88%BF%E6%97%B6%E5%AE%9A%E9%87%91%E8%AE%A2%E9%87%91%E8%AF%9A%E6%84%8F%E9%87%91%E8%AE%A4%E7%AD%B9%E9%87%91%E5%8C%BA%E5%88%AB)
+	*   [4. 绿化率多少合适 住宅小区绿化率标准](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-4.%E7%BB%BF%E5%8C%96%E7%8E%87%E5%A4%9A%E5%B0%91%E5%90%88%E9%80%82%E4%BD%8F%E5%AE%85%E5%B0%8F%E5%8C%BA%E7%BB%BF%E5%8C%96%E7%8E%87%E6%A0%87%E5%87%86)
+	*   [5.楼层净高](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E6%A5%BC%E5%B1%82%E5%87%80%E9%AB%98)
+	*   [6.为什么每层住宅楼层默认高是在 3 米左右？](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%8F%E5%B1%82%E4%BD%8F%E5%AE%85%E6%A5%BC%E5%B1%82%E9%BB%98%E8%AE%A4%E9%AB%98%E6%98%AF%E5%9C%A83%E7%B1%B3%E5%B7%A6%E5%8F%B3%EF%BC%9F)
+	*   [7.杭州2017年的现房销售政策](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-7.%E6%9D%AD%E5%B7%9E2017%E5%B9%B4%E7%9A%84%E7%8E%B0%E6%88%BF%E9%94%80%E5%94%AE%E6%94%BF%E7%AD%96)
+	*   [8.3分钟！搞定杭州人才居住证！ ](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-8.3%E5%88%86%E9%92%9F%EF%BC%81%E6%90%9E%E5%AE%9A%E6%9D%AD%E5%B7%9E%E4%BA%BA%E6%89%8D%E5%B1%85%E4%BD%8F%E8%AF%81%EF%BC%81)
+	*   [9.买房选择东边套 西边套 还是中间套？](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-9.%E4%B9%B0%E6%88%BF%E9%80%89%E6%8B%A9%E4%B8%9C%E8%BE%B9%E5%A5%97%E8%A5%BF%E8%BE%B9%E5%A5%97%E8%BF%98%E6%98%AF%E4%B8%AD%E9%97%B4%E5%A5%97%EF%BC%9F)
+	*   [10.公摊面积](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-10.%E5%85%AC%E6%91%8A%E9%9D%A2%E7%A7%AF)
 
-    *   [1.用地性质 ](#id-杭州房产-1.用地性质)
-    *   [2.容积率](#id-杭州房产-2.容积率)
-    *   [3.买房时定金 订金 诚意金 认筹金 区别](#id-杭州房产-3.买房时定金订金诚意金认筹金区别)
-    *   [4. 绿化率多少合适 住宅小区绿化率标准](#id-杭州房产-4.绿化率多少合适住宅小区绿化率标准)
-    *   [5.楼层净高](#id-杭州房产-5.楼层净高)
-    *   [6.为什么每层住宅楼层默认高是在 3 米左右？](#id-杭州房产-6.为什么每层住宅楼层默认高是在3米左右？)
-    *   [7.杭州2017年的现房销售政策](#id-杭州房产-7.杭州2017年的现房销售政策)
-    *   [8.3分钟！搞定杭州人才居住证！ ](#id-杭州房产-8.3分钟！搞定杭州人才居住证！)
-    *   [9.买房选择东边套 西边套 还是中间套？](#id-杭州房产-9.买房选择东边套西边套还是中间套？)
-    *   [10.公摊面积](#id-杭州房产-10.公摊面积)
+*   [三：杭州房产信息渠道](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%B8%89%EF%BC%9A%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7%E4%BF%A1%E6%81%AF%E6%B8%A0%E9%81%93)
 
-*   [三：杭州房产信息渠道](#id-杭州房产-三：杭州房产信息渠道)
+	*   [1.透明售房网](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E9%80%8F%E6%98%8E%E5%94%AE%E6%88%BF%E7%BD%91)
+	*   [2.口水楼市](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E5%8F%A3%E6%B0%B4%E6%A5%BC%E5%B8%82)
+	*   [3.19楼房产](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-3.19%E6%A5%BC%E6%88%BF%E4%BA%A7)
+	*   [4.公众号](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-4.%E5%85%AC%E4%BC%97%E5%8F%B7)
+	*   [5.政府网站](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E6%94%BF%E5%BA%9C%E7%BD%91%E7%AB%99)
+	*   [6.一些QQ群](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E4%B8%80%E4%BA%9BQQ%E7%BE%A4)
 
-    *   [1.透明售房网](#id-杭州房产-1.透明售房网)
-    *   [2.口水楼市](#id-杭州房产-2.口水楼市)
-    *   [3.19楼房产](#id-杭州房产-3.19楼房产)
-    *   [4.公众号](#id-杭州房产-4.公众号)
-    *   [5.政府网站](#id-杭州房产-5.政府网站)
-    *   [6.一些QQ群](#id-杭州房产-6.一些QQ群)
+*   [四：地铁交通规划与现状](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%9B%9B%EF%BC%9A%E5%9C%B0%E9%93%81%E4%BA%A4%E9%80%9A%E8%A7%84%E5%88%92%E4%B8%8E%E7%8E%B0%E7%8A%B6)
 
-*   [四：地铁交通规划与现状](#id-杭州房产-四：地铁交通规划与现状)
+	*   [1.目前的杭州地铁(2017)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E7%9B%AE%E5%89%8D%E7%9A%84%E6%9D%AD%E5%B7%9E%E5%9C%B0%E9%93%81(2017))
+	*   [2.杭州三期地铁(2022)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E6%9D%AD%E5%B7%9E%E4%B8%89%E6%9C%9F%E5%9C%B0%E9%93%81(2022))
+	*   [3.当前杭州交通地图(2017)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-3.%E5%BD%93%E5%89%8D%E6%9D%AD%E5%B7%9E%E4%BA%A4%E9%80%9A%E5%9C%B0%E5%9B%BE(2017))
+	*   [4.规划局杭州道路交通规划图2017版(2022)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-4.%E8%A7%84%E5%88%92%E5%B1%80%E6%9D%AD%E5%B7%9E%E9%81%93%E8%B7%AF%E4%BA%A4%E9%80%9A%E8%A7%84%E5%88%92%E5%9B%BE2017%E7%89%88(2022))
+	*   [5.综合交通枢纽体系图](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E7%BB%BC%E5%90%88%E4%BA%A4%E9%80%9A%E6%9E%A2%E7%BA%BD%E4%BD%93%E7%B3%BB%E5%9B%BE)
+	*   [6.杭州水上巴士](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E6%9D%AD%E5%B7%9E%E6%B0%B4%E4%B8%8A%E5%B7%B4%E5%A3%AB)
 
-    *   [1.目前的杭州地铁(2017)](#id-杭州房产-1.目前的杭州地铁(2017))
-    *   [2.杭州三期地铁(2022)](#id-杭州房产-2.杭州三期地铁(2022))
-    *   [3.当前杭州交通地图(2017)](#id-杭州房产-3.当前杭州交通地图(2017))
-    *   [4.规划局杭州道路交通规划图2017版(2022)](#id-杭州房产-4.规划局杭州道路交通规划图2017版(2022))
-    *   [5.综合交通枢纽体系图](#id-杭州房产-5.综合交通枢纽体系图)
-    *   [6.杭州水上巴士](#id-杭州房产-6.杭州水上巴士)
+*   [五：拆迁](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%BA%94%EF%BC%9A%E6%8B%86%E8%BF%81)
 
-*   [五：拆迁](#id-杭州房产-五：拆迁)
+	*   [1.三改一拆是什么](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E4%B8%89%E6%94%B9%E4%B8%80%E6%8B%86%E6%98%AF%E4%BB%80%E4%B9%88)
+	*   [2.2018年棚户区改造计划(第三批)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.2018%E5%B9%B4%E6%A3%9A%E6%88%B7%E5%8C%BA%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92(%E7%AC%AC%E4%B8%89%E6%89%B9))
+	*   [3.主城区城中村改造五年（2016-2020）攻坚行动计划](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-3.%E4%B8%BB%E5%9F%8E%E5%8C%BA%E5%9F%8E%E4%B8%AD%E6%9D%91%E6%94%B9%E9%80%A0%E4%BA%94%E5%B9%B4%EF%BC%882016-2020%EF%BC%89%E6%94%BB%E5%9D%9A%E8%A1%8C%E5%8A%A8%E8%AE%A1%E5%88%92)
+	*   [4.2017年主城区拆迁表](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-4.2017%E5%B9%B4%E4%B8%BB%E5%9F%8E%E5%8C%BA%E6%8B%86%E8%BF%81%E8%A1%A8)
+	*   [5.余杭区2017-2019年城中村改造示意图](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E4%BD%99%E6%9D%AD%E5%8C%BA2017-2019%E5%B9%B4%E5%9F%8E%E4%B8%AD%E6%9D%91%E6%94%B9%E9%80%A0%E7%A4%BA%E6%84%8F%E5%9B%BE)
+	*   [6.杭州各区拟订2018 年“三改一拆”旧住宅区改造计划 ](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E6%9D%AD%E5%B7%9E%E5%90%84%E5%8C%BA%E6%8B%9F%E8%AE%A22018%E5%B9%B4%E2%80%9C%E4%B8%89%E6%94%B9%E4%B8%80%E6%8B%86%E2%80%9D%E6%97%A7%E4%BD%8F%E5%AE%85%E5%8C%BA%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92)
 
-    *   [1.三改一拆是什么](#id-杭州房产-1.三改一拆是什么)
-    *   [2.2018年棚户区改造计划(第三批)](#id-杭州房产-2.2018年棚户区改造计划(第三批))
-    *   [3.主城区城中村改造五年（2016-2020）攻坚行动计划](#id-杭州房产-3.主城区城中村改造五年（2016-2020）攻坚行动计划)
-    *   [4.2017年主城区拆迁表](#id-杭州房产-4.2017年主城区拆迁表)
-    *   [5.余杭区2017-2019年城中村改造示意图](#id-杭州房产-5.余杭区2017-2019年城中村改造示意图)
-    *   [6.杭州各区拟订2018 年“三改一拆”旧住宅区改造计划 ](#id-杭州房产-6.杭州各区拟订2018年“三改一拆”旧住宅区改造计划)
+*   [六：2017-2021年杭州市区住宅用地供应中期规划汇总表](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%85%AD%EF%BC%9A2017-2021%E5%B9%B4%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%8C%BA%E4%BD%8F%E5%AE%85%E7%94%A8%E5%9C%B0%E4%BE%9B%E5%BA%94%E4%B8%AD%E6%9C%9F%E8%A7%84%E5%88%92%E6%B1%87%E6%80%BB%E8%A1%A8)
+*   [七：土拍分析](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%B8%83%EF%BC%9A%E5%9C%9F%E6%8B%8D%E5%88%86%E6%9E%90)
+*   [八：2020年人口目标 ](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%85%AB%EF%BC%9A2020%E5%B9%B4%E4%BA%BA%E5%8F%A3%E7%9B%AE%E6%A0%87)
+*   [九：杭州重点发展项目](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%B9%9D%EF%BC%9A%E6%9D%AD%E5%B7%9E%E9%87%8D%E7%82%B9%E5%8F%91%E5%B1%95%E9%A1%B9%E7%9B%AE)
+*   [十：杭州市政规划](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%8D%81%EF%BC%9A%E6%9D%AD%E5%B7%9E%E5%B8%82%E6%94%BF%E8%A7%84%E5%88%92)
+*   [十一:关于学区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%8D%81%E4%B8%80:%E5%85%B3%E4%BA%8E%E5%AD%A6%E5%8C%BA)
 
-*   [六：2017-2021年杭州市区住宅用地供应中期规划汇总表](#id-杭州房产-六：2017-2021年杭州市区住宅用地供应中期规划汇总表)
-*   [七：土拍分析](#id-杭州房产-七：土拍分析)
-*   [八：2020年人口目标 ](#id-杭州房产-八：2020年人口目标)
-*   [九：杭州重点发展项目](#id-杭州房产-九：杭州重点发展项目)
-*   [十：杭州市政规划](#id-杭州房产-十：杭州市政规划)
-*   [十一:关于学区](#id-杭州房产-十一:关于学区)
+	*   [1.分表制度](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E5%88%86%E8%A1%A8%E5%88%B6%E5%BA%A6)
+	*   [2.学区划分](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E5%AD%A6%E5%8C%BA%E5%88%92%E5%88%86)
 
-    *   [1.分表制度](#id-杭州房产-1.分表制度)
-    *   [2.学区划分](#id-杭州房产-2.学区划分)
+*   [十二: 配套设施分析(道路，医院，学校，综合体)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%8D%81%E4%BA%8C:%E9%85%8D%E5%A5%97%E8%AE%BE%E6%96%BD%E5%88%86%E6%9E%90(%E9%81%93%E8%B7%AF%EF%BC%8C%E5%8C%BB%E9%99%A2%EF%BC%8C%E5%AD%A6%E6%A0%A1%EF%BC%8C%E7%BB%BC%E5%90%88%E4%BD%93))
+*   [十三: 各区域详细规划与价值分析](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%8D%81%E4%B8%89:%E5%90%84%E5%8C%BA%E5%9F%9F%E8%AF%A6%E7%BB%86%E8%A7%84%E5%88%92%E4%B8%8E%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90)
 
-*   [十二: 配套设施分析(道路，医院，学校，综合体)](#id-杭州房产-十二:配套设施分析(道路，医院，学校，综合体))
-*   [十三: 各区域详细规划与价值分析](#id-杭州房产-十三:各区域详细规划与价值分析)
+	*   [1.上城区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E4%B8%8A%E5%9F%8E%E5%8C%BA)
+	*   [2.下城区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E4%B8%8B%E5%9F%8E%E5%8C%BA)
+	*   [3.西湖区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-3.%E8%A5%BF%E6%B9%96%E5%8C%BA)
+	*   [4.江干区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-4.%E6%B1%9F%E5%B9%B2%E5%8C%BA)
+	*   [5.下沙](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E4%B8%8B%E6%B2%99)
+	*   [6.良渚新城](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E8%89%AF%E6%B8%9A%E6%96%B0%E5%9F%8E)
+	*   [7.智慧网谷小镇](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-7.%E6%99%BA%E6%85%A7%E7%BD%91%E8%B0%B7%E5%B0%8F%E9%95%87)
+	*   [8.未来科技城金融岛](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-8.%E6%9C%AA%E6%9D%A5%E7%A7%91%E6%8A%80%E5%9F%8E%E9%87%91%E8%9E%8D%E5%B2%9B)
 
-    *   [1.上城区](#id-杭州房产-1.上城区)
-    *   [2.下城区](#id-杭州房产-2.下城区)
-    *   [3.西湖区](#id-杭州房产-3.西湖区)
-    *   [4.江干区](#id-杭州房产-4.江干区)
-    *   [5.下沙](#id-杭州房产-5.下沙)
-    *   [6.良渚新城](#id-杭州房产-6.良渚新城)
-    *   [7.智慧网谷小镇](#id-杭州房产-7.智慧网谷小镇)
-    *   [8.未来科技城金融岛](#id-杭州房产-8.未来科技城金融岛)
+*   [十四: 关于买房的几张图](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%8D%81%E5%9B%9B:%E5%85%B3%E4%BA%8E%E4%B9%B0%E6%88%BF%E7%9A%84%E5%87%A0%E5%BC%A0%E5%9B%BE)
 
-*   [十四: 关于买房的几张图](#id-杭州房产-十四:关于买房的几张图)
-</div>
 
-## 一：认识杭州从板块说起
+## <a name="id-杭州房产-一：认识杭州从板块说起">一：认识杭州从板块说起</a>
 
 ### 1.房产板块划分图
 
@@ -133,10 +124,10 @@
 <span style="color: rgb(62,62,62);">七大城市副中心，作为楼宇经济发展的重点建设集聚区，分担主城区人口、产业和服务功能，形成区域协调发展的空间格局。</span>
 
 <span style="color: rgb(62,62,62);">分别为</span>**<span style="color: rgb(192,0,0);">江南副中心、下沙副中心、临平副中心、大江东副中心、城西科创城市副中心、城北副中心、富阳副中心。</span>**
-    <div class="aui-message hint shadowed information-macro">
-                            <span class="aui-icon icon-hint">Icon</span>
-                <div class="message-content">
-                            > 1 城北副中心
+	<div class="aui-message hint shadowed information-macro">
+	                        <span class="aui-icon icon-hint">Icon</span>
+	            <div class="message-content">
+	                        > 1 城北副中心
 
 **<span style="color: rgb(192,0,0);">区域：</span>**以勾庄一带为核心，由运河新城、北部新城核心区组成，辐射良渚组团、瓶窑组团
 
@@ -172,8 +163,8 @@
 
 **<span style="color: rgb(192,0,0);">发展定位：</span>**融总部商务、商业金融、文化展示、旅游休闲和高端居住等于一体的生态智慧型楼宇经济示范区
 
-                    </div>
-    </div>
+	                </div>
+	</div>
 
 ## 二：关于房子要知道的一些概念
 
@@ -362,7 +353,7 @@
 
 ## 三：杭州房产信息渠道
 
-### 
+\#\## 
 1.透明售房网
 
 [http://www.tmsf.com/](http://www.tmsf.com/)
@@ -373,7 +364,7 @@
 
 <span>[http://www.tmsf.com/index.jsp](http://www.tmsf.com/index.jsp)  资讯</span>
 
-<span>[http://www.tmsf.com/newhouse/property_330184_205726779_control.htm](http://www.tmsf.com/newhouse/property_330184_205726779_control.htm)  理解销控表</span>
+<span>[http://www.tmsf.com/newhouse/property\_330184\_205726779\_control.htm](http://www.tmsf.com/newhouse/property_330184_205726779_control.htm)  理解销控表</span>
 
 <span>[http://map.tmsf.com/map.html?locationtype=city&amp;locationid=33](http://map.tmsf.com/map.html?locationtype=city&amp;locationid=33) 地图找房</span>
 
@@ -499,8 +490,8 @@ Q群:554239288
 
 ### 3.当前杭州交通地图(2017)
 
-**![](attachments/1086212/1246048.jpg)
-**
+\*\*![](attachments/1086212/1246048.jpg)
+\*\*
 
 ### 4.规划局杭州道路交通规划图2017版(2022)
 
@@ -521,9 +512,9 @@ Q群:554239288
 ## 五：拆迁
 
 ### <span style="color: rgb(0,0,0);">1.三改一拆是什么</span>
-    <div class="aui-message hint shadowed information-macro">
-                            <span class="aui-icon icon-hint">Icon</span>
-                <div class="message-content">
+	<div class="aui-message hint shadowed information-macro">
+	                        <span class="aui-icon icon-hint">Icon</span>
+	            <div class="message-content">
 
        “三改一拆”指的是旧住宅区、旧厂区、城中村改造和拆除违法建筑。
 
@@ -543,14 +534,14 @@ Q群:554239288
 
 　　对全区1999年以来违反土地管理等法律法规和城乡规划，未批先建、超标违建、乱搭乱建的违法建筑，历年立案查处的违法建筑，涉及旧住宅区、旧厂房和城中村改造的违法建筑进行重点清理整治。
 
-                    </div>
-    </div>
+	                </div>
+	</div>
 
 ### 2.2018年棚户区改造计划(第三批)
 
 ![](attachments/1086212/1246806.jpeg)
 
-### 
+\#\## 
 3.<span>主城区城中村改造五年（2016-2020）攻坚行动计划</span>
 
 ![](attachments/1086212/1245994.jpeg)
@@ -856,261 +847,3 @@ Q群:554239288
 <span class="_8i6wdd-C388qMirX5s_xe">
 </span>
 
-                    </div>
-
-                                        <div class="pageSection group">
-                        <div class="pageSectionHeader">
-
-## Attachments:
-
-                        </div>
-
-                        <div class="greybox" align="left">
-                                                            ![](images/icons/bullet_blue.gif)
-                                [杭州板块区分.jpg](attachments/1086212/1245974.jpg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [6EE9BD39FBAF201B5151C27C133A12EE.png](attachments/1086212/1245975.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [60A6D2F06AA9951340769732B72E5219.png](attachments/1086212/1245976.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [74B75A0BBB41F99DEA9D47F22F56ABCC.png](attachments/1086212/1245977.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [091D1ECFE0C6DD3FCAFF4C86D8A80327.png](attachments/1086212/1245978.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [530ACD3B9CFE07E497B08534B5C6B341.png](attachments/1086212/1245979.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [891E1A041259492A070C7D8588FD15C5.png](attachments/1086212/1245980.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [03813B7A62ABEF59296447B38C8321F0.png](attachments/1086212/1245981.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [05463AC8B1FC4D884612501872DDA32F.png](attachments/1086212/1245982.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [8140BB1D2BF2D1FC540070E9F5D3B186.png](attachments/1086212/1245983.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [35790EBAF88BDA0279D83488DFF371FF.png](attachments/1086212/1245984.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [71249BFCCD2D70C3F1A87AC7F2CEF352.png](attachments/1086212/1245985.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [C61BB2EFAA7264C838B32FED1097B1F3.png](attachments/1086212/1245986.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [D8558DB0036F3B21C2C7D84262F6D38A.png](attachments/1086212/1245987.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [F97DD58D71DEB565DBFC02763817CBA8.png](attachments/1086212/1245988.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [F1915BE50D0884167402253FCEFFF7F3.png](attachments/1086212/1245989.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-6 23:50:21.png](attachments/1086212/1245990.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-6 23:51:38.png](attachments/1086212/1245991.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-6 23:53:23.png](attachments/1086212/1245992.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [WechatIMG8884.jpeg](attachments/1086212/1245993.jpeg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [杭州拆迁分布图.jpeg](attachments/1086212/1245995.jpeg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [杭州拆迁分布图.jpeg](attachments/1086212/1245994.jpeg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [1.png](attachments/1086212/1245996.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [2.png](attachments/1086212/1245997.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 7:57:42.png](attachments/1086212/1245998.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [杭州地铁.jpg](attachments/1086212/1245999.jpg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 8:0:19.png](attachments/1086212/1246000.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 8:51:21.png](attachments/1086212/1246001.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 8:51:35.png](attachments/1086212/1246002.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 8:51:47.png](attachments/1086212/1246003.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [WechatIMG36177.jpeg](attachments/1086212/1246004.jpeg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [杭州市“十三五”重大建设项目表.docx](attachments/1086212/1246005.docx) (application/vnd.openxmlformats-officedocument.wordprocessingml.document)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 13:8:40.png](attachments/1086212/1246009.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 13:54:9.png](attachments/1086212/1246010.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [良渚新城控制区域.jpg](attachments/1086212/1246011.jpg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [海上海二期在良渚新城的区位图.jpg](attachments/1086212/1246012.jpg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [180640pe8vts6r6v6877e2.jpg](attachments/1086212/1246014.jpg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:5:6.png](attachments/1086212/1246015.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:5:52.png](attachments/1086212/1246016.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:10:20.png](attachments/1086212/1246017.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:10:47.png](attachments/1086212/1246018.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:12:52.png](attachments/1086212/1246019.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:13:13.png](attachments/1086212/1246020.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:16:36.png](attachments/1086212/1246021.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:19:18.png](attachments/1086212/1246022.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:21:14.png](attachments/1086212/1246023.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:22:36.png](attachments/1086212/1246024.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:27:36.png](attachments/1086212/1246025.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:30:9.png](attachments/1086212/1246026.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:30:48.png](attachments/1086212/1246027.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:31:13.png](attachments/1086212/1246028.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:35:37.png](attachments/1086212/1246029.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:37:37.png](attachments/1086212/1246030.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:37:59.png](attachments/1086212/1246031.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:38:10.png](attachments/1086212/1246032.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:39:1.png](attachments/1086212/1246033.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-7 15:41:17.png](attachments/1086212/1246034.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [HZmetro6_3-01.jpg](attachments/1086212/1246036.jpg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-8 0:19:43.png](attachments/1086212/1246047.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [2014012715590869.jpg](attachments/1086212/1246048.jpg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [WechatIMG27595.jpeg](attachments/1086212/1246049.jpeg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-8 1:1:3.png](attachments/1086212/1246050.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-8 1:25:47.png](attachments/1086212/1246052.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-8 1:27:24.png](attachments/1086212/1246053.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [timg.jpeg](attachments/1086212/1246055.jpeg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [l9bae1199386474031920f130d647c07d-s6591807000@chatroom8416055361784686191-m25ff2c7f49b3f38689be7ae47aaac0ec.jpg](attachments/1086212/1246090.jpg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [WechatIMG41457.jpeg](attachments/1086212/1246091.jpeg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [地铁线路图.jpg](attachments/1086212/1246136.jpg) (image/jpeg)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-19 14:1:44.png](attachments/1086212/1246233.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-19 14:3:56.png](attachments/1086212/1246234.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-19 14:52:30.png](attachments/1086212/1246240.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-19 14:53:0.png](attachments/1086212/1246241.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-19 14:56:33.png](attachments/1086212/1246242.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-19 15:37:11.png](attachments/1086212/1246245.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-19 15:41:23.png](attachments/1086212/1246246.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-23 16:12:17.png](attachments/1086212/1246339.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [image2017-12-23 16:12:30.png](attachments/1086212/1246340.png) (image/png)
-
-                                                            ![](images/icons/bullet_blue.gif)
-                                [WechatIMG59598.jpeg](attachments/1086212/1246806.jpeg) (image/jpeg)
-
-                                                    </div>
-                    </div>
-
-                </div>             </div> 
-            <div id="footer" role="contentinfo">
-                <section class="footer-body">
-
-Document generated by Confluence on 一月 14, 2018 11:33
-
-                    <div id="footer-logo">[Atlassian](http://www.atlassian.com/)</div>
-                </section>
-            </div>
-        </div>     </body>
-</html>
