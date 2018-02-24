@@ -1,0 +1,4541 @@
+
+
+/**
+ * RESET
+ */
+html, body, p, div, h1, h2, h3, h4, h5, h6, img, pre, form, fieldset {
+    margin: 0;
+    padding: 0;
+}
+ul, ol, dl {
+    margin: 0;
+}
+img, fieldset { 
+    border: 0;
+}
+@-moz-document url-prefix() {
+    img {
+        font-size: 0;
+    }
+    img:-moz-broken {
+        font-size: inherit;
+    }
+}
+
+/**
+ * TYPOGRAPHY - 14px base font size, agnostic font stack
+ */
+body {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857142857143; /* 20px equiv line-height */
+}
+
+/* International Font Stacks*/
+[lang=en] {
+    font-family: Arial, sans-serif;
+}
+
+[lang=ja] {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Verdana, Arial, sans-serif;
+}
+
+/* Default margins */
+p,
+ul,
+ol,
+dl,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+form.aui,
+table.aui,
+.aui-tabs,
+.aui-panel,
+.aui-group {
+    margin: 10px 0 0 0;
+}
+
+/* No top margin to interfere with box padding */
+p:first-child,
+ul:first-child,
+ol:first-child,
+dl:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child,
+blockquote:first-child,
+pre:first-child,
+form.aui:first-child,
+table.aui:first-child,
+.aui-tabs:first-child,
+.aui-panel:first-child,
+.aui-group:first-child {
+    margin-top: 0;
+}
+
+/* Headings: desired line height in px / font size = unitless line height */
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.25; /* 30px equiv line-height */
+    margin: 30px 0 0 0;
+}
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5; /* 30px equiv line-height */
+    margin: 30px 0 0 0;
+}
+h3 {
+    font-size: 16px;
+    line-height: 1.5; /* 24px equiv line-height */
+    margin: 30px 0 0 0;
+}
+h4 {
+    font-size: 14px;
+    line-height: 1.42857142857143; /* 20px equiv line-height */
+    margin: 20px 0 0 0;
+}
+h5 {
+    color: #707070;
+    font-size: 12px;
+    line-height: 1.66666666666667;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+}
+h6 {
+    color: #707070;
+    font-size: 12px;
+    line-height: 1.66666666666667;
+    margin: 20px 0 0 0;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+    margin-top: 0;
+}
+/* Nice styles for using subheadings */
+h1 + h2,
+h2 + h3,
+h3 + h4,
+h4 + h5,
+h5 + h6 {
+    margin-top: 10px;
+}
+/* Increase the margins on all headings when used in the group/item pattern ... */
+.aui-group > .aui-item > h1:first-child,
+.aui-group > .aui-item > h2:first-child,
+.aui-group > .aui-item > h3:first-child,
+.aui-group > .aui-item > h4:first-child,
+.aui-group > .aui-item > h5:first-child,
+.aui-group > .aui-item > h6:first-child {
+    margin-top: 20px;
+}
+/* ... unless they're the first-child */
+.aui-group:first-child > .aui-item > h1:first-child,
+.aui-group:first-child > .aui-item > h2:first-child,
+.aui-group:first-child > .aui-item > h3:first-child,
+.aui-group:first-child > .aui-item > h4:first-child,
+.aui-group:first-child > .aui-item > h5:first-child,
+.aui-group:first-child > .aui-item > h6:first-child {
+    margin-top: 0;
+}
+
+/* Other typographical elements */
+small {
+    color: #707070;
+    font-size: 12px;
+    line-height: 1.33333333333333; /* 16px equiv line-height */
+}
+code,
+kbd {
+    font-family: monospace;
+}
+var,
+address,
+dfn,
+cite {
+    font-style: italic;
+}
+cite:before {
+    content: "\2014 \2009";
+}
+blockquote {
+    border-left: 1px solid #ccc;
+    color: #707070;
+    margin-left: 19px;
+    padding: 10px 20px;
+}
+blockquote > cite {
+    display: block;
+    margin-top: 10px;
+}
+q {
+    color: #707070;
+}
+q:before {
+    content: open-quote;
+}
+q:after {
+    content: close-quote;
+}
+abbr {
+    border-bottom: 1px #707070 dotted;
+    cursor: help;
+}
+
+/**
+ * PAGE LAYOUT
+ */
+.aui-header,
+#footer {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+#content {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+    position: relative;
+}
+
+#content:before {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#footer .footer-body a {
+    color: #707070;
+}
+
+#footer .footer-body > ul,
+#footer .footer-body > p {
+    margin: 10px 0 0 0;
+}
+
+#footer .footer-body > ul:first-child,
+#footer .footer-body > p:first-child {
+    margin: 0;
+}
+
+#footer .footer-body > ul {
+    display: block;
+    font-size: 0;
+    list-style: none;
+    padding: 0;
+}
+
+#footer .footer-body > ul > li {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.66666666666667;
+    padding: 0;
+    white-space: nowrap;
+}
+
+#footer .footer-body > ul > li + li {
+    margin-left: 10px;
+}
+
+#footer .footer-body > ul > li:after {
+    content: "\b7"; /* mid dot */
+    margin-left: 10px;
+    speak: none;
+}
+#footer .footer-body > ul > li:last-child:after {
+    display: none;
+}
+
+
+/**
+ * GROUP/ITEM
+ */
+
+.aui-group {
+    display: table;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.aui-group > .aui-item {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table-cell;
+    margin: 0;
+    vertical-align: top;
+}
+
+.aui-group > .aui-item + .aui-item {
+    padding-left: 20px;
+}
+
+/* defensive header allowance */
+.aui-layout .aui-group > header {
+    display: table-caption;
+}
+
+/* .aui-group-split: two items; alignment is left, then right (splits the layout). */
+.aui-group.aui-group-split > .aui-item {
+    text-align: right;
+}
+.aui-group.aui-group-split > .aui-item:first-child {
+    text-align: left;
+}
+
+/* .aui-group-trio: three items; alignment is left, center, right */
+.aui-group.aui-group-trio > .aui-item {
+    text-align: left;
+}
+.aui-group.aui-group-trio > .aui-item + .aui-item {
+    text-align: center;
+}
+.aui-group.aui-group-trio > .aui-item + .aui-item + .aui-item {
+    text-align: right;
+}
+
+/**
+ * DEFAULT THEME SPACING
+ */
+
+#content {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * PAGE DESIGN
+ */
+body {
+    background: #f5f5f5;
+    color: #333;
+}
+
+a {
+    color: #3b73af;
+    text-decoration: none;
+}
+a:focus,
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+#footer .footer-body {
+    color: #707070;
+    font-size: 12px;
+    margin: 20px 0;
+    padding: 0 10px 21px 10px;
+    line-height: 1.66666666666667;
+    min-height: 44px; /* margin + height of image, means footer is just as high if no footer link present */
+    text-align: center;
+} 
+
+#footer .footer-body,
+#footer-logo a {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAAYCAYAAAAmsqlBAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMzc2N0JGOUI1REUxMUUyOEZFQ0ZDMEVGMzc4MTU2MyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowMzc2N0JGQUI1REUxMUUyOEZFQ0ZDMEVGMzc4MTU2MyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAzNzY3QkY3QjVERTExRTI4RkVDRkMwRUYzNzgxNTYzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAzNzY3QkY4QjVERTExRTI4RkVDRkMwRUYzNzgxNTYzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+i9QGbgAABxlJREFUeNrsWgtM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) center bottom no-repeat;
+    background-size: 114px 24px
+}
+
+#footer-logo {
+    background: #f5f5f5; /* screen out the background image on the footer when the logo is present, so it doesn't mess up transparent areas */
+    position: relative;
+    bottom: -21px; /* margin plus 1 px to tweak for image */
+}
+
+#footer-logo a {
+    display: block;
+    height: 24px; /* match image height */
+    margin: 0 auto;
+    text-align: left;
+    text-indent: -9999em;
+    width: 114px; /* match image width */
+}
+#footer-logo a:focus,
+#footer-logo a:hover,
+#footer-logo a:active {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAAYCAYAAAAmsqlBAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDNTgwNjJGOUI2ODQxMUUyOUVGQ0Q4Qzg0RUU4NDAzMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDNTgwNjJGQUI2ODQxMUUyOUVGQ0Q4Qzg0RUU4NDAzMyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM1ODA2MkY3QjY4NDExRTI5RUZDRDhDODRFRTg0MDMzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkM1ODA2MkY4QjY4NDExRTI5RUZDRDhDODRFRTg0MDMzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+xRRg6wAAB+xJREFUeNrsWgls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);
+    background-size: 114px 24px
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+    #footer .footer-body,
+    #footer-logo a {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOQAAAAwCAYAAAAB+Na0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMzc2N0JGREI1REUxMUUyOEZFQ0ZDMEVGMzc4MTU2MyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowMzc2N0JGRUI1REUxMUUyOEZFQ0ZDMEVGMzc4MTU2MyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAzNzY3QkZCQjVERTExRTI4RkVDRkMwRUYzNzgxNTYzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAzNzY3QkZDQjVERTExRTI4RkVDRkMwRUYzNzgxNTYzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+f1cUVgAAD1JJREFUeNrsXQmU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);
+    }
+  
+    #footer-logo a:focus,
+    #footer-logo a:hover,
+    #footer-logo a:active {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOQAAAAwCAYAAAAB+Na0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDNTgwNjJGREI2ODQxMUUyOUVGQ0Q4Qzg0RUU4NDAzMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDNTgwNjJGRUI2ODQxMUUyOUVGQ0Q4Qzg0RUU4NDAzMyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM1ODA2MkZCQjY4NDExRTI5RUZDRDhDODRFRTg0MDMzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkM1ODA2MkZDQjY4NDExRTI5RUZDRDhDODRFRTg0MDMzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+MZdy0wAAEK1JREFUeNrsXQu4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);
+    }
+}
+
+
+/**
+ * CONTENT PANEL
+ */
+#content > .aui-panel {
+    background: #fff;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px 0;
+}
+
+#content > .aui-page-header {
+    padding: 20px;
+}
+#content > .aui-page-header + .aui-panel {
+    margin-top: 0;
+}
+
+#content > .aui-page-header:first-child {
+    margin-top: 0;
+}
+.aui-panel + .aui-panel {
+    margin-top: 20px;
+}
+
+/*! AUI Page Panel */
+.aui-page-panel {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-left-width: 0;
+    border-right-width: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+    display: block;
+    margin: 20px 0 0 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.aui-page-panel-inner {
+    border-spacing: 0;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.aui-page-panel-nav,
+.aui-page-panel-content,
+.aui-page-panel-item,
+.aui-page-panel-sidebar {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table-cell;
+    padding: 20px;
+    vertical-align: top;
+}
+.aui-page-panel-nav {
+    border-right: 1px solid #ccc;
+    width: 240px;
+}
+.aui-page-panel-sidebar {
+    width: 35%;
+}
+.aui-page-panel-item {
+    padding: 0;
+}
+.aui-page-panel-nav ~ .aui-page-panel-sidebar {
+    width: 30%;
+}
+/* Page Panel Interops */
+.aui-page-header + .aui-page-panel,
+.aui-navbar + .aui-page-panel {
+    margin-top: 0;
+}
+.aui-navbar + .aui-page-panel {
+    border-top: none;
+}
+.aui-page-panel-nav > .aui-nav-vertical {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/**
+ * Page variations
+ */
+.aui-page-focused .aui-page-header,
+.aui-page-focused .aui-page-panel,
+.aui-page-focused #footer .footer-body,
+.aui-page-fixed .aui-header-inner,
+.aui-page-fixed .aui-page-header-inner,
+.aui-page-fixed .aui-navgroup-horizontal .aui-navgroup-inner,
+.aui-page-fixed .aui-page-panel-inner,
+.aui-page-fixed #footer .footer-body,
+.aui-page-hybrid .aui-page-header,
+.aui-page-hybrid .aui-navgroup-horizontal .aui-navgroup-inner,
+.aui-page-hybrid .aui-page-panel-inner,
+.aui-page-hybrid #footer .footer-body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+
+/* extra width so left edge of hoverable content aligns with left edge of content while inactive. On hover, the hover affordance does extend outside the alignment but this looks better than the other way around. */
+.aui-page-fixed .aui-header-inner,
+.aui-page-hybrid .aui-navgroup-horizontal .aui-navgroup-inner,
+.aui-page-fixed .aui-navgroup-horizontal .aui-navgroup-inner {
+    width: 1000px; 
+}
+
+.aui-page-focused-small .aui-page-header,
+.aui-page-focused-small .aui-page-panel,
+.aui-page-focused-small #footer .footer-body {
+    width: 400px;
+}
+.aui-page-focused-medium .aui-page-header,
+.aui-page-focused-medium .aui-page-panel,
+.aui-page-focused-medium #footer .footer-body {
+    width: 600px;
+}
+.aui-page-focused-large .aui-page-header,
+.aui-page-focused-large .aui-page-panel,
+.aui-page-focused-large #footer .footer-body {
+    width: 800px;
+}
+.aui-page-focused-xlarge .aui-page-header,
+.aui-page-focused-xlarge .aui-page-panel,
+.aui-page-focused-xlarge #footer .footer-body {
+    width: 980px;
+}
+
+
+.aui-page-focused .aui-page-panel {
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.aui-page-fixed .aui-page-panel-inner,
+.aui-page-fixed #content > .aui-page-header {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.aui-page-fixed .aui-page-panel-nav:first-child, 
+.aui-page-fixed .aui-page-panel-content:first-child, 
+.aui-page-fixed .aui-page-panel-item:first-child, 
+.aui-page-fixed .aui-page-panel-sidebar:first-child,
+.aui-page-hybrid .aui-page-panel-nav:first-child, 
+.aui-page-hybrid .aui-page-panel-content:first-child, 
+.aui-page-hybrid .aui-page-panel-item:first-child, 
+.aui-page-hybrid .aui-page-panel-sidebar:first-child {
+    padding-left: 0;
+}
+.aui-page-fixed .aui-page-panel-nav:last-child, 
+.aui-page-fixed .aui-page-panel-content:last-child, 
+.aui-page-fixed .aui-page-panel-item:last-child, 
+.aui-page-fixed .aui-page-panel-sidebar:last-child,
+.aui-page-hybrid .aui-page-panel-nav:last-child, 
+.aui-page-hybrid .aui-page-panel-content:last-child, 
+.aui-page-hybrid .aui-page-panel-item:last-child, 
+.aui-page-hybrid .aui-page-panel-sidebar:last-child {
+    padding-right: 0;
+}
+
+/* reset to 100% inside page panel */
+.aui-page-panel .aui-page-header {
+    width: auto;
+}
+.aui-page-panel .aui-page-header-inner {
+    width: 100%;
+}
+
+
+/**
+ * TABS AS FIRST CHILD IN CONTENT
+ * Explicitly sets bg to white, changes horizontal hovers to work on grey.
+ * Remember these extend the standard component styles.
+ */
+
+#content > .aui-tabs {
+    margin: 20px;
+    background: transparent;
+}
+
+#content > .aui-tabs > .tabs-pane {
+    padding: 20px;
+}
+
+#content > .aui-tabs.horizontal-tabs > .tabs-pane {
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 3px 3px;
+    background: #fff;
+}
+
+#content > .aui-tabs.horizontal-tabs > .tabs-menu {
+    display: table; /* stops a gap appearing */
+}
+
+/**
+ * AUI Forms inside of a focused page
+ */
+
+.aui-page-focused .aui-page-panel-content > h2:first-child {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.aui-page-focused .aui-page-panel-content > form.aui .buttons-container {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+/* AUI avatar component */
+.aui-avatar {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.aui-avatar-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.aui-avatar img {
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.aui-avatar-xsmall,
+.aui-avatar-xsmall .aui-avatar-inner {
+    height: 16px;
+    width: 16px;
+}
+.aui-avatar-small,
+.aui-avatar-small .aui-avatar-inner {
+    height: 24px;
+    width: 24px;
+}
+.aui-avatar-medium,
+.aui-avatar-medium .aui-avatar-inner {
+    height: 32px;
+    width: 32px;
+}
+.aui-avatar-large,
+.aui-avatar-large .aui-avatar-inner {
+    height: 48px;
+    width: 48px;
+}
+.aui-avatar-xlarge,
+.aui-avatar-xlarge .aui-avatar-inner {
+    height: 64px;
+    width: 64px;
+}
+.aui-avatar-xxlarge,
+.aui-avatar-xxlarge .aui-avatar-inner {
+    height: 96px;
+    width: 96px;
+}
+.aui-avatar-xxxlarge,
+.aui-avatar-xxxlarge .aui-avatar-inner {
+    height: 128px;
+    width: 128px;
+}
+
+/* Forces larger images to downscale in IE11. */
+.aui-avatar-xsmall .aui-avatar-inner img {
+    max-height: 16px;
+    max-width: 16px;
+}
+.aui-avatar-small .aui-avatar-inner img {
+    max-height: 24px;
+    max-width: 24px;
+}
+.aui-avatar-medium .aui-avatar-inner img {
+    max-height: 32px;
+    max-width: 32px;
+}
+.aui-avatar-large .aui-avatar-inner img {
+    max-height: 48px;
+    max-width: 48px;
+}
+.aui-avatar-xlarge .aui-avatar-inner img {
+    max-height: 64px;
+    max-width: 64px;
+}
+.aui-avatar-xxlarge .aui-avatar-inner img {
+    max-height: 96px;
+    max-width: 96px;
+}
+.aui-avatar-xxxlarge .aui-avatar-inner img {
+    max-height: 128px;
+    max-width: 128px;
+}
+
+.aui-avatar-xxlarge img,
+.aui-avatar-xxxlarge img {
+    border-radius: 5px;
+}
+
+/* Project avatars - circular and different sizes */
+.aui-avatar-project {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #ccc;
+    position: relative;
+}
+.aui-avatar-project,
+.aui-avatar-project img {
+    border-radius: 100%;
+}
+.aui-avatar-project img {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+/* The below style aims to minimise any "halo" caused by the antialiasing of the image */
+.aui-avatar-project:before {
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    bottom: -1px;
+    content: "";
+    left: -1px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+
+/**
+ * AUI Page Header
+ */
+
+.aui-page-header-inner {
+    border-spacing: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table;
+    table-layout: auto;
+    width: 100%;
+}
+
+.aui-page-header-image,
+.aui-page-header-main,
+.aui-page-header-actions {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+}
+/* collapse the cell to fit its content */
+.aui-page-header-image {
+    white-space: nowrap;
+    width: 1px;
+}
+.aui-page-header-main {
+    vertical-align: middle;
+}
+.aui-page-header-image + .aui-page-header-main {
+    padding-left: 10px;
+}
+.aui-page-header-actions {
+    padding-left: 20px;
+    text-align: right;
+    vertical-align: middle;
+}
+.aui-page-header-main > h1,
+.aui-page-header-main > h2,
+.aui-page-header-main > h3,
+.aui-page-header-main > h4,
+.aui-page-header-main > h5,
+.aui-page-header-main > h6 {
+    margin: 0;
+}
+.aui-page-header-actions > .aui-buttons {
+    margin: 5px 0; /* spaces out button groups when they wrap to 2 lines */
+    vertical-align: top;
+    white-space: nowrap;
+}
+/* Avatar overrides */
+.aui-page-header-image .aui-avatar {
+    vertical-align: top;
+}
+
+
+/* Hero header */
+.aui-page-header-hero .aui-page-header-main h1,
+.aui-page-header-hero .aui-page-header-main h2 {
+    font-size: 48px;
+    line-height: 1.25; /* 60px equivalent */
+    margin-top: 40px;
+}
+.aui-page-header-hero .aui-page-header-main p {
+    font-size: 24px;
+    line-height: 1.458333333333333; /* 35px equivalent */
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+/* Marketing header */
+.aui-page-header-marketing .aui-page-header-main h1,
+.aui-page-header-marketing .aui-page-header-main h2 {
+    color: #333; 
+    font-size: 36px; 
+    line-height: 1.388888888888889; /* 50px equivalent */
+    margin-top: 60px;
+}
+.aui-page-header-marketing .aui-page-header-main p {
+    font-size: 20px;
+    color: #707070;
+    line-height: 1.5; /* 30px equivalent */
+}
+
+/* Hero & Marketing shared */
+.aui-page-header-hero .aui-page-header-main h1 .aui-lozenge,
+.aui-page-header-hero .aui-page-header-main h2 .aui-lozenge,
+.aui-page-header-marketing .aui-page-header-main h1 .aui-lozenge,
+.aui-page-header-marketing .aui-page-header-main h2 .aui-lozenge {
+    margin: 0 0 0 10px;
+    position: relative;
+    top: -3px; 
+}
+
+
+
+
+.panel,
+.alertPanel,
+.infoPanel {
+    color: #333;
+    padding: 0;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.alertPanel, .infoPanel, .panelContent {
+    padding: 10px;
+}
+
+.alertPanel {
+    border-color: #c00;
+}
+
+.infoPanel {
+    border-color: #69c;
+}
+
+.panelHeader {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f7f7f7;
+}
+
+/* basic panel (basicpanel.vmd) style */
+.basicPanelContainer {
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.basicPanelContainer:first-child {
+    margin-top: 0;
+}
+
+.basicPanelTitle {
+    padding: 10px;
+    margin: 0;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+.basicPanelBody {
+    padding: 5px;
+    margin: 0;
+}
+
+
+/* PDL master.css */
+/* Generic */
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.smalltext {
+    font-size: 12px;
+    color: #707070;
+}
+
+#title-text a:hover{
+    text-decoration: none;
+}
+
+#title-text {
+    margin: 0;
+}
+
+#main-header,
+#preview-header {
+    margin-bottom: 20px;
+}
+
+#preview-header #title-text {
+    color: #333;
+    margin-top: 10px;
+}
+
+a img {
+    border: 0;
+}
+
+.hidden {
+    display: none;
+}
+/* End generic */
+
+/* Main body */
+
+/* if space-ia is on, we want width to be auto*/
+.ia-splitter .aui-page-panel {
+    width: auto;
+}
+/* end main body */
+
+/* Header */
+#quick-search-submit {
+    display: none;
+}
+
+#quick-search {
+    margin: 0;
+}
+
+.aui-nav-link span + span {
+    margin-left: 5px;
+}
+/* End header */
+
+/* Generic Admin sidebar (or vertical navigation) */
+.aui-nav-vertical li a:link,
+.aui-nav-vertical li a:focus,
+.aui-nav-vertical li a:visited,
+.aui-nav-vertical li a:active  {
+    color: #666;
+}
+
+/* End generic admin sidebar/vertical nav*/
+
+/* Space Admin sidebar */
+.in-page-menu {
+  padding: 10px;
+}
+
+.in-page-menu-content {
+    border-left: 1px solid #CCC;
+    padding: 0 0 20px 10px;
+}
+
+/* End Space Admin sidebar */
+
+/*Global messages above the header*/
+#messageContainer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#messageContainer li {
+    display: block;
+}
+
+#messageContainer .aui-message {
+    margin: 0;
+    border-radius: 0;
+}
+/*End global messages above the header*/
+
+#breadcrumbs li.hidden-crumb {
+    display: none;
+}
+
+/* Metadata stuff just below page title*/
+.page-metadata ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.page-metadata ul li {
+    list-style: none;
+    float: left;
+    padding: 0 5px 0 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.page-metadata ul a.page-tinyurl span {
+    float: left;
+    height: 16px;
+    width: 10px;
+    text-indent: -9999em;
+}
+
+.page-metadata ul a.action-view-attachments span.page-metadata-attachments-count {
+    margin-left: 3px;
+}
+/* End metadata stuff*/
+
+/* Page content */
+#main {
+    margin: 0;
+    padding: 20px;
+    clear: both;
+    min-height: 600px;
+}
+
+#title-heading {
+    margin: 0;
+    padding: 0;
+}
+#title-text a {
+    color: #333;
+}
+
+.navBackgroundBox {
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.simple-confirmation > form > .buttons-container {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+/* aui-page-layout.css makes this clear, which stuffs up
+ the multi-column layout of space admin sidebar */
+
+#content {
+    clear: none !important;
+}
+
+#content::before {
+    display: none !important;
+}
+
+/* end aui-page-layout.css overrides */
+
+/*End page content*/
+
+/* Page footer */
+
+.aui-layout #footer .footer-body > ul > li.print-only {
+    display: none;
+}
+/* End page footer */
+
+#com-atlassian-confluence .hidden {
+    display: none;
+}
+
+/* Progress Page */
+
+/* This doesn't and shouldn't be a table */
+
+#status {
+    margin: 10px 0;
+}
+
+#status table {
+    margin: 10px 0;
+}
+
+#taskProgressBar {
+    background: #ebf2f9;
+    /* This border radius will not
+       work while it's still a table */
+    border-radius: 3px;
+}
+
+#taskGreenBar {
+    background: #3b7fc4;
+}
+
+#status .smalltext {
+    text-align: center;
+    color: #707070;
+}
+
+#content {
+    /* Override aui-page-layout.css */
+    position: static !important;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#bloglist {
+    display: none;
+}
+
+/* Child Pages styling (mainly for the benefit of doctheme) */
+.children-show-hide.icon {
+    display: none;;
+}
+
+.child-display {
+    padding: 2px 2px 2px 12px;
+    display: block;
+}
+
+/*
+ * Page history
+ * This is the css for the warning at the top of the page when viewing the page history
+ */
+#page-history-warning {
+    margin-bottom: 20px;
+}
+
+.page-history-view a:before {
+    display: inline-block;
+    content: "·";
+    padding: 0 10px;
+}
+
+.page-history-view a:before:hover {
+    text-decoration: none;
+}
+
+.page-history-view a:first-child:before {
+    display: none;
+    content: '';
+    padding: 0;
+}
+
+.version-navigation-block {
+    padding-top: 10px;
+}
+
+.current-version-margin {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.current-version-margin:first-child {
+    padding: 0;
+}
+/* End page history */
+
+/* Alternative pages */
+.alternative-page-list {
+    list-style: none;
+    padding-left: 30px;
+    line-height: 20px;
+}
+
+.alternative-page-list .excerpt {
+    margin-left: 20px;
+}
+/* End alternative pages */
+
+/* People directory*/
+.page-section,
+.page-group {
+    display: table;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.page-section .page-group {
+    display: table-row;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.page-item {
+    display: table-cell;
+    margin: 0;
+    min-width: 256px; /* grid minimum */
+    padding: 0 0 0 16px;
+    vertical-align: top;
+}
+
+/*People directory*/
+body.people .dashboard {
+    margin-top: 0;
+}
+body.people .dashboard-group > div {
+    margin-top: 0;
+}
+
+body.people #main {
+    padding: 0;
+}
+
+body.people #main-header {
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+}
+
+.people-directory .dashboard-section {
+    display: table;
+    width: 100%;
+}
+
+body.people .dashboard-group > .aui-page-panel {
+    border-bottom: 0;
+}
+
+body.people .dashboard-group .aui-page-panel .aui-page-panel-nav {
+    height: 523px; /* 600px (#main:min-height) - #main-header:height */
+}
+
+body.people .dashboard-group .aui-navgroup-inner {
+    margin-left: -10px;
+}
+
+body.people .active-tab > a {
+    color: #333;
+    font-weight: bold;
+}
+
+#people-search-title-bar {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#people-search-title-bar h2 {
+    float: left;
+}
+
+body.people #people-search {
+    margin-top: 0;
+    text-align: right;
+}
+
+.people-directory .aui-tabs > .tabs-menu {
+    padding: 0 30px;
+}
+
+.people-directory .greybox {
+    position: relative;
+    margin: 0;
+}
+
+.people-directory .greyboxfilled {
+    width: 100%;
+}
+
+body.people #people-search input {
+    vertical-align: top;
+}
+
+body.people #people-search .field-group {
+    display: inline-block;
+    width: auto;
+    padding: 0 10px 0 0;
+    margin: 0;
+}
+
+body.people .aui-message.error {
+    margin-bottom: 10px;
+}
+
+body.people .greybox #peoplelist .profile-macro {
+    margin: 10px 40px 20px 0;
+}
+
+#people-search .field-group {
+    padding-left: 0;
+}
+
+body.people .blank-experience-people {
+    margin-top: 50px;
+}
+
+.blank-experience-people {
+    min-height: 100px;
+    background: url(../../../images/icons/people-empty-placeholder.png) no-repeat right bottom;
+}
+
+.watches .tableview-action-icon {
+    text-align: right;
+}
+
+/* Blank experience */
+.blank-experience-container {
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    width: 65%;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.blank-experience-container p {
+    color: #707070;
+    line-height: 24px;
+    font-size: 16px;
+    width:70%;
+    margin-top:0;
+    margin-bottom:26px;
+}
+
+.blank-experience-blog {
+    background: url('../../images/icons/blog-empty-placeholder.png') no-repeat right bottom;
+}
+.blank-experience-page {
+    background: url('../../images/icons/pages-empty-placeholder.png') no-repeat right bottom;
+}
+
+/*Blog Role*/
+
+.blog-post-listing {
+    position: relative;
+    padding: 30px 20px 20px 68px;
+    margin-top: -10px;
+}
+
+#link-browser-tab-items + .blog-post-listing {
+    padding-top: 10px;
+}
+
+#link-browser-tab-items + .blog-post-listing .logoBlock {
+    top: 10px;
+}
+
+.blog-post-listing + .blog-post-listing {
+    border-top: 1px solid #ccc;
+    margin-top: 0;
+}
+
+.logoBlock,
+.blogHeading {
+    display: inline-block;
+}
+
+.userLogo {
+    width: 48px;
+    height: 48px;
+    border-radius: 3px;
+}
+
+.userLogoLink {
+    display: inline;
+}
+
+.page-metadata {
+    line-height: 1.25 !important;
+}
+
+.logo-heading-block {
+    margin-bottom: 20px;
+}
+
+
+.logoBlock {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+
+.userLogoLink {
+    line-height: 30px;
+}
+
+#title-heading .userLogoLink {
+    float: left;
+}
+
+.logo-heading-block .userLogo {
+    width: 48px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+span.blogHeading {
+    display: block;
+}
+
+.blogHeading .page-metadata {
+    margin: 0;
+    line-height: 16px !important;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+a.blogHeading {
+    font-size: 24px;
+}
+
+.blog-post-listing > .wiki-content {
+    padding: 0px !important;
+}
+
+
+.blog-post-listing .endsection {
+    clear:both;
+    margin-top: 20px;
+}
+/* End blog role*/
+
+/* Blank experience */
+.blank-experience-container {
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    width: 65%;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.blank-experience-container p {
+    color: #707070;
+    line-height: 24px;
+    font-size: 16px;
+    width:70%;
+    margin-top:0;
+    margin-bottom:26px;
+}
+
+.blank-experience-blog {
+    background: url('../../images/icons/blog-empty-placeholder.png') no-repeat right bottom;
+}
+
+/* alphabet list */
+#squaretab {
+    margin-left: 0;
+    padding-left: 0;
+    white-space: nowrap;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#squaretab li {
+    display: inline;
+    list-style-type: none;
+}
+
+#squaretab a {
+    padding: 5px 7px 3px 7px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#squaretab a:link,
+#squaretab a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#squaretab a:hover {
+    text-decoration: none;
+}
+
+.admin-sidebar-group ~ .admin-sidebar-group {
+	margin-top: 20px;
+}
+
+/* CONFDEV-13482: Override .aui-page-panel */
+#main.aui-page-panel {
+	border-top: 0;
+}
+
+.recently-updated-concise .update-item .update-item-desc,
+.recently-updated-concise .update-item .update-item-changes{
+    font-size: 12px;
+    margin-left: 5px;
+    line-height: 20px;
+}
+
+/*  CONFDEV-12305: Required due to UPM-3249, but also custom color scheme (colors-css.vm).
+    The .wiki-content a:link would end up with the same specifity as .aui-message.error a,
+    thus being dependant on the order, which is too fragile. As long as we don't support
+    a secondary link colour, the link colour in error messages should not be customisable,
+    since the background is red. */
+.aui-message.error p,
+.aui-message.error a {
+    color: #fff !important;
+}
+
+/* consistent placeholder text color */
+::-webkit-input-placeholder {
+   color: #999;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #999; 
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #999; 
+}
+:-ms-input-placeholder { 
+   color: #999; 
+}
+
+/* End PDL master.css */
+
+/* wiki-content.css */
+
+/**
+ * AUI Overrides
+ * see /includes/css/aui-overrides.css
+ */
+.rounded-corners (@radius: 5px) {
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.wiki-content {
+  .header, .footer, .cell {
+    margin: 8px 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    .rounded-corners;
+  }
+
+  .columnLayout {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    *clear: both;
+
+    .cell {
+      vertical-align: top;
+    }
+    .cell.aside {
+      width: 29.9%;
+    }
+    .cell.sidebars {
+      width: 19.9%;
+    }
+  }
+
+  .cell {
+     display: table-cell;
+     padding: 0 10px;
+  }
+
+  .innerCell {
+    overflow-x: auto;
+  }
+
+  .image-left {
+    float: left;
+    margin: 0 10px 10px 0;
+  }
+
+  .image-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .image-right {
+    float: right;
+    margin: 0 0 10px 10px;
+  }
+
+  .placeholder {
+    background: #f5f5f5;
+    border: 1px dotted #ccc;
+    color: #707070;
+    font-style: italic;
+    margin: 0;
+    padding: 10px;
+
+    .activation-content {
+      display:none;
+    }
+    .display-content {
+      display: inherit;
+    }
+  }
+
+  li > ul,
+  li > ol,
+  ul > ul,
+  ol > ol {
+    margin-top: 0;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol,
+  ol ol ol ol,
+  ol ol ol ol ol ol ol,
+  ol ol ol ol ol ol ol ol ol ol {
+    list-style-type: decimal;
+  }
+
+  ol ol,
+  ol ol ol ol ol,
+  ol ol ol ol ol ol ol ol,
+  ol ol ol ol ol ol ol ol ol ol ol {
+    list-style-type: lower-alpha;
+  }
+
+  ol ol ol,
+  ol ol ol ol ol ol,
+  ol ol ol ol ol ol ol ol ol,
+  ol ol ol ol ol ol ol ol ol ol ol ol {
+    list-style-type: lower-roman;
+  }
+
+  h5 {
+    text-transform: none;
+    font-size: 14px;
+  }
+
+  h1,
+  h2 {
+      margin-top: 30px;
+  }
+
+  h1:first-child,
+  h2:first-child {
+      margin-top: 0;
+  }
+
+  h1 + h1,
+  h2 + h2,
+  h3 + h3,
+  h4 + h4,
+  h5 + h5,
+  h6 + h6 {
+    margin-top: 10px;
+  }
+
+  .confluence-embedded-image {
+    cursor: pointer;
+    max-width: 100%;
+  }
+
+  .confluence-content-image-border {
+    border: 1px solid black;
+  }
+
+  div.error > span.error {
+    color: #333;
+    padding: 6px 10px;
+    position: relative;
+    background: #fffdf6;
+    border: 1px solid #ffeaae;
+    .rounded-corners;
+  }
+
+/* CONFDEV-6137 Welcome to the world of browser hacks
+ We're targeting IE8 compatibility mode which means IE7
+ hacks. This updates the page-layout to be floated rather
+ than table layout which is not supported in compat mode.
+ These styles are only applied to IE8 compat mode */
+  .columnLayout,
+  .cell,
+  .header,
+  .footer {
+    *display: block;
+    *float: left;
+    *width: 100%;
+  }
+
+  .innerCell {
+    *border: 2px dashed #ccc;
+    *margin: 8px 4px;
+    *padding: 4px 8px;
+  }
+
+  /* Text Placeholders */
+  .text-placeholder {
+    background: #f5f5f5;
+    color: #707070;
+    font-style: italic;
+    min-width: 10px; /* So that it is visible when empty */
+    display: block;
+  }
+
+  .text-placeholder.selected {
+    color: #333
+  }
+
+  .aui-lozenge {
+    padding: 3px 5px 2px 5px;
+  }
+}
+
+.contentLayout .innerCell > *:first-child,
+.contentLayout2 {
+  .innerCell > *:first-child {
+    margin-top: 0;
+  }
+}
+
+.contentLayout2 .columnLayout {
+  margin-bottom: 8px;
+}
+
+
+.view .wiki-content .cell:first-child,
+.content-preview .wiki-content .cell:first-child {
+  padding: 0;
+}
+
+/* CONF-23497 - Work around rendering issue in Webkit and IE9. Works fine for IE8 and Firefox. */
+li[style*='text-align: center'],
+li[style*='text-align: right'] {
+  list-style-position: inside;
+}
+
+/* CONFDEV-7754 - Workaround for some unwanted onDemand styling.
+   Remove once JSTDEV-1730 is fixed. See CONFDEV-7799.
+   Will have a side-effect of breaking any footers in themes that
+   do not use the default font-family or font-size.
+   #main selector is to prevent this rule applying within the RTE iframe.
+   */
+#main .wiki-content .footer p, #main .wiki-content .footer a {
+  font-family: arial,sans-serif;
+  font-size: 14px;
+}
+
+.wiki-content .cell,
+.mceContentBody.wiki-content .cell,
+.twoColumns .cell,
+.threeColumns .cell,
+.twoColumns .large,
+.mceContentBody.wiki-content .header,
+.mceContentBody.wiki-content .footer,
+.threeColumns .large {
+  *border: 0;
+  *margin: 0;
+  *padding: 0;
+  *overflow: hidden;
+}
+
+.twoColumns .cell {
+  *width: 49.9%;
+}
+
+.threeColumns .cell {
+  *width: 33.3%;
+}
+
+.twoColumns .large {
+  *width: 69.9%;
+}
+
+.threeColumns .large {
+  *width: 59.9%;
+}
+
+div.aside + div.large,
+div.large + div.aside,
+div.large + div.sidebars,
+.twoColumns div.cell + div.cell,
+.threeColumns div.cell + div.cell + div.cell {
+  *float: right;
+}
+
+/* Page Layouts 2 */
+/* Section types: single, two-equal, two-left-sidebar, two-right-sidebar, three-equal, three-with-sidebars */
+
+.two-equal .normal {
+  *width: 49.9%;
+}
+
+.two-left-sidebar .normal,
+.two-right-sidebar .normal {
+  *width: 69.9%;
+}
+
+.three-equal .cell {
+  *width: 33.3%;
+}
+
+.three-with-sidebars .normal {
+  *width: 59.9%;
+}
+
+.two-equal div.cell + div.cell {
+  *float: right;
+}
+
+.three-equal, .three-with-sidebars {
+  div.cell + div.cell + div.cell {
+    *float: right;
+  }
+}
+
+/* CONFDEV-13804: Temporary workaround, remove once fixed in the plugin (WDAY-1641). */
+#mw-container div.mw-no-notifications div.subheading p {
+  line-height: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.confluenceTable {
+    border-collapse: collapse;
+}
+
+.confluenceTh,
+.confluenceTd {
+    border: 1px solid #ddd;
+    padding: 7px 10px; /* CONFDEV-13618: line-height will add up 3 pixels, so we have a 10px top padding for text. Images will remain with 7px top margin though (see thread in Stash) */
+    vertical-align: top;
+    text-align: left;
+}
+
+/* Lists in tables */
+.confluenceTable ol,
+.confluenceTable ul {
+    margin-left: 0;
+    padding-left: 22px; /* CONFDEV-12589: default left padding is far too wide */
+}
+
+/* all tables should have a top margin of 10px */
+.confluenceTable, .table-wrap {
+    margin: 10px 0 0 0;
+    overflow-x: auto;
+}
+
+/* an exception to above rule for tables that are first child */
+.confluenceTable:first-child, .table-wrap:first-child {
+    margin-top: 0;
+}
+
+/* Background colors */
+table.confluenceTable th.confluenceTh,
+table.confluenceTable th.confluenceTh > p,
+table.confluenceTable td.confluenceTd.highlight, /* deprecated */
+table.confluenceTable td.confluenceTd.highlight > p, /* deprecated */
+table.confluenceTable th.confluenceTh.highlight-grey,
+table.confluenceTable th.confluenceTh.highlight-grey > p,
+table.confluenceTable td.confluenceTd.highlight-grey,
+table.confluenceTable td.confluenceTd.highlight-grey > p {
+    background-color: #f0f0f0;
+}
+
+table.confluenceTable th.confluenceTh.info, /* deprecated */
+table.confluenceTable th.confluenceTh.info > p, /* deprecated */
+table.confluenceTable td.confluenceTd.highlight.info, /* deprecated */
+table.confluenceTable td.confluenceTd.highlight.info > p, /* deprecated */
+table.confluenceTable th.confluenceTh.highlight-blue,
+table.confluenceTable th.confluenceTh.highlight-blue > p,
+table.confluenceTable td.confluenceTd.highlight-blue,
+table.confluenceTable td.confluenceTd.highlight-blue > p {
+    background-color: #e0f0ff;
+}
+
+table.confluenceTable th.confluenceTh.success, /* deprecated */
+table.confluenceTable th.confluenceTh.success > p, /* deprecated */
+table.confluenceTable td.confluenceTd.highlight.success, /* deprecated */
+table.confluenceTable td.confluenceTd.highlight.success > p, /* deprecated */
+table.confluenceTable th.confluenceTh.highlight-green,
+table.confluenceTable th.confluenceTh.highlight-green > p,
+table.confluenceTable td.confluenceTd.highlight-green,
+table.confluenceTable td.confluenceTd.highlight-green > p {
+    background-color: #ddfade;
+}
+
+table.confluenceTable th.confluenceTh.warning, /* deprecated */
+table.confluenceTable th.confluenceTh.warning > p, /* deprecated */
+table.confluenceTable td.confluenceTd.highlight.warning, /* deprecated */
+table.confluenceTable td.confluenceTd.highlight.warning > p, /* deprecated */
+table.confluenceTable th.confluenceTh.highlight-red,
+table.confluenceTable th.confluenceTh.highlight-red > p,
+table.confluenceTable td.confluenceTd.highlight-red,
+table.confluenceTable td.confluenceTd.highlight-red > p {
+    background-color: #ffe7e7;
+}
+
+table.confluenceTable th.confluenceTh.note, /* deprecated */
+table.confluenceTable th.confluenceTh.note > p, /* deprecated */
+table.confluenceTable td.confluenceTd.highlight.note, /* deprecated */
+table.confluenceTable td.confluenceTd.highlight.note > p, /* deprecated */
+table.confluenceTable th.confluenceTh.highlight-yellow,
+table.confluenceTable th.confluenceTh.highlight-yellow > p,
+table.confluenceTable td.confluenceTd.highlight-yellow,
+table.confluenceTable td.confluenceTd.highlight-yellow > p {
+    background-color: #ffffdd;
+}
+
+table.confluenceTable th.confluenceTh,
+table.confluenceTable th.confluenceTh > p {
+    font-weight: bold;
+}
+
+table.confluenceTable th.confluenceTh.nohighlight, /* deprecated */
+table.confluenceTable th.confluenceTh.nohighlight > p { /* deprecated */
+    font-weight: normal;
+    background-color: transparent;
+}
+
+table.confluenceTable td.confluenceTd img {
+    max-width: none;
+}
+/*
+    Styles for macros bundled in Renderer.
+*/
+
+.panelMacro {
+    margin: 10px 20px;
+    overflow: hidden; /* fix width next to floated content */
+}
+
+.panelMacro > table {
+    border-radius: 5px;
+    padding: 10px 10px 10px 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.panelMacro > table > tr > td,
+.panelMacro > table > tbody > tr > td {
+    font-size: 1em;
+    padding: 0;
+}
+
+.panelMacro > p:first-child,
+.panelMacro > table > tr > td > *:first-child,
+.panelMacro > table > tbody > tr > td > *:first-child {
+    margin-top: 0;
+}
+
+.panelMacro > p:last-child,
+.panelMacro > table > tr > td > *:last-child,
+.panelMacro > table > tbody > tr > td > *:last-child {
+    margin-bottom: 0;
+}
+
+.wiki-content .panelMacro p {
+    font-size: 1em;
+}
+
+.searchMacro {
+    font-size: 10pt;
+    margin: 10px 0;
+}
+
+.searchMacro .result {
+    margin-top: 3px;
+    padding: 0 5px 5px 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.searchMacro .resultSummary {
+    margin-bottom: 7px;
+}
+
+.rssMacro {
+    font-size: 10pt;
+}
+
+.rssMacro table {
+    margin: 10px 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rssMacro table th,
+.rssMacro table td {
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+.rssMacro table th {
+    background: #f0f0f0;
+}
+
+/* Code styles */
+.code {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.code, .preformatted {
+    background-color: #fff;
+    overflow: auto;
+}
+
+.code pre, .preformatted pre { /* needs 'pre' to override TinyMCE style */
+    font-family:"Courier New", Courier, monospace;
+    line-height: 1.3;
+}
+
+/* The code macro classes are overridden by the fixed width theme so have been
+   made more specific. */
+
+.wiki-content .code-keyword {
+  color: #000091;
+  background-color: inherit;
+}
+
+.wiki-content .code-object {
+  color: #910091;
+  background-color: inherit;
+}
+
+.wiki-content .code-quote {
+  color: #009100;
+  background-color: inherit;
+}
+
+.wiki-content .code-comment {
+  color: #808080;
+  background-color: inherit;
+}
+
+.wiki-content .code-xml .code-keyword {
+  color: inherit;
+  font-weight: bold;
+}
+
+.wiki-content .code-tag {
+  color: #000091;
+  background-color: inherit;
+}
+
+/* Recently Updated Styles */
+.recentlyUpdatedItem {
+	border-bottom: #f0f0f0 1px solid;
+	border-top: #f0f0f0 1px solid;
+	margin: 10px 0 0 0;
+	padding: 0;
+	border-spacing: 0;
+	width: 100%;
+    text-decoration: none;
+    border-collapse: collapse;
+}
+
+.recentlyUpdatedItem td {
+    padding: 10px;
+    border-bottom: #f0f0f0 1px solid;
+    vertical-align: top;
+}
+
+.recentlyUpdatedItem .authorAndDate {
+	background-color: #f0f0f0;
+	width: 25%;
+}
+
+.recentlyUpdatedItem .date {
+    margin-top: 4px;
+    font-size: 90%;
+    color: #666;
+}
+
+.recentlyUpdatedItem .profilePic {
+    float: right;
+    background-color: #f0f0f0;
+    margin: 0 2px;
+}
+
+.recentlyUpdatedItem .twixie {
+    padding: 10px 0 0 4px;
+}
+
+.recentlyUpdatedItem td.icon {
+    padding: 8px 0 0 1px;
+}
+
+.recentlyUpdatedItem .details {
+    padding-left: 7px;
+}
+
+.recentlyUpdatedItem .summary, .recentlyUpdatedItem .thumbnail {
+    margin-top: 3px;
+    color: #666;
+}
+
+.moreRecentlyUpdatedItems {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 10pt;
+}
+
+
+/*PDL icons.css*/
+.icon,
+.icon-container {
+    display: inline-block;
+    height: 16px;
+    min-width: 16px;
+    text-align: left;
+    text-indent: -9999em;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 0;
+    vertical-align: text-bottom; /* allows icon to be vertically middle aligned to nearby text */
+}
+
+.search-result-title .icon {
+    position: absolute;
+    left: -26px;
+    top: 4px;
+}
+
+.search-result-title .icon img {
+    width: 16px;
+    height: 16px;
+    left: 0;
+}
+
+.icon-container > * {
+    text-indent: 0;
+    font-size: 14px;
+    margin-left: 24px;
+}
+
+img.emoticon {
+    vertical-align: text-bottom;
+}
+
+a.content-type-page span,
+a.content-type-blogpost span,
+a.content-type-space span,
+a.content-type-spacedesc span,
+a.content-type-comment span,
+a.content-type-status span,
+a.content-type-user span,
+a.content-type-userinfo span,
+a.content-type-attachment-image span,
+a.content-type-attachment-pdf span,
+a.content-type-attachment-html span,
+a.content-type-attachment-text span,
+a.content-type-attachment-text-html span,
+a.content-type-attachment-text-xml span,
+a.content-type-attachment-xml span,
+a.content-type-attachment-zip span,
+a.content-type-attachment-java span,
+a.content-type-attachment-css span,
+a.content-type-attachment-js span,
+a.content-type-attachment-unknown span {
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#page-permissions-no-edits .edit-icon,
+.icon-edit {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAKlBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHAms8TnAAAADnRSTlMAESIzRFVmd4iqu8zu/2FpG9oAAAA8SURBVHjancc5DgAgCATA9cIL/v9diYVRChOdbnBBLNXtF1XPK3s2F/q8M0ea5XWU3PUBS/d0HNxKxIMBVjgECxVKLvMAAAAASUVORK5CYII=);
+}
+
+.aui-button > .icon-edit {
+    padding-right: 6px;
+}
+
+#labels-section .icon-edit {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJFBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHDRPAkXAAAADHRSTlMAETNEVXeImarM7v/dMw/kAAAAOElEQVR42p3OOw4AIAgE0QU/CNz/vsZyKUx0utcNXtJiy1B2ZpBPWmzfbsWYw8lYMsgIn52eBdc2NJoCV4vjgNcAAAAASUVORK5CYII=);
+}
+
+.icon-remove-fav {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJ1BMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHAzTstiAAAADXRSTlMAESIzRFVmiLvM3e7/kN5pAgAAAFhJREFUeNpVzksKwEAIA9DMV8fJ/c/bIlbqWwgGAkHYG5UZikWuEiip+Jl8TTgRPQxHRbBZbGBepuu1cfMfcO3G3xABQ8tV4dsmJMVPztQOdM2xtqJqcNUDjnwE8ex0SVYAAAAASUVORK5CYII=) no-repeat right top;
+}
+
+.icon-add-fav {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAe1BMVEX///+zs7Ozs7OwsLCtra2rq6uoqKijo6OdnZ2ZmZn////////w8PDv7+/s7Ozr6+vm5ubj4+Pg4ODZ2dnV1dXCwsK3t7e0tLSzs7Orq6ujo6OdnZ2Li4uFhYWRkZGLi4uFhYWDg4OBgYF+fn54eHh2dnZ0dHRycnJxcXEdx1OPAAAAHnRSTlMAIjMzVWaImbvM3e7u7u7u7u7u7u7u7u7u7u7u7u49UEWoAAAAiUlEQVQYGW3B6xKCIBAG0M9SwC0zS7u5hsoqvP8T5sgfnekcINIae85hR8mksMVty9jIpuo2Z1iZnDs/v4k+c+g4N9Chb+riRETn+jEEDWTyLWlVWMmwSMVeaFFZSbFK5E6LRhJEib/SovYJIiXla3TPQhQi01tvTBhGg4gDH4Aje0bkFFbK4Y8fKgYKF+v8NBQAAAAASUVORK5CYII=) no-repeat right top;
+
+}
+
+/*animated gif*/
+.icon-wait {
+    background: url(../../images/icons/wait.gif) no-repeat left top;
+}
+
+.icon-refresh {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHCF2Y/3AAAAD3RSTlMAESIzRFVmiJmqu8zd7v8LcbuUAAAAbUlEQVR42o3Pyw7DMAhE0Un8gNjm/v/ntsEbq6ueFRqBAKlWqTiw7NKrmTpMs0Xc+rLRiJZVZIsTFKU9MsB1CuBpR8Ac1qv+Uc1GcAYegE4OI4tbqRA8e7Nf70jQh2UwCbMJXdb3ybYAL/n6rw8nJAPTnthIeQAAAABJRU5ErkJggg==);
+}
+
+.ui-tree li a,
+a.content-type-page span,
+div.content-type-page,
+span.content-type-page,
+.icon-page {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAPFBMVEX///+1tbWwsLCtra3///+Li4v5+fnZ2dnT09P8/PzPz8+rq6uhoaHR0dFycnJwcHB6enp4eHiDg4OAgIDxJSXRAAAADnRSTlMAIiJV3e7u7u7u7u7u7rDOyYEAAABUSURBVHhepcpLDoAwCABRqkBbP9Dq/e9qLYS1ibN8GQBYSFVGfQWLWmFEZG0uknGmuz+CDnjYEzDqDpF8BrV+HBxHNThjyBPo2qpBuemFROIpJXgAPRkGZhcD+TMAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+}
+
+a.content-type-blogpost span,
+div.content-type-blogpost,
+span.content-type-blogpost,
+.icon-blog,
+.icon-blogpost {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAUVBMVEX///+1tbWwsLCtra3////GxsaLi4uzs7PPz8/5+fnr6+v19fXZ2dnT09P8/Pyrq6uhoaHR0dFwcHBycnJ4eHiAgIB6enqRkZF3d3eDg4OIiIgEhg+GAAAAEnRSTlMAIiJV3e7u7u7u7u7u7u7u7u5mVDB9AAAAdElEQVR4Xk3K2xbCIAxEUaqTcGurJtCq//+hItAF53HPGGNuLKKldDctPjYPwMvRRVfU5NE/ig541s+AUmow0g7WujhBfb9pBgTKQhOUPX5THGBPIRI3gHDmKPYCH3KwggJ7gxeu1gr8cXuDLfMfFtae8GJ+G+sIH3qkr1wAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+}
+
+a.content-type-attachment-image span,
+div.content-type-attachment-image,
+span.content-type-attachment-image,
+.icon-file-image {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAaVBMVEX///+1tbWzs7OwsLD///+Li4vq6ur4+Pji4uLPz8/Hx8e1tbWmpqb29vazs7PW1tb///+srKzY2NjAwMCIiIiHh4d0dHRycnKLi4uDg4OTk5ORkZFwcHCHh4d6enqFhYV3d3d8fHyZmZke2Bp4AAAAFnRSTlMAIiIi3e7u7u7u7u7u7u7u7u7u7u7uxh/uMQAAAHZJREFUeF6Fz8kOwjAMRVEDdjozY2dsC///kSQB0goWHCmLdyUvAj+2JCu0AQoKi/NEIHVZ8R08yGc77xCPsoTZzzHn0Jp01rjmHTpmjdkrnDjq4qj2fZUCZzWq3trLEnRrk6EEDnoy5v4QuPHKOBLsrl9/+esJNi4MYbEkhTkAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+}
+
+a.content-type-attachment-pdf span,
+div.content-type-attachment-pdf,
+span.content-type-attachment-pdf,
+.icon-file-pdf {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAWlBMVEX///+1tbWzs7OwsLD////7+/v88vHm5ubi4uLf39/12dbY2NjyzMnS0tLPz8/stK/pqKLmnJXjkYnghXyLi4veenDbb2WFhYWBgYHYY1lycnLVWU1wcHDQRDd8ojdZAAAAFXRSTlMAIiIi3e7u7u7u7u7u7u7u7u7u7u4cXfPyAAAAaUlEQVQYV13PRxaAMAgEUNTYC0awRb3/NY1pz2RW8NkwAFCw8uEcdHivhU178AfK71qUgW9cFyM/wATknABSAufWRYCyuxYpA1QnzQMSecAL3SMOHhIxhJQWmgCTAT56dx9tuTzUvzmDF/8aCYb2SVzBAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+}
+
+.expand-control-icon,
+.ui-tree li.closed > .click-zone,
+#children-section.children-hidden a.children-show-hide.icon,
+.icon-section-closed {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAFVBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAABnRSTlMAZoiZzN091q78AAAAH0lEQVQIW2NgIA44wxhqAlAGcyJMKAxdBK7GCUoTDwCd9gIQsibF/QAAAABJRU5ErkJggg==);
+}
+
+.expand-control-icon.expanded,
+.ui-tree li.opened > .click-zone,
+#children-section.children-showing a.children-show-hide.icon,
+.icon-section-opened {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAFVBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAABnRSTlMAZoiZzN091q78AAAAIUlEQVQImWNgIBOwKDCogBlMyczJECGxMAEIgzGRXFMZAItzAfJQpekuAAAAAElFTkSuQmCC);
+}
+
+a.content-type-comment span,
+div.content-type-comment,
+span.content-type-comment,
+.icon-comment {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAilBMVEX///+1tbWzs7OysrKrq6umpqalpaWdnZ2ZmZn///+VlZWPj4/7+/vu7u7p6enn5+fl5eXk5OTh4eHW1tbT09PMzMzJycm6urq5ubm1tbWzs7OysrKrq6upqamlpaWKioqFhYWRkZGKioqHh4eDg4OAgIB/f398fHx6enp4eHh2dnZ0dHRycnJwcHDr75AgAAAAIXRSTlMAIiIzZoiZu8zd3d3u7u7u7u7u7u7u7u7u7u7u7u7u7u6nleogAAAAf0lEQVQYGW3BCQ6CMBAF0C9VmcG61eKu1AWwdrj/9SRISE18D/hDkZNWSQodCo+j0Xq5vwdCKwuWe/k7A9La8MD6KfyOI9cSjeHIRlAdOHKpkFZrHuQ+xci9cu5tpQCQUL1g1nN7fgqhI3Z1E5EyU/iSk3djRMTPEsQawq8JIh/mDwvN6dOtjAAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+}
+#likes-section .like-button,
+.icon-like {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAqFBMVEX///9wcHBwcHBwcHBwcHB8fHxwcHB6enpwcHCDg4NwcHB8fHx6enqSkpJ8fHxycnJwcHDp6el2dnZwcHD////39/f19fXz8/Pw8PDr6+vn5+fj4+PZ2dnX19fHx8fExMS9vb20tLSrq6uhoaGenp6MjIyKioqDg4N8fHx6enp4eHh0dHRycnKZmZmOjo6KioqDg4OAgIB/f396enp4eHh2dnZycnJwcHDyRjyJAAAALXRSTlMAETNEVWZmd3eIiJmqu7u7u93d3e7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u6OCyV0AAAAi0lEQVQYGXXBRwKCMBAF0B9Q7Io6RJGo2LAEu8zc/2YuyCILfQ/4R8k5gK+zy0v4TilZeAZb2rTCSMHp3bV+jeJpDEDFIvagSRtNJAro2vHjSo4owOYzNlTTAoDnGZNjLABOFkzOagigWiecUW3fBNB/L5+33GgiSksFQE1YPkUlciwuETxhox3ghy8Wng9K1E9YIwAAAABJRU5ErkJggg==) no-repeat left center;
+}
+
+#tree-root-div li a,
+a.content-type-space span,
+div.content-type-space,
+span.content-type-space,
+a.content-type-spacedesc span,
+div.content-type-spacedesc,
+span.content-type-spacedesc,
+.icon-space,
+.icon-create-space,
+.icon-create-space-bw span.icon {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAe1BMVEX///+zs7Ovr6+1tbWlpaX///+RkZGLi4uFhYXp6enj4+PMzMzx8fHu7u7Hx8ecnJzY2NjJycn///9ycnJ6enp4eHjl5eVwcHCPj4/5+fnHx8eZmZmVlZXe3t7d3d2RkZHW1taLi4uFhYWAgIDQ0NDh4eF1dXWvr6+lpaUt7SrqAAAAEnRSTlMAIiIimd3d7u7u7u7u7u7u7u56GPg0AAAAmElEQVR4XmXPyQ7DIAxFUaeFQKYOtoFMncf//8LaQVUXvRuko7fAoJmSpNJAbuV521RVMwW/UihC39ml6hoKAX9LJHFtbdt7APM8D4g4JJWaDLgRl9JL5eSANI6Y8C2yIUh5H5PEtlPI+ygP2ZaAFHQfFfYE7qEgscLswMyYI4EdGQB//8HFL18fv8BhnY+bDgrHSY/7O/8DnOwO01cN7RMAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+}
+
+a.content-type-user span,
+div.content-type-user,
+span.content-type-user,
+a.content-type-userinfo span,
+div.content-type-userinfo,
+span.content-type-userinfo,
+.icon-user {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAJ1BMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHAzTstiAAAADXRSTlMAESIzVWZ3iLvM3e7/4Y781AAAAAlwSFlzAAALEgAACxIB0t1+/AAAABR0RVh0Q3JlYXRpb24gVGltZQAyLzEvMTOjOAfGAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAAFNJREFUCJljYGBg7DkhwAACHGfONIAZPGfOHEBlwKXgiuGA7fSeAjDD58yZI2Ale86cOQ1SxH4GCBKADE4QYwGQoQNiHAYyYkCMY0CGBIjRiDANAMZAJ1J5cmzeAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+}
+
+.ui-tree li a.home-node,
+.icon-home-page {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAASFBMVEX///+1tbWwsLCtra3///+Li4urq6uhoaH5+fnGxsb8/PzZ2dnT09PR0dHPz89wcHBycnJ/f391dXV6enp4eHh8fHyAgICDg4N3eN+2AAAAD3RSTlMAIiJV3e7u7u7u7u7u7u4Pv12NAAAAaUlEQVR42nXKSRKAIAxE0agJ4NhRHO5/U0UQdOGv3uRViKgWQK/WhmLiB8fMDj6J9nwHk36UE7D1zQeu1gglzdCi/YBZsJgX2BnAbAtsQJACDIT9guOnLsKYob9BjqmL97BLgEo0BanoBKPaBxtncPCIAAAAAElFTkSuQmCC);
+}
+
+a.content-type-personalspacedesc span,
+div.content-type-personalspacedesc,
+span.content-type-personalspacedesc,
+.icon-personal-space {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAclBMVEX///+zs7OwsLC1tbWlpaX///+RkZGFhYWLi4vx8fHt7e3p6enn5+fi4uLY2NjPz8/MzMz39/f19fXHx8e8vLyrq6ucnJzW1tbJycl4eHhycnJwcHB0dHR6enqZmZmRkZGPj498fHyLi4uFhYWWlpaTk5O9yTF4AAAAGXRSTlMAIiIimd3d7u7u7u7u7u7u7u7u7u7u7u7uljVdSgAAAJNJREFUeF5lj1cOwzAMQ53UjLNXp6TMjvtfsbIToAH6/kiBAmk8NmElsWYjduutLYp2Ihd7HdGSI1C8KFLDfTr0s8jcI1uc5ge9q1YHqNiadAIgAeglNXw/Gmc20uEXQb4b+1MgY8M1Djx4e3oRIrkCeKfGcoVGAg1qtr5YSRKg8ulC9VV2Vjpt44bRy3Hw4/7mfwGfaw78ytBc1AAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+}
+
+a.content-type-status span,
+div.content-type-status,
+span.content-type-status,
+.icon-status {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAAk1BMVEX///+4uLhwcHCzs7Ofn59wcHCzs7OxsbFwcHBwcHCurq5wcHCrq6twcHCpqalwcHBwcHCfn59wcHCVlZVwcHCNjY2Hh4dwcHD////5+fn39/fy8vLv7+/m5ubh4eHb29vY2NjExMSzs7Otra2lpaWfn5+ZmZmVlZWKioqHh4eDg4OBgYF6enp4eHh1dXVycnJwcHBci/upAAAAMXRSTlMAIiIzMzNVVVVmd3eIiJmZqru73d3u7u7/////////////////////////////////XAe8cgAAAAlwSFlzAAALEgAACxIB0t1+/AAAABR0RVh0Q3JlYXRpb24gVGltZQAyLzEvMTOjOAfGAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAAIxJREFUGJV1zekOwiAQRlGs1krVVrEW6r7iMujM+z+d0JFoTLz/vpMJCNHWmQIiulmXp8jc/bA2q/3N9RngsjShxRkYcGO4LfolaQC2YTg+PGhSmbv6m2ZnsfBARKoHJ+ueWOfhgcrLcI4wyt+fphXptC7E/8akSH5tSaGPJLoFnUQoiSsjUCzC5OfiBS9iEtFvRHtCAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+}
+
+a.content-type-attachment-text-html span,
+div.content-type-attachment-text-html,
+span.content-type-attachment-text-html,
+a.content-type-attachment-html span,
+div.content-type-attachment-html,
+span.content-type-attachment-html,
+a.content-type-attachment-text-xml span,
+div.content-type-attachment-text-xml,
+span.content-type-attachment-text-xml,
+a.content-type-attachment-xml span,
+div.content-type-attachment-xml,
+span.content-type-attachment-xml,
+a.content-type-attachment-js span,
+div.content-type-attachment-js,
+span.content-type-attachment-js,
+.icon-file-html,
+.icon-file-xml {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAZlBMVEX///+1tbWzs7OxsbH///+RkZGPj4/R0dG5ubnMzMzPz8+zs7OcnJzExMT39/f5+fnHx8fm5ubY2Nj09PTz8/OxsbGnp6ft7e1ycnJvb29wcHB2dnaRkZGNjY2FhYWBgYF+fn54eHhKjR8EAAAAGHRSTlMAIiIi3d3d7u7u7u7u7u7u7u7u7u7u7u5Iiv/NAAAAcklEQVR4Xl3Pxw4DMQgEUJyMy5b0Bnbq//9kFssJkufG0xwGIhcy/+IdEfnXgJbh7RfgiH/2rLAzOFcAIMC9SgOZcJwN9MYldY3HQQwAuT0xiQGQrlAxmGPX+AB6ox92qjB2030ZW2e7KfrcOnBL5rCiLxz1CbC+jprRAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+}
+/*End PDL icons.css*/
+
+/*NON PDL icons (To be updated)*/
+.icon-browse-space {
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAAe1BMVEX///+1tbWzs7Ovr6+lpaX///+RkZHx8fHu7u7p6enj4+PY2NjMzMzJycnHx8ecnJyLi4uFhYX////5+fnl5eXh4eHe3t7d3d3W1tbQ0NDHx8evr6+lpaWZmZmVlZWRkZGPj4+Li4uFhYWAgIB6enp4eHh1dXVycnJwcHCrxmuIAAAAKXRSTlMAIiIimd3d7u7u7u7u7u7u7u7//////////////////////////////+zzKqYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAAFHRFWHRDcmVhdGlvbiBUaW1lADYvMS8xMzipRdAAAACcSURBVBiVXY/rDsIgDEbrBrs5FTq8TXdRwfL+T2gLMSaeP4STr2k/AEZVxFQKMqX1h75t+ynYUv5FWBudaJ+hYGFfUQZ8p3W9Wp5/XwZEHKKYjhSYERPxJmYxQCnvMOKdzZ4g5ryLjNdNFpJ3/JCuCSgJzjsROwJzFCF5EbMBNectyFHa8lqw15942HT6+BU+bHK56STiPOVyf/U/MVETjQi/yZEAAAAASUVORK5CYII=);
+}
+
+.icon-add-page {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAAA3NCSVQICAjb4U/gAAAADFBMVEX///9wcHBwcHBwcHD6E60rAAAABHRSTlMAmar/OLteCwAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENyZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACdJREFUCJljYEAAxgtAgvkDMsH4//8FBub//z+AWA/QZRkYHzCgAQCfhxAEBQcj+QAAAABJRU5ErkJggg==);
+}
+
+.icon-add-page-disabled {
+    background-image: url(data:image/gif;base64,R0lGODlhEAAQALMAAKampvf39+bm5tbW1sPDw////+7u7r6+vt7e3rW1tczMzKysrP///wAAAAAAAAAAACH5BAUUAAwALAAAAAAQABAAAARnUMhJBbtXlM23CBamdZxggOJmrGthnuEYzLM73ENGdmxcBKygAUFQXBA/mjJACCSOyeWAQBAsCAgkqJIYIAQKAfYnNAwSCQTggBhEl4HDYHFxbye0weFQL5SDBTkMbjskgjiIiTcXEQA7);
+}
+
+.icon-recently-updated-page {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFQTcyOEJFNTBFN0ExMUUxODI5MDg1RjQ1MDkzN0Q0MiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFQTcyOEJFNjBFN0ExMUUxODI5MDg1RjQ1MDkzN0Q0MiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkVBNzI4QkUzMEU3QTExRTE4MjkwODVGNDUwOTM3RDQyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkVBNzI4QkU0MEU3QTExRTE4MjkwODVGNDUwOTM3RDQyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+2voi1wAAAjBJREFUeNqMUj1oVEEQ/nbfvrsjFxIUOxvFwsbDytooBEwgohbXGBARLTzEIp2FcGKZIkWwitpYJDFowH8ieogghwqpTKcIKpGod8bkkvje7jiz996ZHIk48DF3+2a/ne+bUUQEifMjL8mRAzkLOVMgWM7OOSjJjJ79O4+f6i9MY31IseDs8DPaKh5XP1CtvkjlGxW6eX+2lN7xj6c/vv9c8cVRZGlpZY1qv1ZpodagT1/rdP3eLJ9H1Gg0mOQ5lccqLRK9e3IBjIsDL5bR8/AHZuYj5EKDMNAIjUYum0GgFIwxHkPFA9jelR29NlUtiQLN6GWMfGk4fFyyuPBqEe+XCWGokQkD5DIhdKC83CAIPE73F/B67vOonBnGwfWeWJb15luEPbuy3kjSTMaXxp++Q8YEMNxZV2cOOjFfCN6iLfZtMz5rzS9z3YlDexHHDr8ZsY2xozuPWw+qLYK7jCsdRl3OsKChQh4d9XlMVeZkRmwUkyg/LlgnYyUMFo9AK7VxjKtrEf0r4tj6CQkkzl29LQkmbbs0/AhjlwYwOT3j25YHRGa6UNIFWfjFOlns85NJJSStOJ+Kx3rbLRE+/uyQ7k0zXDtB88P4nSd/9UmZXJJip+BXnf8Pcgc6KTEb3wGO9h3muaNFQtQ0Tgy01iKyzbpAbyEhsg5B4kFiv78oY4yEIJK6PG8gbd5Bd2cW/xOpFS0CVogz5YkmjyIkAjgrlsOZW5KN5kX08lKX/ggwANO6bbxYFo96AAAAAElFTkSuQmCC);
+}
+
+.icon-group {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAMFBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHAnFTKsAAAAD3RSTlMAESIzRFVmd4iZqrvM3e5GKvWZAAAAbElEQVQYlU2PQRbFIAgDB22V1o+5/227oF87u4RHIJDYkIa9ohyFIUkjdYs7miRJOQ/D5sdwB0bslXYBcXxCw+12NsesNOuaUw5gUYEzQ0/AL1hXpkEUwPXSQQC/vxE5LFrUfGUbfVVNVuHNA4IhBxwzh/6sAAAAAElFTkSuQmCC);
+}
+
+.icon-trackback {
+    background-image: url(data:image/gif;base64,R0lGODlhEAAQAOYAAA5+C9jo2G9/omd5l27mSpyrwEC0PXWudej0+zG0IEaUYLS80OTz8YCPryeeLYO6g0bDL4XzWvf7/SORK+Do8DikOIzSjMbW1UTBLVW2V5n/ZoPxV1zcPXeIrPD48KXGtDGoMSqrHIqun/b6/YiYuKa1weTx+nCAn16nbh+bGHO6fdrt+EW1SHOMre/3/DuzPDGxM4mZrNns2Tq3JvX89bvE1////2t8m3CCp4OTtHqJq4r2XKu1xnSzdOT06c7U4Z6ytiylMODy6On0+tPl4nuMte//76a3xEq4SYyZtOb37wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUUADYALAAAAAAQABAAAAe1gDaCg4SFgiQkOQ0dOD8eBwGGJIQ4DT8PAD2Fk4ISOJ8yKQmagw2DEhIUJx4pHCkepZ2oNTUXIQQzH4M6Nj4ZPi4kFiAQGxgTKoIdHjARLwwkEkgRGjsOR4IlBjsaESwFNjQvETBEJ4IoFRgbEEEKgkoZQi43gjwiMwQhQAs2qBIu6A1i5cpDBxsjArpAUG9QjwQpZAiwoRCBiQGFegB4kMTGkI8mVmAsFOBAjBsoUzY0xFJQIAA7);
+}
+.icon-mail {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowNjgwMTE3NDA3MjA2ODExOEY2MkU4RUMyNEE3MDAzMiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEMDA2MjQ4MkJBNDAxMUUwOEE4NERCN0RDMzVEODA4QSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEMDA2MjQ4MUJBNDAxMUUwOEE4NERCN0RDMzVEODA4QSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjA3ODAxMTc0MDcyMDY4MTE4RjYyRThFQzI0QTcwMDMyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjA2ODAxMTc0MDcyMDY4MTE4RjYyRThFQzI0QTcwMDMyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hlVfogAAAdFJREFUeNrEk0svA1EUx/8znYyhrQojqh6peCUkRWpjQ8KO2Fj7ABI+hK29b0CsJULEQiJNPBZIJUSkVEibiiratNPOzJ3rzi2NshCPxElu5j7OOfn/fzkjUErxmxB+0qB9erHG/l4uzz0JA7MrVKlygloWLLbsoLS4L53f7S1CYJoGWzqIbgCBmSV6fpui342TSJw2TS1QMa9l4RBFrB1E8ZwtfCk/lc5hZesIoiggr+Ug2pI6fB60qm5sh2OI3qVhEltykY1OKO7SJvIGwcVtEquhM3hr3eht83I7EiEmT/R73Wisc+Lo8h4ZzUDAX4cCe3rUBNS7JYQjCVzFUxgNdkCRJV5j14pv0irZpepRMNbXjOTDAwiDRowcqqU8A2YiFo9hYqgLao0LsiyXLImEyfgYOhRshI5L563dMAqo/JRn10rWawNNN1HIWtyCj1kJBFuxtnPI38aHg9zC+t4FBrt9rxbkcgbXiQyuGMD+dhUtqotDnBwJcojJjIkefz1cioTtwwj8DR4GspMz4Aoi8WfcJDMY7WuCx1lRJlN2CGioLkLralEZpyps7p/jNJrgCgR1fJ7aU8anjZZPHn2bvk9TSko5wr/8TH/a4EWAAQAcdT0RaSnfDwAAAABJRU5ErkJggg==);
+}
+
+.icon-show-more {
+    background-image: url(data:image/gif;base64,R0lGODlhDAAMAKEDAGRkZJ6ensHBwf///yH5BAEKAAMALAAAAAAMAAwAAAIjnAcJxyixmgEvSgqZSnVTAYYgBARm8Jzk1ilaJU1wXGa0exQAOw==);
+}
+.icon-show-less {
+    background-image: url(data:image/gif;base64,R0lGODlhDAAMAKEDAGRkZJ6ensHBwf///yH5BAEKAAMALAAAAAAMAAwAAAIVnI+py30Ao4yiWhtg2LzPDzniSBoFADs=);
+}
+
+.icon-file-java {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAvVBMVEX///+1tbWzs7OwsLD///+QkJCPj4/5+fn3+vzy9vr88vHPz8+/0uXMzMyivdnjkYnz8/P12dbQ3uzN2+vI2OnyzMnR0dH39/fw9fm8z+Tt8vi5zeLvwLvHx8e0yeDExMSvxt7stK+mv9vh6fPYp6iSsdPmnJWHqs7d5/F9osp4nsjdg3tycnJOgbd2dnZaibxwcHDTTkLQRDdlh7R2nceBgYHTamN+fn5zm8ZymsVGe7NmksFij7/bb2WHgqCAXtjAAAAALHRSTlMAIiIi3d3d7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7vYinRAAAACUSURBVHheTY/VDsMwDADdzSnTkJkhxTH+/2etseSq95LodLJsAE1PJSM0ABBXDxE7WODdRSFkV/2/qJhIJQwVBNSEJCgItgv1smjk4wyrws7trFq47s08rTcvi8X88DsnF7/PRUkprKiFq920MrR5/Lz9IQsjGVFuDpYhCWf/iIhnm1YXsWMg0ZvF6ri6zsenUq/BH6G8E0ikqyZmAAAAAElFTkSuQmCC);
+}
+
+a.content-type-attachment-css span,
+div.content-type-attachment-css,
+span.content-type-attachment-css,
+a.content-type-attachment-text span,
+div.content-type-attachment-text,
+span.content-type-attachment-text,
+.icon-file-text,
+.icon-file-css,
+a.content-type-attachment-unknown span,
+div.content-type-attachment-unknown,
+span.content-type-attachment-unknown {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAOVBMVEX///+1tbWzs7OwsLCPj4/////5+fnPz8/MzMzR0dH39/fz8/PHx8fExMRycnJwcHB2dnZ+fn6BgYF9ZT6ZAAAADnRSTlMAIiIi3d3u7u7u7u7u7nBrcuYAAABXSURBVHhehY7bDoAgDEOHdly8DPT/P1YgmyQmhvN40rQlcshiwBER7shKvFCFJH45pAk/xN4Fc250o2JgCWWamHb8r3jrsGPhcx0l6PntLKhihShZsNAD8XUHi3Ug+oQAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+}
+
+a.content-type-attachment-zip span,
+div.content-type-attachment-zip,
+span.content-type-attachment-zip,
+.icon-file-zip {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAANlBMVEX///+zs7O1tbWwsLD///+Li4v5+fnPz8/b29vU1NTY2NjMzMzX19dycnKFhYVvb296enp2dnYstBM9AAAADXRSTlMAIiIi3e7u7u7u7u7uBa5NUwAAAFZJREFUeF6lyksOgDAMQ8EU4pRfWrj/ZTEoSsWat/PIIgWeYRIRtEW1d2VHA8G5NWj1Bywmsxe4kwJisj+P2AM66QsswTSzF7YB+wM4a3ysXiDM8AxFbn5+BnXqbluTAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+}
+
+.icon-file-word97-template,
+.icon-file-word97,
+.icon-file-word,
+.icon-file-word-template,
+div.content-type-attachment-word97,
+span.content-type-attachment-word97,
+a.content-type-attachment-word97 span,
+div.content-type-attachment-word,
+span.content-type-attachment-word,
+a.content-type-attachment-word span {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEX///+1tbWzs7OwsLD///+QkJCPj4/K2enk7PSwx9+XtdXPz8+90OTMzMzX4u/x9fl/pMvz8/PHx8fExMTR0dH39/eLrND5+flok8FRg7hycnJwcHB2dnY7c69+fn6BgYFhK6HGAAAAGHRSTlMAIiIi3d3d7u7u7u7u7u7u7u7u7u7u7u5Iiv/NAAAAeUlEQVR4Xm3O2Q4CIQyF4Y4eKDCre8ssvv9bigYYY/zTqy+9OESNnWPJNERknj1y/WYSxCtq5/iGxw6nD+CrDM4BPGIcCoQ7/MqYfAWBKDtFgU54SucrsMgQOsUOKgjqd3ArJ0Dq/7D2Z7pZ2vxzuywmwdHG3BztgV5uTgp3/+hTWgAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+}
+
+.icon-file-excel97-template,
+.icon-file-excel97,
+.icon-file-excel-macro,
+.icon-file-excel,
+.icon-file-excel-template,
+div.content-type-attachment-excel97,
+span.content-type-attachment-excel97,
+a.content-type-attachment-excel97 span,
+div.content-type-attachment-excel,
+span.content-type-attachment-excel,
+a.content-type-attachment-excel span {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAbFBMVEX///+1tbWzs7OdnZ2ZmZn///+Pj4/f7+LMzMyDwY/7+/vv9/Hx8fH19fXP59S/38b4+Pih0KrCwsLAwMC9vb2RyJ339/ewsLBmsnVKpFxycnIUiSwgjzdwcHB4eHh7e3uFhYUejzYejjU9nVB4Q6+uAAAAGXRSTlMAIiK7zN3d7u7u7u7u7u7u7u7u7u7u7u7u7GLMPAAAAHNJREFUeF5Vz0cWgzAMAFGRRJJNSW+SgLT73zGYB0bM8u8GoCDN0QYA6B1KHLuHngbQgLmgCcoFmhHQNcPNmC06QBH5oYe92WEF1edbrSC2bfTA9jwZOxAzFJmhxlydoH8scE6w1ctxmru+CIZ2OtV1VMAfrXcLAYAleOgAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+}
+
+.icon-file-powerpoint97-template,
+.icon-file-powerpoint97,
+.icon-file-powerpoint,
+.icon-file-powerpoint-macro,
+.icon-file-powerpoint-slideshow,
+.icon-file-powerpoint-template,
+div.content-type-attachment-powerpoint97,
+span.content-type-attachment-powerpoint97,
+a.content-type-attachment-powerpoint97 span,
+div.content-type-attachment-powerpoint,
+span.content-type-attachment-powerpoint,
+a.content-type-attachment-powerpoint span {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAVFBMVEX///+1tbWzs7OwsLCPj4/////vwLvPz8/////MzMz39/f5+fnHx8fz8/PR0dHExMTQRDdycnLVWU12dnb///9wcHD89PP66+ntubTZZ12BgYF+fn6P+1vFAAAAEHRSTlMAIiIi3d3u7u7u7u7u7u7ucLk38wAAAHNJREFUeF5FzusSgyAMhNHYLqi9JlF7ff/3bISFfv/2DDNEZMBmLQwigs+c2PxFgN1iTGuRi+1w3neFa4GyV/UcUmCKHaCaOzwrOCElfb8eGv2BdfAK3iFXyA1CXPktD2M8bCS007GMfHO6Lwg4wthmOMgPZcsJ62D9nOYAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+}
+
+.icon-file-multimedia,
+div.content-type-attachment-multimedia,
+span.content-type-attachment-multimedia,
+a.content-type-attachment-multimedia span {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAASFBMVEX///+zs7O1tbWwsLD///+Li4vr6+vm5ubi4uLPz8/7+/vY2Njf39+zs7O8vLzS0tJwcHCBgYFycnKIiIiRkZF3d3eZmZmFhYUjU98/AAAAEHRSTlMAIiIi3e7u7u7u7u7u7u7uwTEa7gAAAGpJREFUeNplj0kSgCAMBKMSEUUdwOX/P5XgguhcknT1IUPUsH/CFRHxrtUV6zgCr3EDWC/g3MMg4wQQAGxxeRlTQGko40pDtV1pCM3GuAjIRgt8jBUhCX0CXf7UCGA3XHc/py5Vbguu6ZcDbToH1Z2cqAoAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+}
+
+.icon-file-unknown {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAPFBMVEX///+1tbWwsLCtra3///+Li4v5+fnZ2dn8/PzT09PPz8+rq6uhoaHR0dFycnJwcHB6enp4eHiDg4OAgIBkVnOaAAAADnRSTlMAIiJV3e7u7u7u7u7u7rDOyYEAAABQSURBVHhevcpJEoAwCAVRop8MDhD1/nc1Booj2MtXTUQLq8roWsni3jKArN1FCma6+yNwwGFPwOhyiORHyAHV4AwoE/jeqkF7+IPE4iknegHp3AV/ch9HbQAAAABJRU5ErkJggg==);
+}
+
+.icon-people-directory span.icon {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAFo9M/3AAAACXBIWXMAAAsTAAALEwEAmpwYAAAABGdBTUEAANf7bzMYAQAAACBjSFJNAABsmwAAcm8AAPauAACFgwAAbvcAAOhBAAAxdAAAF2yhti2bAAAC/ElEQVR42gTBAQEAAAjDIKz2/p0mXAUOtvUAAAD//2KEiTCkpaX9Z2BgYAAAAAD//2JmgILIyMj///79E2E0MzP7/+7dOwZmZmYGY2NjBgAAAAD//0zLMREAMQgAwZv0lMhAARZwgHgsMPMFJSnz2+87f+6+mbkAJyK2u6WqADgigqp+M4OZ7QUAAP//bMuxDQIhGIDRD2KsGMCGFWgMiYtQM4I9U1i5BHtYMYIF1BJyhvLy311r4euf+q3Oubv3/rEsX7RWp5yzaIAQwp5S2tdVbr13tk0opVwBNMCc81lr/YzRXyLCGIMY4xtAWWubMebcWrvwx0H3GOMgCERBdHZjRbM2JiRGIGEriaUmHIADgMew8EwmHgUbtqN1hQZCSGih2vVbYSi0nMnkZd5vj+VgGbLsTL7vIc8fSqni9P0AAFLKzXot0Pc9omh/nPtVHMcySZJnVVW3tm3hOA6apgEAEBHj1lqrtQbn/K21fo3jiLquLzOBF0VRA4Druldr7W6aJgghDkTEGWPE0jSlsizheR6GYYAxBkEQwBgDpdSdhWHYdF23/af5IY2OWRII4zCAP/fe653n8trJoXCK4AcQUwMxnG5qqKW1pabGtra+QDXXWt+hCIJbbotbLPUcJEEQPPRVLrkhvfOaDCSIoP/0TA8Pv7/wm0GxuH0giqgkEol9z/s8b7Xs5z8XlMs7j9VqeU+WJQRBgGQyiU7HQa/3brTbr+Y30zoYhnHBGDuMouhlNptde96HwfkEgiCAEALOOQQBWK2WVQDmxoJGo3FaKBRuZFkGYwyu675ZlnWXz+evFEUBIQRBEGAwGLiO4+gAwvUfKABYlnVLKT3SNG13Pp8vF4vFSb/ftyml2VQqdRaPx+G6LtLpdNZxnHDDoFQq1Smll7qu1zVNw3g8gW3bgapu0Vwuh9FohFgshkwmA845hsOhL0nSE4D7brf7INRqtUhRFIRhiGaziUqlgul0Ct/3f8ASQiBJElRVBWMMpmmGgiiKx/jHfQ0AzXEouh4fCdsAAAAASUVORK5CYII=);
+}
+
+.icon-rss-feed-small span.icon {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAAPFBMVEX///9wcHBwcHD////39/fu7u7l5eXc3NzT09PMzMzBwcG4uLivr6+mpqadnZ2UlJSLi4uCgoJ5eXlwcHBk4wVTAAAAFHRSTlMAEbv//////////////////////24kkDUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAAFHRFWHRDcmVhdGlvbiBUaW1lADYvMS8xMzipRdAAAABpSURBVBiVZc/dDoAgCAVg7eRvGaLv/67hpqXFBRsf42wovdWpNq2WWURJI5qkAYDAHwDiBHQFEf9COJmtnM0nsTjgGmBbajEwAyp7ICUgj9BUvayBo8OOzLJ2cB28KZJDxwNL/Z/7vn8Dz2QOlvB7PuYAAAAASUVORK5CYII=);
+}
+
+.icon-create-user-macro span.icon {
+    background-image: url(data:image/png;base64,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);
+}
+
+.icon-remove {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAElBMVEX///9wcHBwcHBwcHBwcHBwcHAc5SwOAAAABnRSTlMAM7vd7v8q+pvQAAAAMklEQVR42r3ISwoAIAxDwX6S+19ZKQYE7bYDWeRZgxvugJqAgjc0KLMhz08Fj/rh9rEABLcCDkwj2TsAAAAASUVORK5CYII=);
+}
+
+.icon-tick {
+    background-image: url(data:image/png;base64,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);
+}
+
+.icon-cross {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExOTdBNTg3RDdDQjQzNzYwNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyMEExOTgwMzdBM0ExMUUwQjkxOEFCMjRCRkE2MzBDNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyMEExOTgwMjdBM0ExMUUwQjkxOEFCMjRCRkE2MzBDNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAzODAxMTc0MDcyMDY4MTE5N0E1ODdEN0NCNDM3NjA1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE5N0E1ODdEN0NCNDM3NjA1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+EUboWgAAAaZJREFUeNqkU7tOAkEUPSOsCotxQwMJMVnMJtqYgF/gHwAJlRWfQEFBQaEJBVR8AtqbWFPRGRMTpLAxRn9hBgVFF7jOzOrCGmJ83OTu7E7uOXPO3juMiPCvUAQcOJJJv8wjhWXqIRjTMli9/rNDazW9WkTMJ2DVKjCdAr0e6O4OSCTAsllgMABdXwPjMdj+PrC765E0GppgxacdDoHLS6zu7SF2eorI4SHo4gLodGA2m3ovJARwe+vVfkSQYGsLbycnCGUyWCuXYTgOou02jHweJMGThwdgczNAMLdQLHrSbm5gSJnm+bkGMcvS62M6DUh1ypquOztbYkEms224V1daiQKrGBUKoHgcME2/brkFlVw2SJ6obHyGkcsBLy/zmu8I6P4e65WKJpj2+1q++h/hnR2vO18IPgeJhOOQSKXo6eCAVMw4p4Ft03O57H8LyyKxva1ruYbSAkEySTwSodd2m9xul0alEnHTJB6N0rjV0nuKTGxseLUfBPMuxGJ6kGgyAWYzsHBYmjf0O7lucE8plzYCk/iXe7TYxuM/4I/9QfpPvAswAGgaKPkC9CopAAAAAElFTkSuQmCC);
+}
+
+.icon-opts {
+    background-image: url(data:image/gif;base64,R0lGODlhEAAQAOYAAHuTo+7u7s/b/cLBwk2DuVlwflO491K493HE+Juxwd2SkswzM////5uwwZuxwJvV+oiIh8bn/HaOmHqgpm+HkXOLlGqXxXuToebDw1mLtGB3g2yDjWR7hmh/inLD+HO36X/J+XiRm4SWn3/K+aq90uKrq8TW6JHR+nqSnnSIk8jP1IDK+XmiyrzM6JLR+vn5+bfH4Lq6uZuwwMjV9NLR0tp/f/f398PR7rDC2Z+0xaS5y7bH4b3M6KPZ+nLE+KPY+lK3962trIuhsMzY+bHC2czZ+aTZ+p+0xsfV9IugsMLR79jX2KS4ywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAQABAAAAe4gCYWBISFhoQWJiwfPS4rIysgICMnRic/HywZCBEPCB4+CJ8PnREIGRMHQAYHBwavrK6uExcCtre4uBcoQwC+v8C+RSghSAADyMnKADMhEjcAAdIBJdPSAEoSFTzRGAEKCzTJSwAtFRQwABgL4ApBEPAxADsUGzjRNewBLwz9NgBENnQgEY2atWkASHTgoKPgQYRMOGg4EqwigBwaRCRpkMBBA48JZCQY6UCICBUpCqhcyVJlChWBAAA7);
+}
+
+.icon-stop-watching, .content-navigation.pages-collector .stop-watching span, .content-navigation.view-blogposts .stop-watching span {
+    background-image: url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAJFBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHCCgoL////19fVwcHBwcHDPoo7sAAAADHRSTlMAESKImbvM3e7u7v97HVn+AAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABR0RVh0Q3JlYXRpb24gVGltZQA2LzEvMTM4qUXQAAAAQUlEQVQImWNgwAdUVu9yAtHMu4HAgIGBMRrE2CrAILZ7d+X03bsTGbJ3757RuXv3NgQDLsWYDVK8TQChHWEgTgAAcnclQo9PkVIAAAAASUVORK5CYII=);
+}
+
+.icon-start-watching, .content-navigation.pages-collector .watch span, .content-navigation.view-blogposts .watch span {
+    background-image: url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAAe1BMVEX///9wcHCxsbFwcHBwcHBwcHCkpKShoaGdnZ2ZmZlwcHCUlJRwcHD////7+/v29vbz8/Pw8PDt7e3r6+vj4+PX19fT09PMzMzDw8O/v7++vr65ubm3t7exsbGJiYmJiYmHh4eFhYV+fn58fHx4eHh2dnZ1dXVycnJwcHBJpy62AAAAKXRSTlMAIjMzRFWZqrvMzN3d7u7u7u7u7u7u7u7u7u7u7u7u/////////////5CXlmwAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAAFHRFWHRDcmVhdGlvbiBUaW1lADYvMS8xMzipRdAAAAB3SURBVBiVnY5JEoJQDEQjfAUNUSYFGYJKILn/CRV/WbLV3r2u6gHgPwUoaoLBh3fyuKZFM0jkOZ76nNU462ZcGKUiPmzChKkS9EwWAjgjOo8IqBdvbNUbgGN95MS5V6Se3iV77U9s39Jl9taUZXvXaH1MV8d+1BNKdAn6cxUraQAAAABJRU5ErkJggg==);
+}
+
+.icon-info {
+    background-image: url(data:image/gif;base64,R0lGODlhEAAQAOZcAPhqRq84OMdycvLf358PD+O5uZ4MDMdzc/l1Uvp9W/////yXefyOb8w5Jv2fg/qFZfuOb/uFZb5cXPhvS/p9XOVhR/zTxvRlQ/lvS/6njM5BLf2Xef+0mt6Ng//Rwv6tk/2gg/mMb+NTN/uwnP+8pf7s5v/QwPXLwtZ0aNZxZfV9X/JkQs47J/2qkv3Dsv6/rPvGtv/o4Oh5Y/27qeh8Zf/Uxf+ymv2ni/7OwP/39fy1o/yli/6xmf+5ov/t6PmFZ/2XevaHafl1U/l0U/ufh/p8W/2ynP/59/luTP6uk/RqSPuNbv3Owfl+XvWJbPqSd/+9qPRqR/65o/qFZP65of6ymfluS9h1aPzHuP3Zz/7TxdhzZf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAFwALAAAAAAQABAAAAfXgFyCXAUCAQQEAQIFg4MDBwYdJyUlJx0GBwOOEigWJiQcHCQmFigSmlwHKR49H1A1WjZJVB4pB4QGWFUZHwoxRz4ZNzwwBoVXLQ4gDkYgLwpSDg4tW4YyGxsLQAsLOAo73As0h0EQDAwQEDMKLufmTogqEVMRD0s5TPUP9SqJFQkJiiQgouBHAgoAKVRQpAHBEAQImuiASFGIhkUGlEyYgCFElhBWMCCZEMVYqgYAUo5QMCJlyga3uAyQ0OBCyicuLzQ45QgSCxErVohggQlVo0KHEi1qFAgAOw==);
+}
+
+.icon-marketplace {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3OEU0RDc1QkQ0MjQxMUUxODAxQ0RBNjkzNUQ0NjlCMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3OEU0RDc1Q0Q0MjQxMUUxODAxQ0RBNjkzNUQ0NjlCMSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjc4RTRENzU5RDQyNDExRTE4MDFDREE2OTM1RDQ2OUIxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjc4RTRENzVBRDQyNDExRTE4MDFDREE2OTM1RDQ2OUIxIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hv7jLQAAAwRJREFUeNpsk2tIU2EYx9+ds82d3S+6TcectmIOvKURmpioRSnOPgyyQkKjKxlKBgZRkJ8qg1aBoUIEMqULiTJI1JS0i1qWlzbv6dg0L83Ldtz97HRmTBbugRfey8OP//P8n5eE4zjwx+giCiAIAj4MA7drmlT6aXNxQpzsJ4Zh80nKGH1pUe53u9O1nRsvZoBAkAMbh8MFEIQK2rq+nfz0Y6ZelZ18US4VveFwmcpnTV1ahTxKLQrnzro9XgIQuwOAApuF3xYwZphnPahrrS9RZ11LVMherW3YfFab3STks4brmruqfZgPYMQKjh0FFAoZ9PTrVW4vxvR4vGhL5+AVh8uT4vVijA2bXUbcC0YM84L8IwcswQBSoAd3GjryNHVttXQ23b03WqSJk0fpmQhtBoYh19rmVmZ77/Bj1OFmXjqVm/GwXDWxS8GwwaiyrVljkhLl2v1xsvZZ0/KxqfmlisXVjTSnyyPmsukmHps+blxYURLpuwFG8zINsBAwMDpzZkg/p3agDpr/XiTiTzPpYcaqC4WZHwbHz3kxXBpcwk4TV9dRAUSCgMfpIWUdVGruXi9KS06U95wuOFSVkx7/MiVBbjb8Wii2bTlYIQHCcA7P58UACSKBOfNKen5O6kDl+cKbnX0jVdnp8a+IUpJnJk37SIAkDAnY2NyiAhgCMOHG5KQp68mLd49iJeGDt8rUR2WSiLGa+tanAODAuPhnT0jA2iZKheB/RzISBhpfd1dU3ddqyRQYJ2ylW9ZRCYBhQEyjOCSARqMiAUu3/aVQgHnJomhs6b3BYTOw8tK8s4SluNPt4YUE4D4cCX7AfT5wIje1MiqCa9A8192TRPA+CkV8k8Vik4acRKfLTSMg20i/EIgMAafTbV1H7Rm690NX9VOmeBvq4EgiBUMhJ7Gs5m2BtrWvgWim2F8rIBTwuMwlMgyhQj77S3Sk4CvRzO4IHmui+vJxbJeCBIVUV1GSf7hZ97l202rnxEqFHUTygIDD6OdxGKssBgIw/P+P5I+/AgwAMt9RvWMXUYAAAAAASUVORK5CYII=);
+}
+
+.small-like-icon {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAgVBMVEX///9wcHBwcHBwcHCZmZlwcHCAgIBwcHB8fHyDg4N8fHyFhYV6enp0dHSDg4ODg4ONjY18fHz///9wcHDY2Nh4eHirq6t8fHzFxcXr6+uOjo6goKC9vb25ubm0tLR6enqysrJ0dHTi4uKRkZF4eHhwcHCIiIiAgICZmZl0dHR8fHxFDOKcAAAAI3RSTlMAESIzM0RVVWaZqrvMzMzd3d3u7u7u7u7u7u7u7u7u7u7u7onc57sAAABpSURBVBhXnctHCoAwFEXRWGLX6Lf3EmPb/wKFfBSdiXf2DjxC/hfkxmvrVem9IEwSW1PuqbgZLJ4f4zJjkQ4AEwCjEsZ6K0DGNAk7zLghwkt+QZki9E3WSugcBEuIY14554KSZ5Sq5FMnOowHUQGHjSIAAAAASUVORK5CYII=) no-repeat;
+}
+
+.icon-blog-large,
+.icon-blogpost-large {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAA3NCSVQICAjb4U/gAAAAdVBMVEX///+vr6+tra2pqamlpaWdnZ3///+UlJT7+/v39/f19fXz8/Pr6+vp6enn5+fj4+PY2NjPz8/Gxsa8vLyzs7Orq6upqammpqalpaWioqKFhYWZmZmRkZGNjY2Li4uJiYmAgIB+fn56enp4eHh2dnZycnJwcHA5ao0lAAAAJ3RSTlMAM1WImbvd3e7u7u7u7u7u7u7u7u7u7u7u7u7///////////////8PMK92AAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABR0RVh0Q3JlYXRpb24gVGltZQA2LzEvMTM4qUXQAAABcElEQVRIidXW23KCMBAGYGwrtpEW5FBFqESWzfs/YsmBKLCBcNOZ/jfoTD6S7CokCEz2HKkcdgGdK2LXTgMgBLyQ4/eIl/g9nIYJgbTg+D0bLSPEDeGVANh9OcDxB/GNAO18PRqEHzdKYEuOlyA8UmIJkHO4QSSL1cyEG+RGwM4L1MLm4AXYQ6AXsDl2G0EI/wWU/e+/LhJ/YCoIRbQN9CnYRiDg5APyvOKWlJ5VirLBNMwL9En4XKz0IZ8J16Z5qTcbw2QfC1XiqRKN+pJ5lbWJ5ebVHBD5AN2EeLQoRx8qMEQuK1OfopUqJfpPCXJVzdMUC2U9qVm4xIqu90GXNA/NQyNZb5zaLvRNSwfpAizLmG10qt4PQlRuwEDf+DFQbrt2g8z2tjLbLs11Fag1PV3XlqQLaoDPpon8/YMM6JeiGzheuzbR5HHP8bIMzngfgf7ocCaODkM+C8T9CKjDCcxOJ0M6xGswieP4Y8Lt/X8BpmFtalfVu2MAAAAASUVORK5CYII=');
+}
+
+.icon-content-template-large {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAA3NCSVQICAjb4U/gAAAAXVBMVEX///+vr6+tra2mpqalpaWdnZ3///+UlJT7+/v39/f19fXz8/Pr6+vp6enn5+fj4+Ozs7OqqqqmpqalpaWFhYWRkZGNjY2Li4uJiYl+fn56enp4eHh2dnZycnJwcHBeRFztAAAAH3RSTlMAM1WImbvd3e7u7u7u7u7u7u7u7u7/////////////xBl9GgAAAAlwSFlzAAALEgAACxIB0t1+/AAAABR0RVh0Q3JlYXRpb24gVGltZQA2LzEvMTM4qUXQAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAAN9JREFUSInt1lkSgjAQRVFQAQUcmMTQvOx/mYoySNKJWIXlUN7vHExApR2nzRPgClyHLwfqSo1ISlqw6z0g2699tVBK8EIg0VY3SVmClgxAvTOA6AisGFDp+7kBf1NyAhW7vgF+xAkbYD/DDOLmZp00YQaHVpA7CRSyL2BA0TaAcBCYBPqimgO26D2gGPel4G7Fz4Dh9K8C859BfXAPt/QksPUZP6DR13Ye8D/03Gcg/qVoBobXbl+s/N0LZHaQQozAZXRImdGha5sA3ghchxPSppOuGsgdJcP40yb6658BriNS+sDvGV4AAAAASUVORK5CYII=);
+}
+
+.icon-blank-page-large {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAA3NCSVQICAjb4U/gAAAAXVBMVEX///+vr6+tra2mpqalpaWdnZ3///+UlJT7+/v39/f19fXz8/Pr6+vp6enn5+fj4+Ozs7OqqqqmpqalpaWFhYWRkZGNjY2Li4uJiYl+fn56enp4eHh2dnZycnJwcHBeRFztAAAAH3RSTlMAM1WImbvd3e7u7u7u7u7u7u7u7u7/////////////xBl9GgAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENyZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAAMNJREFUSInt1tsSgiAUhWGsxNJOHsoQ1n7/xyxLaYSNY01XDf81nwoXsoUYShW4skTwNYDp3LQm0it2fQrUp610y4nAC4XSW91H1EKvGQBzDIDiCmwY0Pnf8wJy13ICHbu+B7LgxBxg3xEG+/6wbp4Ig/MgdLIIXMiWLQL5W2ARsBXmQyB1BH8EKNDvQNx03HTc9HdA85diGASuXdve+d0r1POggpqAx+hQMaPD2KEE0gl4Difam07GDNAIp8D4M6Ts8++7/VXclnc6pwAAAABJRU5ErkJggg==');
+}
+
+.subheading .rss-icon,
+.subheading .email-notification-icon{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAOVBMVEVwcHBwcHD///+CgoLMzMzT09Pc3NyUlJSmpqbu7u7l5eV5eXlwcHCLi4udnZ24uLjBwcGvr6/39/fNRaAoAAAAAnRSTlMRu3n5hCwAAABjSURBVHheZc9bDoRACERRvUC/W53Z/2LHSSRirD8OgaSWZR0hq89BTs45yB8AlScAR4C8KWA36EekgcaToyfYHBqgvVIdhhiUAtOflmHUAfsFX6bATKQLrPbRyLvDM69yr/o/BE8JeKUJTrMAAAAASUVORK5CYII=) no-repeat left center;
+    float: right;
+    height: 16px;
+    width: 16px;
+    text-decoration: none;
+    line-height: 0;
+}
+
+.subheading .email-notification-icon {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHCF2Y/3AAAADnRSTlMAESIzRFV3iJmqu8zd7hUf9KMAAABYSURBVAhbY2DAAHXvwOA5wwsFEJdlHcPDJUCasVKO4YF0AQODdQEfwwPG1QLsRxiADAbZq6sNQAzGxXkJS0EMKQMmBmmgmoeLQdor+BheCIDNmYcwGTcAACIEIYwQq53jAAAAAElFTkSuQmCC) no-repeat left center;
+    margin-right: 5px;
+}
+
+.ui-tree li a.abc,
+.icon-order-alphabetical {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAAP1BMVEX///9wcHBVVVVVVVVwcHBVVVVwcHBVVVVVVVVVVVVVVVVwcHBVVVVVVVVwcHBVVVVVVVVVVVVVVVVwcHBwcHB/rpwJAAAAFXRSTlMAEREiMzNERFVmd4iImaqqu8zd7v+0FoNrAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABR0RVh0Q3JlYXRpb24gVGltZQA2LzEvMTM4qUXQAAAAa0lEQVQYlV3P6w6AIAgFYMpQS1RK3/9ZY16WdP4wvg1EAAD0oBO51zqBCRX4C0lBvPlZYc8AfWbAeco7pJbODHAkMQsY5/xj9EiUnckK2NR6krWwlVBDOdphsfFRau9x/ETEtppvZsb/CV9e1YIDpk7T4nYAAAAASUVORK5CYII=);
+}
+
+.ui-tree li a.rollback,
+.icon-undo {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAALVBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHCF2Y/3AAAAD3RSTlMAESIzRFVmiJmqu8zd7v8LcbuUAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABR0RVh0Q3JlYXRpb24gVGltZQA2LzEvMTM4qUXQAAAAYElEQVQImWNggAEWB+Z5744LMDCwFuS9Lj93mYGBfdnbAAb2twIMHO+eABXUFTBwvVsAZPAcYOB99zIAqOABA9+uMgcwAwI4YQy7CRCacZ8DhM55ARHge1cAYbAnMWABAD62Ggt6Qb9fAAAAAElFTkSuQmCC);
+}
+
+#tab-navigation {
+    margin: 16px -10px;
+    padding: 0 10px;
+}
+
+.tab-navigation {
+    list-style: none;
+    display: block;
+    margin: 0 0 -1px;
+    padding: 0;
+    overflow: hidden;
+}
+.tab-navigation .tab {
+    float: left;
+    display: inline;
+    /* font-weight: bold;   */
+    margin: 0 5px -1px 0;
+}
+.tab-navigation .tab a {
+    padding: .3em .4em;
+    text-decoration: none;
+    display: block;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.tab-navigation .notab {
+    margin: 1px 1px 0 1px;
+    padding: .3em;
+    float: left;
+}
+
+/* Make the following more specific, so they aren't overriden by themes. */
+ul.tab-navigation .current a {
+    color: #000;
+    background-color: #fff;
+    border-bottom-color: #fff; /* IE */
+}
+ul.tab-navigation .current a:hover {
+    color: #000;
+    background-color: #fff;
+    border-bottom-color: #fff; /* IE */
+}
+
+/* PDL menu.css*/
+.content-navigation {
+    float: right;
+    position: relative;
+    margin-top: 1px; /* To align the menu items with the page banner */
+}
+
+.content-navigation .ajs-menu-bar {
+    margin-right: -10px;
+}
+
+.content-navigation .ajs-menu-item,
+.content-navigation .ajs-button {
+    float: left;
+    list-style: none;
+    position: relative;
+    padding-left: 5px;
+}
+
+/*
+ * These styles, for menus and buttons, should produce the same visual result as AUI's button styles (using the "subtle"
+ * style for buttons on the view-page). Eventually, we should simply use AUI's patterns and styling. See CONFDEV-14492.
+ */
+
+.content-navigation .ajs-menu-bar li.ajs-menu-item a,
+.content-navigation .ajs-menu-bar li.ajs-button a {
+    background-color: #f2f2f2;
+    background-image: -moz-linear-gradient(top, white 0%, #f2f2f2 100%);
+    background-image: -ms-linear-gradient(top, white 0%, #f2f2f2 100%);
+    background-image: -o-linear-gradient(top, white 0%, #f2f2f2 100%);
+    background-image: -webkit-linear-gradient(top, white 0%, #f2f2f2 100%);
+    background-image: linear-gradient(top, white 0%, #f2f2f2 100%);
+    border-radius: 3.01px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0 1px 0 white;
+}
+
+.content-navigation.view .ajs-menu-bar li.ajs-menu-item a,
+.content-navigation.view .ajs-menu-bar li.ajs-button a,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-menu-item a,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-button a,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-menu-item a,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-button a,
+.content-navigation.view-attachments .ajs-menu-bar li.ajs-menu-item a,
+.content-navigation.view-attachments .ajs-menu-bar li.ajs-button a,
+.content-navigation.view-attachment .ajs-menu-bar li.ajs-menu-item a,
+.content-navigation.view-attachment .ajs-menu-bar li.ajs-button a,
+.content-navigation.view-information .ajs-menu-bar li.ajs-menu-item a,
+.content-navigation.view-information .ajs-menu-bar li.ajs-button a {
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+    color: #707070;
+    text-shadow: none;
+}
+
+.content-navigation .ajs-menu-bar li.ajs-menu-item a {
+    padding: 4px 0 4px 10px;
+}
+
+.content-navigation .ajs-menu-bar li.ajs-button a {
+    padding: 4px 10px;
+}
+
+.content-navigation .ajs-menu-bar li.ajs-menu-item a:hover,
+.content-navigation .ajs-menu-bar li.ajs-button a:hover,
+.content-navigation.view .ajs-menu-bar li.ajs-menu-item a:hover,
+.content-navigation.view .ajs-menu-bar li.ajs-button a:hover,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-menu-item a:hover,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-button a:hover,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-menu-item a:hover,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-button a:hover {
+    background-color: #f7f7f7;
+    background-image: -moz-linear-gradient(top, white 0%, #f7f7f7 100%);
+    background-image: -ms-linear-gradient(top, white 0%, #f7f7f7 100%);
+    background-image: -o-linear-gradient(top, white 0%, #f7f7f7 100%);
+    background-image: -webkit-linear-gradient(top, white 0%, #f7f7f7 100%);
+    background-image: linear-gradient(top, white 0%, #f7f7f7 100%);
+    border-color: #999;
+    color: #000;
+    text-decoration: none;
+}
+
+.content-navigation .ajs-menu-bar li.ajs-button a:active,
+.content-navigation .ajs-menu-bar li.ajs-button a.active,
+.content-navigation .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.view .ajs-menu-bar li.ajs-button a:active,
+.content-navigation.view .ajs-menu-bar li.ajs-button a.active,
+.content-navigation.view .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.view .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-button a:active,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-button a.active,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-button a:active,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-button a.active,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.view-attachments .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.view-attachments .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.view-attachment .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.view-attachment .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.view-information .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.view-information .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active {
+    background-color: #f2f2f2;
+    background-image: none;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, .1);
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.content-navigation.view .ajs-menu-bar li.ajs-button a:active,
+.content-navigation.view .ajs-menu-bar li.ajs-button a.active,
+.content-navigation.view .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.view .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-button a:active,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-button a.active,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-button a:active,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-button a.active,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.view-attachments .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.view-attachments .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.view-attachment .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.view-attachment .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active,
+.content-navigation.view-information .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation.view-information .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active {
+    border-color: #ccc;
+}
+
+.content-navigation.view .ajs-menu-bar li.ajs-button a:active:hover,
+.content-navigation.view .ajs-menu-bar li.ajs-button a.active:hover,
+.content-navigation.view .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active:hover,
+.content-navigation.view .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active:hover,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-button a:active:hover,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-button a.active:hover,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active:hover,
+.content-navigation.pages-collector .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active:hover,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-button a:active:hover,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-button a.active:hover,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active:hover,
+.content-navigation.view-blogposts .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active:hover {
+    border-color: #999;
+}
+
+.content-navigation .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-width: 0;
+}
+
+.aui-dropdown2-trigger span span::after,
+.ajs-menu-bar .ajs-menu-item .trigger span span::after{
+    content: "▾";
+    padding: 0 10px 0 5px;
+}
+
+/* We don't want the arrow on the dropdown. We will end up changing the template to
+ remove the "aui-dropdown2-tailed" class. */
+.aui-dropdown2-tailed {
+    margin-top: 0 !important;
+}
+
+.aui-dropdown2-tailed:before,
+.aui-dropdown2-tailed:after {
+    display: none !important;
+}
+
+/* end temporarily disabling the arrow */
+
+.content-navigation .ajs-menu-item:first-child,
+.content-navigation .ajs-button:first-child {
+    padding-left: 0;
+}
+
+/* Customisations for navigation menu bar */
+.content-navigation .ajs-menu-bar .ajs-button span,
+.content-navigation .ajs-menu-bar .ajs-menu-item .ajs-menu-title span span {
+    padding-left: 23px;
+}
+
+/* font-icons don't require the extra padding */
+.content-navigation .ajs-menu-bar .ajs-menu-item .ajs-menu-title.action span span,
+.content-navigation .ajs-menu-bar .ajs-menu-item .ajs-menu-title.add span span{
+    padding-left: 0;
+}
+
+.content-navigation .ajs-menu-bar li.ajs-menu-item:last-child a {
+    padding-right: 0;
+}
+
+/* Targeting menu-bar items to use the font-icons */
+.ajs-menu-bar > li > a > span::before {
+    font-family: "Atlassian Icons";
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-size: 16px;
+    border: none;
+    line-height: 1;
+    margin-right: 8px;
+}
+
+.ajs-menu-bar .ajs-menu-item.opened .trigger > span,
+.ajs-menu-bar .ajs-menu-item.hover .trigger > span {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAYAAABCxiV9AAAAIklEQVQIW2P8DwQMOAAjSBybAkYQgGlCVgATh0vCTEDWAAD/bRABpaVYKwAAAABJRU5ErkJggg==) no-repeat 100% 50%;
+}
+
+.content-navigation .view > span {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAD1BMVEX///9wcHBwcHBwcHBwcHB/hZMJAAAABHRSTlMAM93u5ppJfgAAACtJREFUCFtjYMAHBKA0owGUIewAFTBxAQEGBiYXKAMuAlHjAtPlgmwOYQAA23cGXbBOvR4AAAAASUVORK5CYII=) no-repeat left center;
+}
+
+.content-navigation .action > span::before {
+    content: "\e001"; /* cog */
+}
+
+.content-navigation .add > span::before {
+    content: "\e002"; /* add/plus sign */
+}
+
+/**
+  * Beginning of CONFDEV-14172
+  * We're keeping the images for Edit/Share/Tools/View buttons, because AUI Font's
+  * Edit button is not ready. As soon as it is ready, we can switch to:
+  * .content-navigation .edit > span::before { content: "U"; /* pencil/edit sign }
+  */
+.content-navigation .ajs-menu-bar > li a:hover span::before,
+.content-navigation .ajs-menu-bar > li a.active span::before
+{
+    /* Remove this override when we use the icon font for all Edit/View/Share/Tools buttons */
+    color: #707070;
+}
+
+.content-navigation .ajs-menu-bar .edit > span {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAKlBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHAms8TnAAAADnRSTlMAESIzRFVmd4iqu8zu/2FpG9oAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAAFHRFWHRDcmVhdGlvbiBUaW1lADYvMS8xMzipRdAAAABCSURBVAiZY2BAATk3BcA02927E8CM3Lt3L0AF7h6ACtxNgApcwyogCxVgiL179xjYkPa9dwzAjE25hyH2nGphwA4AqYgjGc/L2SoAAAAASUVORK5CYII=) no-repeat -2px center;
+}
+/** End of CONFDEV-14172 */
+
+.ajs-menu-bar .ajs-menu-item,
+.ajs-menu-bar .ajs-button {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+/* styles copied from old menu.css */
+.ajs-menu-bar,
+.ajs-menu-bar .ajs-button a,
+.ajs-menu-bar .ajs-button span,
+.ajs-menu-bar .ajs-menu-item .ajs-menu-title,
+.ajs-menu-bar .ajs-drop-down a,
+.ajs-menu-bar .ajs-drop-down a span,
+.ajs-menu-bar .ajs-drop-down a span span {
+    display: block;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.ajs-menu-bar .ajs-menu-item .trigger span {
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.ajs-menu-bar .ajs-button span,
+.ajs-menu-bar .ajs-menu-item .trigger span span {
+    background-position: 0 2px;
+    background-repeat: no-repeat;
+}
+
+.ajs-menu-bar .ajs-drop-down ul,
+.ajs-menu-bar ul.ajs-drop-down {
+    border-top: solid 1px #e1e1e1;
+    margin: 0;
+    padding: 5px 0;
+    position: relative;
+    list-style: none;
+}
+.ajs-menu-bar .ajs-menu-item div.ajs-drop-down a {
+    background-position: .5em 50%;
+    background-repeat: no-repeat;
+    border: none;
+    display: block;
+    line-height: 2;
+    margin: 0;
+    padding: 0 1em 0 28px;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.ajs-content-hover .ajs-menu-bar .ajs-menu-item a,
+.ajs-content-hover .ajs-menu-bar .ajs-button a {
+    line-height: 1.5;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.ajs-menu-bar .ajs-drop-down {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #fff; /* system colour - not derived from colour scheme */
+    border: solid 1px #c1c1c1;
+    font-weight: normal;
+    min-width: 192px;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    white-space: nowrap;
+    z-index: 1000;
+}
+
+/*End PDL menu.css*/
+.ajs-drop-down {
+    clear: both;
+    z-index: 500;
+    zoom: 1;
+}
+
+.ajs-menu-bar .ajs-drop-down li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#navigation .ajs-menu-bar .ajs-drop-down a {
+    display: block;
+    padding: 0.33em 0.67em;
+    cursor: pointer;
+}
+
+#navigation .ajs-menu-bar div.ajs-drop-down a span {
+    padding: 0 0 0 21px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.ajs-menu-bar div.ajs-drop-down a span {
+    cursor: pointer;
+    height: 16px;
+    line-height: 16px;
+    zoom: 1;
+}
+
+#navigation .ajs-menu-bar .section-secondary li a,
+#navigation .ajs-menu-bar .section-modify li a {
+    line-height: 2;
+    padding-left: 0;
+}
+
+#navigation .ajs-menu-bar .section-secondary li a span,
+#navigation .ajs-menu-bar .section-modify li a span {
+    padding-left: 8px;
+}
+
+.ajs-menu-bar .ajs-drop-down a img {
+    clear: left;
+    float: none;
+    margin: .3em 0 .3em -20px;
+    vertical-align: middle;
+}
+
+#navigation .ajs-menu-bar .ajs-button a,
+#navigation .ajs-menu-bar .ajs-button a span {
+    display: inline-block; /* makes the edit button have layout, but doesn't give it enormous width*/
+}
+
+#navigation.content-navigation .ajs-menu-bar li.ajs-menu-item a,
+#navigation.content-navigation .ajs-menu-bar li.ajs-button a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.ajs-menu-bar .ajs-menu-item .aui-dropdown2-trigger span {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAMAAAB1GNVPAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFZmZm////c0tZqAAAAAJ0Uk5T/wDltzBKAAAAF0lEQVR42mJggAJGKMkIYjCCaDAGCDAAAJAADcpaiWkAAAAASUVORK5CYII=) no-repeat 100% 50%;
+    position: relative;
+}
+
+.ajs-menu-bar .ajs-menu-item .action span span {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAG1BMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHCnAVwTAAAACXRSTlMAIjNEVYiZzP+l5CPgAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABR0RVh0Q3JlYXRpb24gVGltZQA2LzEvMTM4qUXQAAAAXElEQVQImWNgYGDwaGaAgIhWBgEglZFY0S7WxsDA2AEGQKEMEA0UYZDoCDbtaGRgMK1oBSpvD2bo6GhiYNDo6EAwXCFSISDFQaogxXDtTAgDoVZALFUAMzxagAQAAYAjp114TfUAAAAASUVORK5CYII=) no-repeat 0% 50%;
+    position: relative;
+}
+
+.ajs-menu-bar .ajs-menu-item .add span span {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAAA3NCSVQICAjb4U/gAAAADFBMVEX///9wcHBwcHBwcHD6E60rAAAABHRSTlMAmar/OLteCwAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENyZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACdJREFUCJljYEAAxgtAgvkDMsH4//8FBub//z+AWA/QZRkYHzCgAQCfhxAEBQcj+QAAAABJRU5ErkJggg==) no-repeat 0% 50%;
+    position: relative;
+}
+
+#navigation .ajs-menu-bar .ajs-button span,
+#navigation .ajs-menu-bar .ajs-menu-item .ajs-menu-title span span {
+    padding-left: 25px; /* width of icon + gap before menu label */
+}
+
+.ajs-menu-bar .ajs-button span,
+.ajs-menu-bar .ajs-menu-item .aui-dropdown2-trigger span span {
+    padding-right: 15px; /* gap after menu label, must be wider than indicator image */
+}
+
+.content-navigation .ajs-menu-bar li.ajs-menu-item a:hover,
+.content-navigation .ajs-menu-bar li.ajs-button a:hover,
+.content-navigation .ajs-menu-bar li.ajs-button a:active,
+.content-navigation .ajs-menu-bar li.ajs-button a.active,
+.content-navigation .ajs-menu-bar li.ajs-menu-item .ajs-menu-title:active,
+.content-navigation .ajs-menu-bar li.ajs-menu-item .ajs-menu-title.active {
+    outline: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+/* PDL master.css */
+/* Generic */
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.smalltext {
+    font-size: 12px;
+    color: #707070;
+}
+
+#title-text a:hover{
+    text-decoration: none;
+}
+
+#title-text {
+    margin: 0;
+}
+
+#main-header,
+#preview-header {
+    margin-bottom: 20px;
+}
+
+#preview-header #title-text {
+    color: #333;
+    margin-top: 10px;
+}
+
+a img {
+    border: 0;
+}
+
+.hidden {
+    display: none;
+}
+/* End generic */
+
+/* Main body */
+
+/* if space-ia is on, we want width to be auto*/
+.ia-splitter .aui-page-panel {
+    width: auto;
+}
+/* end main body */
+
+/* Header */
+#quick-search-submit {
+    display: none;
+}
+
+#quick-search {
+    margin: 0;
+}
+
+.aui-nav-link span + span {
+    margin-left: 5px;
+}
+/* End header */
+
+/* Generic Admin sidebar (or vertical navigation) */
+.aui-nav-vertical li a:link,
+.aui-nav-vertical li a:focus,
+.aui-nav-vertical li a:visited,
+.aui-nav-vertical li a:active  {
+    color: #666;
+}
+
+/* End generic admin sidebar/vertical nav*/
+
+/* Space Admin sidebar */
+.in-page-menu {
+  padding: 10px;
+}
+
+.in-page-menu-content {
+    border-left: 1px solid #CCC;
+    padding: 0 0 20px 10px;
+}
+
+/* End Space Admin sidebar */
+
+/*Global messages above the header*/
+#messageContainer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#messageContainer li {
+    display: block;
+}
+
+#messageContainer .aui-message {
+    margin: 0;
+    border-radius: 0;
+}
+/*End global messages above the header*/
+
+#breadcrumbs li.hidden-crumb {
+    display: none;
+}
+
+/* Metadata stuff just below page title*/
+.page-metadata ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.page-metadata ul li {
+    list-style: none;
+    float: left;
+    padding: 0 5px 0 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.page-metadata ul a.page-tinyurl span {
+    float: left;
+    height: 16px;
+    width: 10px;
+    text-indent: -9999em;
+}
+
+.page-metadata ul a.action-view-attachments span.page-metadata-attachments-count {
+    margin-left: 3px;
+}
+/* End metadata stuff*/
+
+/* Page content */
+#main {
+    margin: 0;
+    padding: 20px;
+    clear: both;
+    min-height: 600px;
+}
+
+#title-heading {
+    margin: 0;
+    padding: 0;
+}
+#title-text a {
+    color: #333;
+}
+
+.navBackgroundBox {
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.simple-confirmation > form > .buttons-container {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+/* aui-page-layout.css makes this clear, which stuffs up
+ the multi-column layout of space admin sidebar */
+
+#content {
+    clear: none !important;
+}
+
+#content::before {
+    display: none !important;
+}
+
+/* end aui-page-layout.css overrides */
+
+/*End page content*/
+
+/* Page footer */
+
+.aui-layout #footer .footer-body > ul > li.print-only {
+    display: none;
+}
+/* End page footer */
+
+#com-atlassian-confluence .hidden {
+    display: none;
+}
+
+/* Progress Page */
+
+/* This doesn't and shouldn't be a table */
+
+#status {
+    margin: 10px 0;
+}
+
+#status table {
+    margin: 10px 0;
+}
+
+#taskProgressBar {
+    background: #ebf2f9;
+    /* This border radius will not
+       work while it's still a table */
+    border-radius: 3px;
+}
+
+#taskGreenBar {
+    background: #3b7fc4;
+}
+
+#status .smalltext {
+    text-align: center;
+    color: #707070;
+}
+
+#content {
+    /* Override aui-page-layout.css */
+    position: static !important;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#bloglist {
+    display: none;
+}
+
+/* Child Pages styling (mainly for the benefit of doctheme) */
+.children-show-hide.icon {
+    display: none;;
+}
+
+.child-display {
+    padding: 2px 2px 2px 12px;
+    display: block;
+}
+
+/*
+ * Page history
+ * This is the css for the warning at the top of the page when viewing the page history
+ */
+#page-history-warning {
+    margin-bottom: 20px;
+}
+
+.page-history-view a:before {
+    display: inline-block;
+    content: "·";
+    padding: 0 10px;
+}
+
+.page-history-view a:before:hover {
+    text-decoration: none;
+}
+
+.page-history-view a:first-child:before {
+    display: none;
+    content: '';
+    padding: 0;
+}
+
+.version-navigation-block {
+    padding-top: 10px;
+}
+
+.current-version-margin {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.current-version-margin:first-child {
+    padding: 0;
+}
+/* End page history */
+
+/* Alternative pages */
+.alternative-page-list {
+    list-style: none;
+    padding-left: 30px;
+    line-height: 20px;
+}
+
+.alternative-page-list .excerpt {
+    margin-left: 20px;
+}
+/* End alternative pages */
+
+/* People directory*/
+.page-section,
+.page-group {
+    display: table;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.page-section .page-group {
+    display: table-row;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.page-item {
+    display: table-cell;
+    margin: 0;
+    min-width: 256px; /* grid minimum */
+    padding: 0 0 0 16px;
+    vertical-align: top;
+}
+
+/*People directory*/
+body.people .dashboard {
+    margin-top: 0;
+}
+body.people .dashboard-group > div {
+    margin-top: 0;
+}
+
+body.people #main {
+    padding: 0;
+}
+
+body.people #main-header {
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+}
+
+.people-directory .dashboard-section {
+    display: table;
+    width: 100%;
+}
+
+body.people .dashboard-group > .aui-page-panel {
+    border-bottom: 0;
+}
+
+body.people .dashboard-group .aui-page-panel .aui-page-panel-nav {
+    height: 523px; /* 600px (#main:min-height) - #main-header:height */
+}
+
+body.people .dashboard-group .aui-navgroup-inner {
+    margin-left: -10px;
+}
+
+body.people .active-tab > a {
+    color: #333;
+    font-weight: bold;
+}
+
+#people-search-title-bar {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#people-search-title-bar h2 {
+    float: left;
+}
+
+body.people #people-search {
+    margin-top: 0;
+    text-align: right;
+}
+
+.people-directory .aui-tabs > .tabs-menu {
+    padding: 0 30px;
+}
+
+.people-directory .greybox {
+    position: relative;
+    margin: 0;
+}
+
+.people-directory .greyboxfilled {
+    width: 100%;
+}
+
+body.people #people-search input {
+    vertical-align: top;
+}
+
+body.people #people-search .field-group {
+    display: inline-block;
+    width: auto;
+    padding: 0 10px 0 0;
+    margin: 0;
+}
+
+body.people .aui-message.error {
+    margin-bottom: 10px;
+}
+
+body.people .greybox #peoplelist .profile-macro {
+    margin: 10px 40px 20px 0;
+}
+
+#people-search .field-group {
+    padding-left: 0;
+}
+
+body.people .blank-experience-people {
+    margin-top: 50px;
+}
+
+.blank-experience-people {
+    min-height: 100px;
+    background: url(../../../images/icons/people-empty-placeholder.png) no-repeat right bottom;
+}
+
+.watches .tableview-action-icon {
+    text-align: right;
+}
+
+/* Blank experience */
+.blank-experience-container {
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    width: 65%;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.blank-experience-container p {
+    color: #707070;
+    line-height: 24px;
+    font-size: 16px;
+    width:70%;
+    margin-top:0;
+    margin-bottom:26px;
+}
+
+.blank-experience-blog {
+    background: url('../../images/icons/blog-empty-placeholder.png') no-repeat right bottom;
+}
+.blank-experience-page {
+    background: url('../../images/icons/pages-empty-placeholder.png') no-repeat right bottom;
+}
+
+/*Blog Role*/
+
+.blog-post-listing {
+    position: relative;
+    padding: 30px 20px 20px 68px;
+    margin-top: -10px;
+}
+
+#link-browser-tab-items + .blog-post-listing {
+    padding-top: 10px;
+}
+
+#link-browser-tab-items + .blog-post-listing .logoBlock {
+    top: 10px;
+}
+
+.blog-post-listing + .blog-post-listing {
+    border-top: 1px solid #ccc;
+    margin-top: 0;
+}
+
+.logoBlock,
+.blogHeading {
+    display: inline-block;
+}
+
+.userLogo {
+    width: 48px;
+    height: 48px;
+    border-radius: 3px;
+}
+
+.userLogoLink {
+    display: inline;
+}
+
+.page-metadata {
+    line-height: 1.25 !important;
+}
+
+.logo-heading-block {
+    margin-bottom: 20px;
+}
+
+
+.logoBlock {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+
+.userLogoLink {
+    line-height: 30px;
+}
+
+#title-heading .userLogoLink {
+    float: left;
+}
+
+.logo-heading-block .userLogo {
+    width: 48px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+span.blogHeading {
+    display: block;
+}
+
+.blogHeading .page-metadata {
+    margin: 0;
+    line-height: 16px !important;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+a.blogHeading {
+    font-size: 24px;
+}
+
+.blog-post-listing > .wiki-content {
+    padding: 0px !important;
+}
+
+
+.blog-post-listing .endsection {
+    clear:both;
+    margin-top: 20px;
+}
+/* End blog role*/
+
+/* Blank experience */
+.blank-experience-container {
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    width: 65%;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.blank-experience-container p {
+    color: #707070;
+    line-height: 24px;
+    font-size: 16px;
+    width:70%;
+    margin-top:0;
+    margin-bottom:26px;
+}
+
+.blank-experience-blog {
+    background: url('../../images/icons/blog-empty-placeholder.png') no-repeat right bottom;
+}
+
+/* alphabet list */
+#squaretab {
+    margin-left: 0;
+    padding-left: 0;
+    white-space: nowrap;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#squaretab li {
+    display: inline;
+    list-style-type: none;
+}
+
+#squaretab a {
+    padding: 5px 7px 3px 7px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#squaretab a:link,
+#squaretab a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#squaretab a:hover {
+    text-decoration: none;
+}
+
+.admin-sidebar-group ~ .admin-sidebar-group {
+	margin-top: 20px;
+}
+
+/* CONFDEV-13482: Override .aui-page-panel */
+#main.aui-page-panel {
+	border-top: 0;
+}
+
+.recently-updated-concise .update-item .update-item-desc,
+.recently-updated-concise .update-item .update-item-changes{
+    font-size: 12px;
+    margin-left: 5px;
+    line-height: 20px;
+}
+
+/*  CONFDEV-12305: Required due to UPM-3249, but also custom color scheme (colors-css.vm).
+    The .wiki-content a:link would end up with the same specifity as .aui-message.error a,
+    thus being dependant on the order, which is too fragile. As long as we don't support
+    a secondary link colour, the link colour in error messages should not be customisable,
+    since the background is red. */
+.aui-message.error p,
+.aui-message.error a {
+    color: #fff !important;
+}
+
+/* consistent placeholder text color */
+::-webkit-input-placeholder {
+   color: #999;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #999; 
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #999; 
+}
+:-ms-input-placeholder { 
+   color: #999; 
+}
+
+/* End PDL master.css */
+
+.icon, .icon-container {
+    font-size: 14px;
+}
+
+/* placeholder component styles */
+form.aui textarea.placeholded,
+form.aui input.placeholded {
+    color: #999;
+}
+
+
+html body { /* HACK: Temporary fix for CONF-15412 */
+    overflow: visible;
+}
+/* IE7 fix for CONFDEV-1056 */
+body.dashboard {
+    *min-width: 1000px;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+#breadcrumbs {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#breadcrumbs li {
+    white-space: nowrap;
+}
+* html #breadcrumbs li {
+    background-image: url(../../../images/decoration/white_breadcrumbs_indicator.gif); /* IE6 */
+}
+* html .page-metadata {
+    height: 1.2em; /* IE6 */
+}
+#breadcrumbs li {
+    background-position: 3px 12px;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+.tab-navigation .tab {
+    float: left;
+    display: inline;
+    font-weight: bold;
+    margin: 0 5px 0 0;
+    position: relative;
+}
+.tab-navigation .tab a {
+    display: inline-block; /* anchors were making tabs very wide in Clickr theme in IE */
+}
+a.icon {
+    height: 16px;
+}
+#tree-div {
+    min-height: 300px;
+    height: auto !important;
+    height: 300px;
+}
+h1 #content-title {
+    margin: 0;
+    display: block;
+    width: 90%; /* 93% and upwards breaks at least one of the IEs */
+}
+
+h1 span.title-text {
+    height: 1%;
+}
+
+h1.pagetitle {
+    width: auto;
+}
+
+h1.pagetitle img.logo {
+    *margin-bottom: 0;
+}
+
+* html h1.pagetitle img.custom {
+   /* sets max-height for IE - roughly equivalent to what real browsers do with 2.5em max-height */
+   height: expression( this.scrollHeight > 59 ? "60px" : "auto" );
+}
+
+#tab-navigation,
+.tab-navigation {
+    zoom: 1;
+}
+.has-sidebar #content .code {
+    _clear: both; 
+    _overflow: auto; 
+}
+.menu-section-list li a:visited,
+.menu-section-list li a:hover {
+    color: #666;
+}
+.menu-section-list li.active a:visited {
+    color: #fff;
+}
+
+/* Don't remove or dropdowns may break in IE6. CONF-17932 */
+* html #header-menu-bar .hidden {
+    width: 12em;
+}
+
+* .bloglistitems{
+    list-style-type: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+    margin-left: 0;
+}
+
+* .blogmonthnavigation{
+    border:1px solid #CCCCCC;
+    position:relative;
+    text-decoration:none;
+    display: inline-block;
+    width: 10em;
+    font-size: 0.85em;
+    text-align:center;
+    margin: 0 -0.5em 1em 1em;
+    padding: 0.2em 0.4em;
+}
+
+#page-diffs .diff {
+    *margin-right: 1em;
+}
+
+/* Dashboard in divs - IE6, 7. Reduce size by 1% to avoid dropped columns. */
+div.dashboard .dashboard-group {
+    *display: block;
+    *float: left;
+}
+div.dashboard .dashboard-group.left {
+    *width: 34%;
+}
+div.dashboard .dashboard-group.right {
+    *width: 64%;
+}
+
+/* @end Dashboard in divs */
+
+
+
+/*
+    Colors for Confluence (included for all themes by default).
+*/
+h1, h2, h3, h4,
+.wiki-content h1,
+.wiki-content h2,
+.wiki-content h3,
+.wiki-content h4,
+.pagetitle,
+.steptitle,
+.substeptitle,
+.formtitle,
+table.confluenceTable td.confluenceTd.highlight,
+table.confluenceTable td.confluenceTd.highlight > p,
+table.confluenceTable th.confluenceTh,
+table.confluenceTable th.confluenceTh > p,
+.wiki-content .tablesorter-header-inner,
+table.admin th,
+.form-element-large,
+.form-element-small,
+#toolbar #format-dropdown .format-h1 a,
+#toolbar #format-dropdown .format-h2 a,
+#toolbar #format-dropdown .format-h3 a,
+#toolbar #format-dropdown .format-h4 a {
+    color: #333333;
+}
+
+h5, h6,
+.wiki-content h5,
+.wiki-content h6,
+#toolbar #format-dropdown .format-h5 a,
+#toolbar #format-dropdown .format-h6 a {
+    color: #707070;
+}
+
+#format-dropdown .mce_formatPreview.mce_blockquote a {
+    border-left-color: #cccccc;
+}
+
+.wiki-content h1,
+.wiki-content h2 {
+ 	border-bottom-color: #cccccc;
+}
+
+.wiki-content-preview {
+    border-left-color: #cccccc;
+    border-right-color: #cccccc;
+}
+
+.pageSectionHeader {
+    border-bottom-color: #3b73af;
+}
+
+.panel {
+    border-color: #cccccc;
+}
+
+.panelHeader,
+.menuheading,
+.pageheader,
+.sectionbottom {
+    border-bottom-color: #cccccc;
+}
+
+.topRow {
+    border-top-color: #cccccc;
+}
+
+.tabletitle, .pageSectionHeader {
+	border-bottom-color: #cccccc;
+}
+
+blockquote {
+    border-left-color: #cccccc;
+}
+
+a,
+a:visited,
+a:focus,
+a:hover,
+a:active,
+a.blogHeading {
+    color: #3b73af;
+}
+
+.aui-nav-vertical li a:link,
+.aui-nav-vertical li a:focus,
+.aui-nav-vertical li a:visited,
+.aui-nav-vertical li a:active {
+    color: #3b73af;
+}
+
+.aui-navgroup-vertical .aui-nav>li>a {
+color: #3b73af;
+}
+
+.wiki-content a,
+.wiki-content a:link,
+.wiki-content a:visited,
+.wiki-content a:focus,
+.wiki-content a:hover,
+.wiki-content a:active {
+    color: #3b73af;
+}
+
+/* Applied to blog sidebar navigation due to CONFDEV-13039
+    Consider proper theming if reused */
+.navigation-pseudo-link {
+    color: #3b73af;
+}
+
+a.visitable:visited {
+    color: #333;
+}
+
+.createlink,
+a.createlink,
+a.createlink:link,
+a.createlink:visited,
+a.createlink:active,
+a.createlink:hover {
+    text-decoration: underline;
+    color: #6D1806;
+}
+
+.unresolved,
+a.unresolved,
+a.unresolved:link,
+a.unresolved:visited,
+a.unresolved:active,
+a.unresolved:hover {
+    text-decoration: underline;
+    color: #828282;
+}
+
+.not-permitted,
+a.not-permitted,
+a.not-permitted:link,
+a.not-permitted:visited,
+a.not-permitted:hover,
+a.not-permitted:active {
+    color: #cc0000;
+}
+
+.grey,
+a.grey,
+a.grey:link,
+a.grey:visited,
+a.grey:hover,
+a.grey:active {
+    color: #666;
+}
+
+#tinymce.wiki-content a,
+#tinymce.wiki-content a:link,
+#tinymce.wiki-content a:visited,
+#tinymce.wiki-content a:focus,
+#tinymce.wiki-content a:hover,
+#tinymce.wiki-content a:active {
+	color: #3b73af !important;
+}
+
+#tinymce.wiki-content a.createlink {
+    color: #6D1806  !important; /* !important used to negate styles used in designMode in FF */
+}
+
+#tinymce.wiki-content a.unresolved {
+    color: #828282 !important; /* !important used to negate styles used in designMode in FF */
+}
+
+#tinymce.wiki-content a.not-permitted {
+    color: #cc0000 !important; /* !important used to negate styles used in designMode in FF */
+}
+
+h1 a:link,
+h1 a:visited,
+h1 a:focus,
+h1 a:hover,
+h1 a:active {
+    color: #3b73af;
+    border-bottom-color: #333333;
+}
+
+.spacenametitle-printable,
+.spacenametitle-printable a,
+.spacenametitle-printable a:visited {
+    color: #999999;
+}
+
+.tableview th {
+    color: #333333;
+    border-bottom-color: #cccccc;
+}
+
+.navBackgroundBox {
+    background: #3b73af;
+    color: #ffffff;
+}
+
+.previewBoxTop,
+.previewContent,
+.previewBoxBottom,
+.functionbox {
+    border-color: #cccccc;
+}
+
+.smalltext-blue {
+    color: #cccccc;
+}
+
+.tabnav,
+.comment .tabnav,
+ul.tabnav {
+    border-bottom-color: #3b73af;
+}
+
+.tabnav .tabs a {
+    border-color: #3b73af;
+    background: #3b73af;
+}
+
+.tabnav .tabs a:link,
+.tabnav .tabs a:visited {
+    color: #ffffff;
+}
+.tabnav .tabs a:hover {
+    color: #ffffff;
+    background: #205081;
+    border-color: #205081;
+}
+
+#squaretab a {
+    border-color: #3b73af;
+}
+
+#squaretab a:link,
+#squaretab a:visited {
+    background-color: #3b73af;
+}
+
+#squaretab a:hover {
+    color: #ffffff;
+    background-color: #205081;
+    border-color: #205081;
+}
+
+table.blogcalendar {
+    border-color: #cccccc;
+}
+
+.blogcalendar th.calendarhead,
+a.calendarhead,
+a.calendarhead:link,
+a.calendarhead:visited,
+a.calendarhead:hover {
+    background-color: #3b73af;
+    color: #ffffff;
+}
+
+.searchGroupHeading {
+    background-color: #3b73af;
+    color: #ffffff;
+}
+
+.comment-header .author .author-lozenge {
+    background-color: #3b73af;
+    color: #ffffff;
+}
+
+/* styles for links in the top bar */
+.topBar {
+    background-color: #205081;
+}
+
+.basicPanelContainer {
+    border-color: #3b73af;
+}
+
+.greynavbar {
+    border-top-color: #3b73af
+}
+
+div.license-personal {
+   background-color: #205081;
+   color: #ffffff;
+}
+
+div.license-personal a {
+   color: #ffffff;
+}
+
+#header {
+    background-color: #205081;
+}
+
+#header a,
+#breadcrumbs {
+    color: #ffffff;
+}
+
+.breadcrumbs {
+ 	border-color: #cccccc;
+}
+
+.tab-navigation .tab a {
+    background-color: #3b73af;
+    border: 1px solid #3b73af;
+    color: #ffffff;
+}
+.tab-navigation .tab a:hover {
+    color: #ffffff;
+    background-color: #205081;
+    border-bottom-color: #205081;
+}
+
+.tabletitle, .heading-text-color {
+    color: #333333;
+}
+
+ol.autocompleter li.focused {
+	background: #3b73af;
+	color: #ffffff;
+}
+
+/* End colour styles for Confluence */
+
+.diff-navigation a.version-navigation {
+    background-color: #ddd;
+}
+
+.diff-navigation a.version-navigation:hover {
+    background-color: #bbb;
+}
+
+.diff-navigation a.version-navigation.all:hover {
+    background-color: transparent;
+}
+
+/* @group Admin tasklist colours */
+
+.tasklist .task.complete .signoff { color: #008004; }
+.tasklist .task.incomplete .signoff { color: #cc0000; }
+
+/* @end Admin tasklist colours */
+
+/* @group Page move dialog colours */
+
+#move-page-dialog .ui-tree li a.highlighted {
+    background-color: #3b73af;
+    color: #ffffff;
+}
+
+/* @end Page move dialog colours */
+
+
+/* @group aui overrides */
+
+/* We may be able to remove this override based on the outcome of AUI-1360 */
+.aui-theme-default a {
+    color: #3b73af;
+}
+aui-button, a.aui-button, .aui-button:visited {
+    color: #333; /* duplicate this rule from AUI so that it overrides the rule above with the same specificity */
+}
+
+/* Override so that buttons styled like links will use the 'link' colour from the colour scheme. */
+.aui-toolbar .aui-buttons .toolbar-item-link:hover button.toolbar-trigger,
+.aui-toolbar .aui-buttons .toolbar-item-link button.toolbar-trigger,
+.aui-navgroup-horizontal .aui-nav > li a,
+.aui-dialog .dialog-page-menu li.page-menu-item button.item-button,
+body.spaces .aui-tabs > .tabs-menu .menu-item a,
+body.spaces .aui-tabs > .tabs-menu .menu-item a:link,
+body.spaces .aui-tabs > .tabs-menu .menu-item a:visited {
+    color: #3b73af;
+}
+
+.aui-nav-vertical li.active a,
+.aui-nav-vertical li.active a:hover {
+    color: #ffffff;
+    background-color: #3b73af;
+}
+
+#com-atlassian-confluence .aui-dd-parent .aui-dropdown .dropdown-item a,
+.aui-dropdown2 .aui-dropdown2-section li a {
+    color: #333333;
+}
+
+.aui-dialog .dialog-button-panel a.button-panel-link {
+    color: #3b73af;
+}
+
+.aui-button.aui-button-link {
+    color: #3b73af;
+}
+
+.aui-dropdown2-in-header.aui-style-default a,
+.aui-dropdown2-in-header.aui-style-default a:visited,
+.aui-dropdown2-in-header.aui-style-default a:link {
+    color: #333333;
+}
+
+.aui-dropdown2.aui-style-default a:focus,
+.aui-dropdown2.aui-style-default a:hover,
+.aui-dropdown2.aui-style-default a.active
+{
+    color: #ffffff;
+    background-color: #3b73af;
+}
+
+#com-atlassian-confluence .aui-dd-parent a.perms-dropdown-trigger:hover,
+#com-atlassian-confluence .aui-dd-parent a.perms-dropdown-trigger:focus,
+#com-atlassian-confluence .aui-dd-parent .aui-dropdown .dropdown-item.active a,
+.ajs-menu-bar .ajs-menu-item li.active a,
+.aui-dd-parent .aui-dropdown li.active,
+.aui-dd-parent .aui-dropdown li.active span,
+.aui-dd-parent .aui-dropdown a:focus span,
+.ajs-menu-bar .ajs-menu-item.opened .ajs-drop-down li.active a,
+.ajs-content-hover .popup-follow a:hover {
+    color: #ffffff;
+    background-color: #3b73af;
+}
+
+.ajs-menu-bar .ajs-menu-item.opened a.trigger {
+    background-color: #3b73af;
+}
+
+/*************** NEW HEADER COLORS ***************/
+#header .aui-header {
+    background-color: #205081;
+    color: #ffffff;
+}
+
+.aui-header .aui-dropdown2-trigger:hover,
+.aui-header .aui-dropdown2-trigger.active,
+#header .aui-header .aui-nav-link.active,
+#header .aui-header .aui-nav-imagelink.active,
+#header .aui-header .aui-nav-imagelink:focus,
+#header .aui-header .aui-nav-imagelink:hover,
+#header .aui-header a:focus,
+#header .aui-header a:hover,
+#header .aui-header a:active {
+    background-color: #3b73af;
+    border-color: #3b73af;
+    color: #ffffff;
+}
+
+.aui-header .aui-dropdown2-trigger.active::after,
+.aui-header .aui-dropdown2-trigger:hover::after {
+    border-top-color: #ffffff;
+}
+
+.aui-header .aui-dropdown2-trigger::after {
+    border-top-color: #ffffff;
+}
+
+.aui-header .aui-dropdown2-trigger,
+#header .aui-header .aui-nav-link ,
+#header .aui-header .aui-nav-imagelink,
+#header .aui-header a {
+    color: #ffffff;
+}
+
+#header .aui-header .aui-dropdown2 {
+    border-color: #205081;
+}
+#header .aui-header .aui-dropdown2 li.separator {
+    border-top-color: #205081;
+}
+
+#header .aui-header .aui-dd-parent .aui-dropdown a:focus,
+#header .aui-header .aui-dd-parent .aui-dropdown a:hover,
+#header .aui-header .aui-dd-parent .aui-dropdown a:active,
+#header .aui-header .aui-dd-parent .aui-dropdown li.active a {
+    color: #ffffff;
+    background-color: #3b73af;
+}
+
+#header .aui-header li.aui-nav a.aui-nav-link a{
+    color: #333333;
+}
+
+#app-switcher .nav-links .active  .nav-link-label,
+#app-switcher .nav-links .active  .nav-link-description,
+#app-switcher.aui-dropdown2.aui-style-default .active,
+.aui-dropdown2-trigger.app-switcher-trigger:hover,
+.aui-dropdown2.aui-style-default .active {
+    background-color: #3b73af;
+    color: #ffffff;
+}
+
+#app-switcher .nav-links .nav-link-label {
+    color: #333333;
+}
+
+
+#header .aui-header .aui-nav .aui-button-primary {
+    color: #ffffff;
+    background-color: #3b7fc4;
+}
+
+#header .aui-header .aui-button.aui-button-primary.aui-style {
+    background-image: -moz-linear-gradient(top, #3b7fc4, $buttonBottomBGColour);
+    background-image: -ms-linear-gradient(top,  #3b7fc4, $buttonBottomBGColour);
+    background-image: -webkit-linear-gradient(top,  #3b7fc4, $buttonBottomBGColour);
+    background-image: -o-linear-gradient(top,  #3b7fc4, $buttonBottomBGColour);
+    background-image: linear-gradient(top,  #3b7fc4, $buttonBottomBGColour);
+    text-shadow: 0 1px 0 $buttonTextShadowColour;
+}
+
+#header .aui-header .aui-nav .aui-button-primary:hover, #header .aui-header .aui-nav .aui-button-primary:focus,
+#header .aui-header .aui-nav a:hover .aui-button-primary, #header .aui-header .aui-nav a:hover .aui-button-primary {
+    background-color: $buttonHoverTopBGColour;
+    color: #ffffff;
+}
+
+#header .aui-header .aui-button.aui-button-primary.aui-style:hover, .aui-header .aui-button.aui-button-primary.aui-style:focus {
+    background-image: -moz-linear-gradient(top, $buttonHoverTopBGColour, $buttonHoverBottomBGColour);
+    background-image: -ms-linear-gradient(top, $buttonHoverTopBGColour, $buttonHoverBottomBGColour);
+    background-image: -webkit-linear-gradient(top, $buttonHoverTopBGColour, $buttonHoverBottomBGColour);
+    background-image: -o-linear-gradient(top, $buttonHoverTopBGColour, $buttonHoverBottomBGColour);
+    background-image: linear-gradient(top, $buttonHoverTopBGColour, $buttonHoverBottomBGColour);
+}
+
+#header .aui-header .aui-button.aui-button-primary.aui-style:active {
+    background-color: $buttonActiveBGColour;
+    background-image: none;
+}
+
+/* @end */
+
+/* @group labels */
+
+.aui-label {
+    background-color: #F2F2F2;
+}
+
+.tag-cloud .aui-label a:link,
+.tag-cloud .aui-label a:visited {
+    color: #3b73af;
+}
+
+/* @end */
+
+
+
+/* @group Diff colours */
+
+.diff-tag-added {
+    background-color: #93c49f;
+}
+
+.diff-tag-removed {
+    background-color: #df9898;
+}
+
+.diff-html-added {
+    background-color: #ddfade;
+    border-color: #93c49f;
+}
+
+.diff-html-removed {
+    background-color: #ffe7e7;
+    border-color: #df9898;
+}
+
+.diff-html-changed {
+    background-color: #d6f0ff;
+    border-color: #9eb6d4;
+}
+
+.diff-html-added img {
+    border-color: #93c49f;
+}
+
+.diff-html-removed img {
+    border-color: #df9898;
+}
+
+.diff-html-changed img {
+    border-color: #9eb6d4;
+}
+
+.diff-image-overlay,
+.wiki-content .diff-image-overlay {
+    color: #535353;
+}
+
+.diff-image-overlay.diff-removed-image {
+    background-color: #ffe7e7;
+}
+
+.diff-image-overlay.diff-added-image {
+    background-color: #ddfade;
+}
+
+.diff-image-overlay.diff-changed-image {
+    background-color: #d6f0ff;
+}
+
+.diff-macro {
+    border-color: #ddd;
+    background-color: #f0f0f0;
+}
+
+.diff-macro .diff-macro-title {
+    background-color: transparent;
+}
+
+.diff-macro .diff-macro-properties {
+    border-color: #ddd;
+}
+
+.diff-macro .diff-macro-properties,
+.diff-macro .diff-macro-properties th,
+.diff-macro .diff-macro-properties td {
+    background-color: #fafafa;
+    background: rgba(255,255,255,0.5);
+}
+
+.diff-macro .diff-macro-body {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.diff-macro.diff-html-added,
+.diff-macro.diff-html-added .diff-macro-body {
+    background-color: #ddfade;
+    border-color: #93c49f;
+}
+
+.diff-macro.diff-html-removed,
+.diff-macro.diff-html-removed .diff-macro-body {
+    background-color: #ffe7e7;
+    border-color: #df9898;
+}
+
+.diff-macro.diff-html-changed,
+.diff-macro.diff-html-changed .diff-macro-body {
+    background-color: #d6f0ff;
+    border-color: #9eb6d4;
+}
+
+.diff-macro.diff-html-added .diff-macro-body,
+.diff-macro.diff-html-removed .diff-macro-body,
+.diff-macro.diff-html-changed .diff-macro-body {
+    background-color: #fff;
+}
+
+/* @end Diff colours */
+
+/* PDL default-theme.css */
+#breadcrumbs {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+#breadcrumbs li {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+}
+
+#breadcrumbs li:before {
+    content: "/";
+    display: inline-block;
+    padding: 0 2px 0 6px;
+}
+
+#breadcrumbs li:first-child:before {
+    display: none;
+}
+
+#ellipsis {
+    cursor: pointer;
+}
+
+.page-metadata {
+    margin: -15px 0 20px;
+}
+
+.page-metadata ul {
+    padding: 0;
+    list-style-type: none;
+    line-height: 16px;
+}
+
+.page-metadata,
+.page-metadata ul li a:link,
+.page-metadata ul li a:focus,
+.page-metadata ul li a:hover,
+.page-metadata ul li a:active,
+.page-metadata ul li a:visited{
+    font-size: 12px;
+    color: #707070;
+    line-height: 1.5;
+}
+
+.page-metadata .modified{
+    margin-left:5px;
+}
+
+.has-sidebar #content.edit form.markup,
+.has-sidebar .wiki-content,
+.has-sidebar.active-wikimarkup .errorBox{
+    margin-right: 17em;
+}
+
+.has-sidebar #content.space {
+    margin-right: 18em;
+}
+#sidebar,
+.sidebar {
+    clear: right;
+    float: right;
+    width: 16em;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.content-preview #main {
+    min-height: 0;
+}
+
+body.popup-window,
+body.content-preview,
+.content-preview.aui-theme-default {
+    background-color: #fff; /* override aui-theme-default background */
+}
+
+.content-preview.aui-theme-default #main.aui-page-panel {
+    border: 0;
+}
+
+#title-heading.with-breadcrumbs img {
+    margin-right:  10px;
+    float: left;
+}
+
+.edit-link {
+    float: right;
+}
+/* End PDL default-theme.css */
+
+
+.recently-updated .waiting-image {
+    vertical-align: text-bottom;
+    display: none;
+}
+
+.loading .waiting-image {
+    display: inline;
+}
+
+.recently-updated ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* Override h2 top margin for non-pdl (pdl already has no margin)*/
+.recently-updated > h2 {
+    margin-top: 0;
+}
+
+/* This class is assigned to the container of Confluence's .icon
+ * This is better than floating .icon, since floating a DIV containing the .icon allows us to preserve any line-height
+ * on the icon, making it easier to line up with text near it
+ */
+.update-item-icon {
+    float: left;
+}
+
+.update-item-details {
+    padding-left: 21px; /* 16px icon + 5px padding */
+    margin-right: 10px;
+}
+
+.recently-updated .results-container {
+    margin-top: 10px;
+}
+
+.more-link-container {
+    margin-top: 10px;
+    padding-top: 7px;
+    border-top: 1px solid #ccc;
+}
+
+.recently-updated.macro-blank-experience {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALsAAAD4CAMAAACDgmeaAAAAGFBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHDJYMTAAAAACHRSTlMAESIzRFVmd1lsqD8AAAS2SURBVHja7d3hbtwgEARgBlj8/m/cNO3dVIpSnwEzNy37s1Ljr5P11saWSQsLQP5LAUhvWESfF2DJZgFqdp9b30N0j/kd3ayVfMKd+IT78UG5mZ5wIz7lbnrKHfWg3E2PvLwgl5catfTqxZnXdrQqyJ7yAftxHJH7S9nnJSKKwE76CL6ULLAj68uYnv3kLAFdac/Z1Y5sa0e2ted3Kr/QWXPo5aPWmR/HmpN6ba0ukz8PNqdh2nG0a6t1wHPdD7hmb4+rzzm9Hq3F6BIjcJf97PdYyyl71q1vfRxsyWyke5b/gn2Zm/5Z9sVw8sftspUIDNsVcIY/ZJcvXfXbdXLqO+1SOfU9drzzEvk8OuWr9LPolK/TO9AJet2ulZ/rp9EFD28ndQwUj5596JSd2uXyc70fnfiBjiFdhB+mJ1F9e+h3Dp35fvPHCvpl/Fy6vozp2HRFGdPhS0/GdPjS09wVWE3s43SUiKX2iR1TI6JIYh9v9hwfhXX2bro+eLzyHCm9WmDwitjjOKJ0xM7gqyB2PjctPXQGn1XdHq1F6b/FK8uCx/l7AldDjFWna/eM0c9JTF4U4Jw0iF03J9FN189JdHeMfk7eEDvnpGHsnJMGsWvmZHfs+jmJm2LnnDSIXTAnu2PXz0ncFjvnpFfsrDuD745dPydxZ+yck4Z2Bu/XMpyTBrGvnJPojl0/J9Edu35OXm6ZNzpdF7QM56RfyzB4PzvnpGHLcE762TknDVuGc9LAvuJ0xbKW4ZzUt7s++HUtwzmpt+vn5LqW4Zw0PFU5J/3sPF3Vdv2cxNJTlXPS71TlnDS0c0762TknTe3gyWpnTxnPIYE59i77+HiDjZ104m3spBNvYyedeB/7rMMIXp7FrON8fVPpdvu03+/XD5r8iU9G9jiOVjML236T/eRFVAs7a9svzsj9f9PNdtRiek2AGhGwvBYr8bOK4TVwjl902N175Poprw+qzz0ffsv5A12WsFHi0eksjzW9wkZnWayl5mCjC+yCRhfbKY9RuWDQsNEldggaXW7PbHSVPQsaXXuy8qpLakf3gxk2ulnDZza6T8Oztn1Bw4vsu2lE9t002z69aTzt/k2Dbd9Nc2K3apodvMhuHDx28CK7cfDYwe/gL1c2xmfjrsEOXlNwxmfjrsHJpro2wXNTXQ88XtlU1yT4Ei2qS8vjlU11YTlqiN+fNt6flL4YfH7T4DdeU3gZvz+8vzc8IN64bbIxHhb4PIqHMN++rtHj4b73lCUeXXut6fXMNfnh8a/tLXiO1+vRsQ+oyV6aLMc9TIl/Jz2M9+z9D/ZKZsFvj2oW/PYGZ8FyT3b+ZRkfozc+yCI9Zmw9lnsLg/Ae+zie/Nlw2m/Ek49L7nkrc8Tf7wfdU+zEjxeAcTbtM/ClRrn8j8An+DqZ391IM/C1HVHzoirxeOg7uNbHr6ess7fjaLSPRl+jRVmXe2PuQ3huybaqeLTUjddXulzO9gRfO/F6u68+GeJp99UnY3waKMjttnokDZ6vMA7RJXq+wjgi1+j5CmO/XKovEbX0ytX6UkqvXK9Xy6mHo5z8RXCv8HEi14cvhJNvCScfnnD6Pd30W7pZAPqXivV1tuqL6+gfhgR/YaTH2YEAAAAASUVORK5CYII=)
+        right no-repeat;
+}
