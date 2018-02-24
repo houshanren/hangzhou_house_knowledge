@@ -1,36 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>杭州房产</title>
+       杭州房产知识扫盲
         <link rel="stylesheet" href="styles/site.css" type="text/css" />
         <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
 
-    <body class="theme-default aui-theme-default">
-        <div id="page">
-            <div id="main" class="aui-page-panel">
-                <div id="main-header">
-                    <div id="breadcrumb-section">
+   
 
-
-                    </div>
-                                     
-
-                </div>
-
-                <div id="content" class="view">
-                    <div class="page-metadata">
-
-           
-                        </div>
-                    <div id="main-content" class="wiki-content group">
-
-## <style type='text/css'>/*<![CDATA[*/
-div.rbtoc1515900824813 {padding: 0px;}
-div.rbtoc1515900824813 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1515900824813 li {margin-left: 0px;padding-left: 0px;}
-
-/*]]>*/</style><div class='toc-macro rbtoc1515900824813'>
+<div class='toc-macro rbtoc1515900824813'>
 
 *   [一：认识杭州从板块说起](#id-杭州房产-一：认识杭州从板块说起)
 
