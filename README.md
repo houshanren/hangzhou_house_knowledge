@@ -5,34 +5,34 @@
 
 *   [一：认识杭州从板块说起](#id-杭州房产-一：认识杭州从板块说起)
 
-    *   [1.房产板块划分图](#id-杭州房产-1.房产板块划分图)
-    *   [2.杭州行政区域主城区](#id-杭州房产-2.杭州行政区域主城区)
-    *   [3.杭州其他区域行政划分](#id-杭州房产-3.杭州其他区域行政划分)
-    *   [4.19大后杭州的重点建设区域划分和定位](#id-杭州房产-4.19大后杭州的重点建设区域划分和定位)
-    *   [5.两个主中心](#id-杭州房产-5.两个主中心)
+    *   [1.房产板块划分图](#房产板块划分图)
+    *   [2.杭州行政区域主城区](#杭州行政区域主城区)
+    *   [3.杭州其他区域行政划分](#杭州其他区域行政划分)
+    *   [4.19大后杭州的重点建设区域划分和定位](#19大后杭州的重点建设区域划分和定位)
+    *   [5.两个主中心](#两个主中心)
     *   [6.七大城市副中心](#七大城市副中心)
     *   [7.2017年杭州各板块地王及楼面价地图](#2017年杭州各板块地王及楼面价地图)
     *   [8.2017年杭州各板块房价地图](#2017年杭州各板块房价地图)
     *   [9.2017年杭州热门板块和最高地价参考图](#2017年杭州热门板块和最高地价参考图)
-    *   [10.2018年各板块楼市供应库存](#2017年杭州热门板块和最高地价参考图)
+    *   [10.2018年各板块楼市供应库存](#2018年各板块楼市供应库存)
 
     
-*   [二：关于房子要知道的一些概念](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%BA%8C%EF%BC%9A%E5%85%B3%E4%BA%8E%E6%88%BF%E5%AD%90%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5)
+*   [二：关于房子要知道的一些概念](#关于房子要知道的一些概念)
 
-	*   [1.用地性质 ](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E7%94%A8%E5%9C%B0%E6%80%A7%E8%B4%A8)
-	*   [2.容积率](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E5%AE%B9%E7%A7%AF%E7%8E%87)
-	*   [3.买房时定金 订金 诚意金 认筹金 区别](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-3.%E4%B9%B0%E6%88%BF%E6%97%B6%E5%AE%9A%E9%87%91%E8%AE%A2%E9%87%91%E8%AF%9A%E6%84%8F%E9%87%91%E8%AE%A4%E7%AD%B9%E9%87%91%E5%8C%BA%E5%88%AB)
-	*   [4. 绿化率多少合适 住宅小区绿化率标准](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-4.%E7%BB%BF%E5%8C%96%E7%8E%87%E5%A4%9A%E5%B0%91%E5%90%88%E9%80%82%E4%BD%8F%E5%AE%85%E5%B0%8F%E5%8C%BA%E7%BB%BF%E5%8C%96%E7%8E%87%E6%A0%87%E5%87%86)
-	*   [5.楼层净高](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E6%A5%BC%E5%B1%82%E5%87%80%E9%AB%98)
-	*   [6.为什么每层住宅楼层默认高是在 3 米左右？](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%8F%E5%B1%82%E4%BD%8F%E5%AE%85%E6%A5%BC%E5%B1%82%E9%BB%98%E8%AE%A4%E9%AB%98%E6%98%AF%E5%9C%A83%E7%B1%B3%E5%B7%A6%E5%8F%B3%EF%BC%9F)
-	*   [7.杭州2017年的现房销售政策](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-7.%E6%9D%AD%E5%B7%9E2017%E5%B9%B4%E7%9A%84%E7%8E%B0%E6%88%BF%E9%94%80%E5%94%AE%E6%94%BF%E7%AD%96)
-	*   [8.3分钟！搞定杭州人才居住证！ ](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-8.3%E5%88%86%E9%92%9F%EF%BC%81%E6%90%9E%E5%AE%9A%E6%9D%AD%E5%B7%9E%E4%BA%BA%E6%89%8D%E5%B1%85%E4%BD%8F%E8%AF%81%EF%BC%81)
-	*   [9.买房选择东边套 西边套 还是中间套？](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-9.%E4%B9%B0%E6%88%BF%E9%80%89%E6%8B%A9%E4%B8%9C%E8%BE%B9%E5%A5%97%E8%A5%BF%E8%BE%B9%E5%A5%97%E8%BF%98%E6%98%AF%E4%B8%AD%E9%97%B4%E5%A5%97%EF%BC%9F)
-	*   [10.公摊面积](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-10.%E5%85%AC%E6%91%8A%E9%9D%A2%E7%A7%AF)
+	*   [1.用地性质](#用地性质)
+	*   [2.容积率](#容积率)
+	*   [3.买房时定金 订金 诚意金 认筹金 区别](#买房时定金订金诚意金认筹金区别)
+	*   [4.绿化率多少合适 住宅小区绿化率标准](#绿化率多少合适住宅小区绿化率标准)
+	*   [5.楼层净高](#楼层净高)
+	*   [6.为什么每层住宅楼层默认高是在 3 米左右？](#为什么每层住宅楼层默认高是在3米左右？)
+	*   [7.杭州2017年的现房销售政策](#杭州2017年的现房销售政策)
+	*   [8.3分钟！搞定杭州人才居住证！ ](#3分钟！搞定杭州人才居住证)
+	*   [9.买房选择东边套 西边套 还是中间套？](#买房选择东边套西边套还是中间套？)
+	*   [10.公摊面积](#公摊面积)
 	*   [11.房子如何买及首付要求](#房子如何买及首付要求)
 	*   [12.二手房购买攻略](#房子如何买及首付要求)
-*   [三：杭州开发商信息与对比(还没写)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%B8%89%EF%BC%9A%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7%E4%BF%A1%E6%81%AF%E6%B8%A0%E9%81%93)
-*   [四：杭州房产信息渠道](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%B8%89%EF%BC%9A%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7%E4%BF%A1%E6%81%AF%E6%B8%A0%E9%81%93)
+*   [三：杭州开发商信息与对比(还没写)](#杭州开发商信息与对比)
+*   [四：杭州房产信息渠道](#i杭州房产信息渠道)
 
 	*   [1.透明售房网](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E9%80%8F%E6%98%8E%E5%94%AE%E6%88%BF%E7%BD%91)
 	*   [2.口水楼市](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E5%8F%A3%E6%B0%B4%E6%A5%BC%E5%B8%82)
@@ -86,27 +86,27 @@
 
 ## <a name="id-杭州房产-一：认识杭州从板块说起">一：认识杭州从板块说起</a>
 
-### 1.房产板块划分图
+### 1.<a name="房产板块划分图">房产板块划分图</a>
 
 ![img](attachments/1086212/1245974.jpg)
 
-### 2.杭州行政区域主城区
+### 2.<a name="杭州行政区域主城区">杭州行政区域主城区</a>
 
 ![](attachments/1086212/1245990.png)
 
-### 3.杭州其他区域行政划分
+### 3.<a name="杭州其他区域行政划分">杭州其他区域行政划分</a>
 
 ![](attachments/1086212/1245991.png)
 
-### 4.19大后杭州的重点建设区域划分和定位
+### 4.<a name="19大后杭州的重点建设区域划分和定位">19大后杭州的重点建设区域划分和定位</a>
 
 ![](attachments/1086212/1246009.png)
 
-### <span style="color: rgb(0,0,0);">5.**两个主中心**</span>
+### 5.<a name="两个主中心">两个主中心</a>
 
-<span style="color: rgb(62,62,62);">“十三五”期间，杭州市楼宇经济构筑的</span>**<span style="color: rgb(192,0,0);">两个主中心</span>**<span style="color: rgb(62,62,62);">，即</span>**<span style="color: rgb(192,0,0);">环西湖主中心板块和钱江新城、钱江世纪城主中心板块</span>**<span style="color: rgb(62,62,62);">，这是杭州市楼宇经济发展的核心板块。</span>
+<span style="color: rgb(62,62,62);">“十三五”期间，杭州市楼宇经济构筑的</span><span style="color: rgb(192,0,0);">两个主中心</span><span style="color: rgb(62,62,62);">，即</span><span style="color: rgb(192,0,0);">环西湖主中心板块和钱江新城、钱江世纪城主中心板块</span><span style="color: rgb(62,62,62);">，这是杭州市楼宇经济发展的核心板块。</span>
 
-<span style="color: rgb(62,62,62);">杭州市楼宇经济将构筑</span>**<span style="color: rgb(192,0,0);">“两主七副多点”的空间格局</span>**<span style="color: rgb(62,62,62);">。</span>
+<span style="color: rgb(62,62,62);">杭州市楼宇经济将构筑</span><span style="color: rgb(192,0,0);">“两主七副多点”的空间格局</span><span style="color: rgb(62,62,62);">。</span>
 
 <span style="color: rgb(62,62,62);">其中，</span>**<span style="color: rgb(192,0,0);">钱江新城和钱江世纪城主中心板块，发展定位为杭州市的政治、经济、文化新中心和钱塘江金融港湾核心区。</span>**
 > <span>1 环西湖主中心板块</span>**<span style="color: rgb(192,0,0);"> </span>**
@@ -128,7 +128,7 @@
 
 <span> </span>**<span style="color: rgb(192,0,0);">打造总部经济高度集聚、具有鲜明金融商贸特征的中央商务区。</span>**
 
-### 6.七大城市副中心
+### 6.<a name="七大城市副中心">七大城市副中心</a>
 
 <span style="color: rgb(62,62,62);">七大城市副中心，作为楼宇经济发展的重点建设集聚区，分担主城区人口、产业和服务功能，形成区域协调发展的空间格局。</span>
 
@@ -166,18 +166,18 @@
 **<span style="color: rgb(192,0,0);">区域：</span>**以杭州经济开发区和高教园区为骨干区域**<span style="color: rgb(192,0,0);"> </span>**
 
 **<span style="color: rgb(192,0,0);">发展定位：</span>**以高新技术产业和先进制造业为基础，打造集教育、科研、商务和居住等功能于一体的复合型楼宇经济示范区
-> <span style="color: inherit;">**_7 _**</span>临平副中心
+> <span style="color: inherit;">7 </span>临平副中心
 
 **<span style="color: rgb(192,0,0);">区域：</span>**由临平新城、钱江科技城、九乔商贸城、塘栖新城、崇贤新城以及老城区等板块组成
 
 **<span style="color: rgb(192,0,0);">发展定位：</span>**融总部商务、商业金融、文化展示、旅游休闲和高端居住等于一体的生态智慧型楼宇经济示范区
-### 7.2017年杭州各板块地王及楼面价地图
+### 7.<a name="2017年杭州各板块地王及楼面价地图">2017年杭州各板块地王及楼面价地图</a>
 ![](attachments/1086212/2017年杭州各板块地王及楼面价地图.jpg)
-### 8.2017年杭州各板块房价地图
+### 8.<a name="2017年杭州各板块房价地图">2017年杭州各板块房价地图</a>
 ![](attachments/1086212/2017年杭州各板块房价地图.jpg)
-### 9.2017年杭州热门板块和最高地价参考图
+### 9.<a name="2017年杭州热门板块和最高地价参考图">2017年杭州热门板块和最高地价参考图</a>
 ![](attachments/1086212/v2-2088bd3ab5e43756595e18392b91adbd_r.jpg)
-### 10.2018年各板块楼市供应库存
+### 10.<a name="2018年各板块楼市供应库存">2018年各板块楼市供应库存</a>
   2018杭州在售120余盘预计还有6万多套的供应量，而100来个新盘以及地块预计今年将有1000多万方的房源将会入市。其中余杭、萧山板块不管是在售楼盘量还是后续的供应量占比依旧比较大，仍是2018年的供应助力。而上城、下城、滨江依然是不管是续销房源还是和后续的板块供应，都捉襟见肘，板块内房源供应紧张。
   从续销楼盘看来，2018年万元房占比38%，占比依旧比较大。但是从房源分布上来看，1字打头的楼盘多分布在大江东、临平、崇贤、闲林以及、富阳、临安几个距离主城区较为偏远的地方，原先的丁桥、下沙、九堡等传统意义上的万元房板块已消失。
   续销楼盘中万元盘虽然占比较大，但是 2016年以来，土地市场就较为火热，各个板块楼面价都创新高，临平、闲林楼面价已经突破1万7，开发商的拿地成本越来越高。在下面表格中，我们可以看出，后续将供应的楼盘中，楼面价在万元以内的仅占13%。即使是为了保本，未来开发商也必须提高房价，所以在即将入市的新盘中万元盘会却越来越少。而随着临平、闲林等板块楼面价攀升，这两个区域也将逐渐退出万元盘板块。
@@ -197,6 +197,7 @@
   申花板块作为近两年新崛起的豪宅板块，不管是在售房源还是后续供应量都比较充足，目前板块内合景天銮、融信公馆ARC、融创宜和园、首开杭州金茂府都将有比较多的房源相继加推。而后续融信庆隆地块、绿城建发沁园预计也会在今年面世，但是从两个项目的楼面价都突破了4万+来看，开发商为了保本，开盘房价或突破6万。
 
   总体来说，由于近两年来土地供应加大，楼市的后续库存还是比较充足的。近期可能不少人发现接到销售的电话变多了，开发商对于购房者的要求也没有那么强硬，接受三成首付的楼盘在逐渐增多，也有少数楼盘开始接受公积金贷款，对于购房者来说这些都是一个不错的转向，还没买到房的可以多多关注接下来的楼市动向，以便及时入手合适的房源。
+
 ![](attachments/1086212/c1.png)
 ![](attachments/1086212/c2.png)
 ![](attachments/1086212/c3.png)
@@ -209,18 +210,17 @@
 
 
 
-## 二：关于房子要知道的一些概念
+## 二：<a name="关于房子要知道的一些概念">关于房子要知道的一些概念</a>
 
 一些房产的基本名词有助于看懂规划图
 
-### 1.[用地性质](https://baike.baidu.com/item/%E7%94%A8%E5%9C%B0%E6%80%A7%E8%B4%A8/7418473) 
-![](images/icons/grey_arrow_down.png)
+### 1.<a name="用地性质">[用地性质](https://baike.baidu.com/item/%E7%94%A8%E5%9C%B0%E6%80%A7%E8%B4%A8/7418473) </a>
 <div id="expander-2136437052" class="expand-container">
 <div id="expander-control-2136437052" class="expand-control">
     <span class="expand-control-icon"></span><span class="expand-control-text">用地性质对照表</span>
 </div>
 <div id="expander-content-2136437052" class="expand-content">    <div class="aui-message success shadowed information-macro">
-                            <span class="aui-icon icon-success">Icon</span>
+                            <span class="aui-icon icon-success"></span>
                 <div class="message-content">
                             <div class="table-wrap"><table class="confluenceTable"><tbody><tr><th colspan="3" class="confluenceTh"><div class="para">类别代称</div></th><th rowspan="2" class="confluenceTh"><div class="para">类别名称</div></th><th rowspan="2" class="confluenceTh"><div class="para">内容</div></th></tr><tr><th class="confluenceTh"><div class="para">大类</div></th><th class="confluenceTh"><div class="para">中类</div></th><th class="confluenceTh"><div class="para">小类</div></th></tr><tr><td rowspan="10" class="confluenceTd"><div class="para">R</div><div class="para">居住用地</div></td><td class="confluenceTd"> </td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">居住用地</div></td><td class="confluenceTd"><div class="para">住宅和相应服务设施的用地</div></td></tr><tr><td rowspan="3" class="confluenceTd"><div class="para">R1</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">一类居住用地</div></td><td class="confluenceTd"><div class="para">设施齐全、环境良好，以低层住宅为主的用地</div></td></tr><tr><td class="confluenceTd"><div class="para">R11</div></td><td class="confluenceTd"><div class="para">住宅用地</div></td><td class="confluenceTd"><div class="para">住宅建筑用地及其附属道路、停车场、小游园等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">R12</div></td><td class="confluenceTd"><div class="para">服务设施用地</div></td><td class="confluenceTd"><div class="para">居住小区及小区级以下的幼托、文化、体育、商业、卫生服务、养老助残设施等用地，不包括中小学用地</div></td></tr><tr><td rowspan="3" class="confluenceTd"><div class="para">R2</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">二类居住用地</div></td><td class="confluenceTd"><div class="para">设施较齐全、环境较好，以多、中、高层住宅为主用地</div></td></tr><tr><td class="confluenceTd"><div class="para">R21</div></td><td class="confluenceTd"><div class="para">住宅用地</div></td><td class="confluenceTd"><div class="para">住宅建筑用地（含保障性住宅用地）及其附属道路、停车场、小游园等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">R22</div></td><td class="confluenceTd"><div class="para">服务设施用地</div></td><td class="confluenceTd"><div class="para">居住小区及小区级以下的幼托、文化、体育、商业、卫生服务、养老助残设施等用地，不包括中小学用地</div></td></tr><tr><td rowspan="3" class="confluenceTd"><div class="para">R3</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">三类居住用地</div></td><td class="confluenceTd"><div class="para">设施较欠缺、环境较差，以需要加以改造的简陋住区用地，包括危房、棚户区、临时住宅等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">R31</div></td><td class="confluenceTd"><div class="para">住宅用地</div></td><td class="confluenceTd"><div class="para">住宅建筑用地及其附属道路、停车场及小游园等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">R32</div></td><td class="confluenceTd"><div class="para">服务设施用地</div></td><td class="confluenceTd"><div class="para">居住小区及小区级以下的幼托、文化、体育、商业、卫生服务、养老助残设施等用地，不包括中小学用地</div></td></tr><tr><td rowspan="23" class="confluenceTd"><div class="para">A</div><div class="para">公共管理与公共服务设施用地</div></td><td class="confluenceTd"> </td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">公共管理与公共服务用地</div></td><td class="confluenceTd"><div class="para">行政、文化、教育、体育、卫生等机构和设施的用地，不包括居住用地中的服务设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A1</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">行政办公用地</div></td><td class="confluenceTd"><div class="para">党政机关、社会团体、事业单位等办公机构及其相关设施用地</div></td></tr><tr><td rowspan="3" class="confluenceTd"><div class="para">A2</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">文化设施用地</div></td><td class="confluenceTd"><div class="para">图书、展览等公共文化活动设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A21</div></td><td class="confluenceTd"><div class="para">图书展览设施用地</div></td><td class="confluenceTd"><div class="para">公共图书馆、博物馆、档案馆、科技馆、纪念馆、美术馆和展览馆、会展中心等设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A22</div></td><td class="confluenceTd"><div class="para">文化活动设施用地</div></td><td class="confluenceTd"><div class="para">综合文化活动中心、文化馆、青少年宫、儿童活动中心、老年活动中心等设施用地</div></td></tr><tr><td rowspan="6" class="confluenceTd"><div class="para">A3</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">教育科研用地</div></td><td class="confluenceTd"><div class="para">高等院校、中等专业学校、中学、小学、科研事业单位及其附属设施用地，包括为学校配建的独立地段的学生生活用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A31</div></td><td class="confluenceTd"><div class="para">高等院校用地</div></td><td class="confluenceTd"><div class="para">大学、学院、专科学校、研究生院、电视大学、党校、干部学校及其附属设施用地，包括军事院校用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A32</div></td><td class="confluenceTd"><div class="para">中等专业学校用地</div></td><td class="confluenceTd"><div class="para">中等专业学校、技工学校、职业学校等用地，不包括附属于普通中学内的职业高中用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A33</div></td><td class="confluenceTd"><div class="para">中小学用地</div></td><td class="confluenceTd"><div class="para">中学、小学用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A34</div></td><td class="confluenceTd"><div class="para">特殊教育用地</div></td><td class="confluenceTd"><div class="para">聋、哑、盲人学校及工读学校等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A35</div></td><td class="confluenceTd"><div class="para">科研用地</div></td><td class="confluenceTd"><div class="para">科研事业单位用地</div></td></tr><tr><td rowspan="3" class="confluenceTd"><div class="para">A4</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">体育用地</div></td><td class="confluenceTd"><div class="para">体育场馆和体育训练基地等用地，不包括学校等机构专用的体育设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A41</div></td><td class="confluenceTd"><div class="para">体育场馆用地</div></td><td class="confluenceTd"><div class="para">室内外体育运动用地，包括体育场馆、游泳场馆、各类球场及其附属的业余体校等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A42</div></td><td class="confluenceTd"><div class="para">体育训练用地</div></td><td class="confluenceTd"><div class="para">为各类体育运动专设的训练基地用地</div></td></tr><tr><td rowspan="5" class="confluenceTd"><div class="para">A5</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">医疗卫生用地</div></td><td class="confluenceTd"><div class="para">医疗、保健、卫生、防疫、康复和急救设施等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A51</div></td><td class="confluenceTd"><div class="para">医院用地</div></td><td class="confluenceTd"><div class="para">综合医院、专科医院、社区卫生服务中心等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A52</div></td><td class="confluenceTd"><div class="para">卫生防疫用地</div></td><td class="confluenceTd"><div class="para">卫生防疫站、专科防治所、检验中心和动物检疫站等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A53</div></td><td class="confluenceTd"><div class="para">特殊医疗用地</div></td><td class="confluenceTd"><div class="para">对环境有特殊要求的传染病、精神病等专科医院用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A59</div></td><td class="confluenceTd"><div class="para">其他医疗卫生用地</div></td><td class="confluenceTd"><div class="para">急救中心、血库等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A6</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">社会福利设施用地</div></td><td class="confluenceTd"><div class="para">为社会提供福利和慈善服务的设施及其附属设施用地，包括福利院、养老院、孤儿院等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A7</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">文物古迹用地</div></td><td class="confluenceTd"><div class="para">具有保护价值的古遗迹、古墓葬、古建筑、古窟寺、近代代表性建筑、革命纪念建筑等用地。不包括已作其他用途的文物古迹用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A8</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">外事用地</div></td><td class="confluenceTd"><div class="para">外国驻华使馆、领事馆、国际机构及其生活设施等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">A9</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">宗教设施用地</div></td><td class="confluenceTd"><div class="para">宗教活动场所用地</div></td></tr><tr><td rowspan="17" class="confluenceTd"><div class="para">B</div><div class="para">商业服务业设施用地</div></td><td class="confluenceTd"> </td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">商业服务业设施用地</div></td><td class="confluenceTd"><div class="para">商业、商务、娱乐康体等设施用地，不包括居住用地中的服务设施用地</div></td></tr><tr><td rowspan="5" class="confluenceTd"><div class="para">B1</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">商业设施用地</div></td><td class="confluenceTd"><div class="para">商业及餐饮、旅馆等服务业用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B11</div></td><td class="confluenceTd"><div class="para">零售商业用地</div></td><td class="confluenceTd"><div class="para">以零售功能为主的商铺、商场、超市、市场等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B12</div></td><td class="confluenceTd"><div class="para">批发市场用地</div></td><td class="confluenceTd"><div class="para">以批发为主的市场用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B13</div></td><td class="confluenceTd"><div class="para">餐饮用地</div></td><td class="confluenceTd"><div class="para">饭店、餐厅、酒吧等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B14</div></td><td class="confluenceTd"><div class="para">旅馆用地</div></td><td class="confluenceTd"><div class="para">宾馆、旅馆、招待所、服务型公寓、度假村等用地</div></td></tr><tr><td rowspan="4" class="confluenceTd"><div class="para">B2</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">商务设施用地</div></td><td class="confluenceTd"><div class="para">金融保险、艺术传媒、技术服务等综合性办公用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B21</div></td><td class="confluenceTd"><div class="para">金融保险用地</div></td><td class="confluenceTd"><div class="para">银行、证券期货交易所、保险公司等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B22</div></td><td class="confluenceTd"><div class="para">艺术传媒用地</div></td><td class="confluenceTd"><div class="para">文艺团体、影视制作、广告传媒等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B29</div></td><td class="confluenceTd"><div class="para">其他商务设施用地</div></td><td class="confluenceTd"><div class="para">贸易、设计、咨询等技术服务办公用地</div></td></tr><tr><td rowspan="3" class="confluenceTd"><div class="para">B3</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">娱乐康体设施用地</div></td><td class="confluenceTd"><div class="para">娱乐、康体等设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B31</div></td><td class="confluenceTd"><div class="para">娱乐用地</div></td><td class="confluenceTd"><div class="para">剧院、音乐厅、电影院、歌舞厅、网吧以及绿地率小于65%的大型游乐等设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B32</div></td><td class="confluenceTd"><div class="para">康体用地</div></td><td class="confluenceTd"><div class="para">赛马场、高尔夫、溜冰场、跳伞场、摩托车场、射击场，以及通用航空、水上运动的陆域部分等用地</div></td></tr><tr><td rowspan="3" class="confluenceTd"><div class="para">B4</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">公用设施营业网点用地</div></td><td class="confluenceTd"><div class="para">零售加油、加气、电信、邮政等公用设施营业网点用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B41</div></td><td class="confluenceTd"><div class="para">加油加气站用地</div></td><td class="confluenceTd"><div class="para">零售加油、加气以及液化石油气换瓶站用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B49</div></td><td class="confluenceTd"><div class="para">其他公用设施营业网点用地</div></td><td class="confluenceTd"><div class="para">独立地段的电信、邮政、供水、燃气、供电、供热等其他公用设施营业网点用地</div></td></tr><tr><td class="confluenceTd"><div class="para">B9</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">其他服务设施用地</div></td><td class="confluenceTd"><div class="para">业余学校、民营培训机构、私人诊所、殡葬、宠物医院、汽车维修站等其他服务设施用地</div></td></tr><tr><td rowspan="4" class="confluenceTd"><div class="para">M</div><div class="para">工业用地</div></td><td class="confluenceTd"> </td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">工业用地</div></td><td class="confluenceTd"><div class="para">工矿企业的生产车间、库房及其附属设施等用地，包括专用铁路、码头和辅助道路、停车场等用地，不包括露天矿用地</div></td></tr><tr><td class="confluenceTd"><div class="para">M1</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">一类工业用地</div></td><td class="confluenceTd"><div class="para">对居住和公共环境基本无干扰、污染和安全隐患的工业用地</div></td></tr><tr><td class="confluenceTd"><div class="para">M2</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">二类工业用地</div></td><td class="confluenceTd"><div class="para">对居住和公共环境有一定干扰、污染和安全隐患的工业用地</div></td></tr><tr><td class="confluenceTd"><div class="para">M3</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">三类工业用地</div></td><td class="confluenceTd"><div class="para">对居住和公共环境有严重干扰、污染和安全隐患的工业用地</div></td></tr><tr><td rowspan="4" class="confluenceTd"><div class="para">W</div><div class="para">物流仓储用地</div></td><td class="confluenceTd"> </td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">物流仓储用地</div></td><td class="confluenceTd"><div class="para">物资储备、中转、配送等用地，包括附属道路、停车场以及货运公司车队的站场等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">W1</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">一类物流仓储用地</div></td><td class="confluenceTd"><div class="para">对居住和公共环境基本无干扰、污染和安全隐患的物流仓储用地</div></td></tr><tr><td class="confluenceTd"><div class="para">W2</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">二类物流仓储用地</div></td><td class="confluenceTd"><div class="para">对居住和公共环境有一定干扰、污染和安全隐患的物流仓储用地</div></td></tr><tr><td class="confluenceTd"><div class="para">W3</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">三类物流仓储用地</div></td><td class="confluenceTd"><div class="para">存放易燃、易爆和剧毒等危险品的专用仓库用地</div></td></tr><tr><td rowspan="8" class="confluenceTd"><div class="para">S</div><div class="para">道路与交通设施用地</div></td><td class="confluenceTd"> </td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">道路与交通设施用地</div></td><td class="confluenceTd"><div class="para">城市道路、交通设施等用地，不包括居住用地、工业用地等内部的道路、停车场等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">S1</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">城市道路用地</div></td><td class="confluenceTd"><div class="para">快速路、主干路、次干路和支路等用地，包括其交叉路口用地</div></td></tr><tr><td class="confluenceTd"><div class="para">S2</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">城市轨道交通用地</div></td><td class="confluenceTd"><div class="para">独立地段的城市轨道交通地面以上部分的线路、站点用地</div></td></tr><tr><td class="confluenceTd"><div class="para">S3</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">交通枢纽用地</div></td><td class="confluenceTd"><div class="para">铁路客货运站、公路长途客货运站、港口客运码头、公交枢纽及其附属设施用地</div></td></tr><tr><td rowspan="3" class="confluenceTd"><div class="para">S4</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">交通场站用地</div></td><td class="confluenceTd"><div class="para">交通服务设施用地，不包括交通指挥中心、交通队用地</div></td></tr><tr><td class="confluenceTd"><div class="para">S41</div></td><td class="confluenceTd"><div class="para">公共交通设施用地</div></td><td class="confluenceTd"><div class="para">城市轨道交通车辆基地及附属设施，公共汽（电）车首末站、停车场（库）、保养场，出租汽车场站设施等用地，以及轮渡、缆车、索道等的地面部分及其附属设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">S42</div></td><td class="confluenceTd"><div class="para">社会停车场用地</div></td><td class="confluenceTd"><div class="para">独立地段的公共停车场和停车库用地，不包括其他各类用地配建的停车场和停车库用地</div></td></tr><tr><td class="confluenceTd"><div class="para">S9</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">其它交通设施用地</div></td><td class="confluenceTd"><div class="para">除以上之外的交通设施用地，包括教练场等用地</div></td></tr><tr><td rowspan="16" class="confluenceTd"><div class="para">U</div><div class="para">公用设施用地</div></td><td class="confluenceTd"> </td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">公用设施用地</div></td><td class="confluenceTd"><div class="para">供应、环境、安全等设施用地</div></td></tr><tr><td rowspan="7" class="confluenceTd"><div class="para">U1</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">供应设施用地</div></td><td class="confluenceTd"><div class="para">供水、供电、供燃气和供热等设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U11</div></td><td class="confluenceTd"><div class="para">供水用地</div></td><td class="confluenceTd"><div class="para">城市取水设施、自来水厂、再生水厂、加压泵站、高位水池等设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U12</div></td><td class="confluenceTd"><div class="para">供电用地</div></td><td class="confluenceTd"><div class="para">变电站、开闭所、变配电所等设施用地，不包括电厂用地、高压走廊下规定的控制范围内的用地应按其地面实际用途归类</div></td></tr><tr><td class="confluenceTd"><div class="para">U13</div></td><td class="confluenceTd"><div class="para">供燃气用地</div></td><td class="confluenceTd"><div class="para">分输站、门站、储气站、加气母站、液化石油气储配站、灌瓶站和地面输气管廊等设施用地，不包括制气场用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U14</div></td><td class="confluenceTd"><div class="para">供热用地</div></td><td class="confluenceTd"><div class="para">集中供热锅炉房、热力站、换热站和地面输热管廊等设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U15</div></td><td class="confluenceTd"><div class="para">邮政设施用地</div></td><td class="confluenceTd"><div class="para">邮政中心局、邮政支局、邮件处理中心、电信局、移动基站、微波站等设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U16</div></td><td class="confluenceTd"><div class="para">广播电视设施用地</div></td><td class="confluenceTd"><div class="para">广播电视的发射、传输和监测设施用地，包括无线电收信区、发信区以及广播电视发射台、转播台、差转台、监测站等设施用地</div></td></tr><tr><td rowspan="4" class="confluenceTd"><div class="para">U2</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">环境设施用地</div></td><td class="confluenceTd"><div class="para">雨水、污水、固体废物处理和环境保护等的公用设施及其附属设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U21</div></td><td class="confluenceTd"><div class="para">排水设施用地</div></td><td class="confluenceTd"><div class="para">雨水泵站、污水泵站、污水处理、污泥处理厂等及其附属的构筑物用地，不包括排水河渠用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U22</div></td><td class="confluenceTd"><div class="para">环卫设施用地</div></td><td class="confluenceTd"><div class="para">垃圾转运站、公厕、车辆清洗站、环卫车辆停放修理厂等用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U23</div></td><td class="confluenceTd"><div class="para">环保设施用地</div></td><td class="confluenceTd"><div class="para">垃圾处理、危险品处理、医疗垃圾处理等设施用地</div></td></tr><tr><td rowspan="3" class="confluenceTd"><div class="para">U3</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">安全设施用地</div></td><td class="confluenceTd"><div class="para">消防、防洪等保卫城市安全的公用设施及其附属设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U31</div></td><td class="confluenceTd"><div class="para">消防设施用地</div></td><td class="confluenceTd"><div class="para">消防站、消防通信及指挥训练中心等设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U32</div></td><td class="confluenceTd"><div class="para">防洪设施用地</div></td><td class="confluenceTd"><div class="para">防洪堤、防洪枢纽、排洪沟渠等设施用地</div></td></tr><tr><td class="confluenceTd"><div class="para">U9</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">其他公用设施用地</div></td><td class="confluenceTd"><div class="para">除以上之外的公用设施用地，包括施工、养护、维修设施等用地</div></td></tr><tr><td rowspan="4" class="confluenceTd"><div class="para">G</div><div class="para">绿地与广场用地</div></td><td class="confluenceTd"> </td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">绿地与广场用地</div></td><td class="confluenceTd"><div class="para">公园绿地、防护绿地、广场等公共开放空间用地</div></td></tr><tr><td class="confluenceTd"><div class="para">G1</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">公园绿地</div></td><td class="confluenceTd"><div class="para">向公众开放，以游憩为主要功能，兼具生态、美化、防灾等作用的绿地</div></td></tr><tr><td class="confluenceTd"><div class="para">G2</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">防护绿地</div></td><td class="confluenceTd"><div class="para">具有卫生、隔离和安全防护功能的绿地</div></td></tr><tr><td class="confluenceTd"><div class="para">G3</div></td><td class="confluenceTd"> </td><td class="confluenceTd"><div class="para">广场用地</div></td><td class="confluenceTd"><div class="para">以游憩、纪念、集会和避险等功能为主的城市公共活动场地</div></td></tr></tbody></table></div>
                     </div>
@@ -230,16 +230,16 @@
 
 <div class="para">城市建设用地分类中英文对照表</div><div class="table-wrap"><table class="confluenceTable"><tbody><tr><td class="confluenceTd"><div class="para">代码</div><div class="para">codes</div></td><td class="confluenceTd"><div class="para">用地类别中文名称</div><div class="para">Chinese</div></td><td class="confluenceTd"><div class="para">英文同（近）义词</div><div class="para">English</div></td></tr><tr><td class="confluenceTd"><div class="para">R</div></td><td class="confluenceTd"><div class="para">居住用地</div></td><td class="confluenceTd"><div class="para">residential</div></td></tr><tr><td class="confluenceTd"><div class="para">A</div></td><td class="confluenceTd"><div class="para">公共管理与公共服务用地</div></td><td class="confluenceTd"><div class="para">administration and public services</div></td></tr><tr><td class="confluenceTd"><div class="para">B</div></td><td class="confluenceTd"><div class="para">商业服务业设施用地</div></td><td class="confluenceTd"><div class="para">commercial and business facilities</div></td></tr><tr><td class="confluenceTd"><div class="para">M</div></td><td class="confluenceTd"><div class="para">工业用地</div></td><td class="confluenceTd"><div class="para">industrial</div></td></tr><tr><td class="confluenceTd"><div class="para">W</div></td><td class="confluenceTd"><div class="para">物流仓储用地</div></td><td class="confluenceTd"><div class="para">logistics and warehouse</div></td></tr><tr><td class="confluenceTd"><div class="para">S</div></td><td class="confluenceTd"><div class="para">道路与交通设施用地</div></td><td class="confluenceTd"><div class="para">road,street and transportation</div></td></tr><tr><td class="confluenceTd"><div class="para">U</div></td><td class="confluenceTd"><div class="para">公用设施用地</div></td><td class="confluenceTd"><div class="para">municipal utilities</div></td></tr><tr><td class="confluenceTd"><div class="para">G</div></td><td class="confluenceTd"><div class="para">绿地与广场用地</div></td><td class="confluenceTd"><div class="para">green space and square</div></td></tr></tbody></table></div>
 
-### 2.[容积率](https://baike.baidu.com/item/%E5%AE%B9%E7%A7%AF%E7%8E%87/1397682?fr=aladdin)
+### 2.<a name="容积率">[容积率](https://baike.baidu.com/item/%E5%AE%B9%E7%A7%AF%E7%8E%87/1397682?fr=aladdin)</a>
 
 ![](attachments/1086212/1246240.png)
 
 ![](attachments/1086212/1246241.png)
 
-### 3.[买房时定金 订金 诚意金 认筹金 区别](http://zhishi.fang.com/xf/yt_132181.html)
-<div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh">分类</th><th class="confluenceTh">定义</th><th class="confluenceTh">是否可以无条件退款</th></tr><tr><td class="confluenceTd">**定金**</td><td class="confluenceTd">
+### 3.<a name="买房时定金订金诚意金认筹金区别">[买房时定金 订金 诚意金 认筹金 区别](http://zhishi.fang.com/xf/yt_132181.html)</a>
+<div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh">分类</th><th class="confluenceTh">定义</th><th class="confluenceTh">是否可以无条件退款</th></tr><tr><td class="confluenceTd">定金</td><td class="confluenceTd">
 
-定金是在[合同](http://www.fang.com/juhe/31469/)订立或在履行之前支付的一定数额的金钱作为担保的担保方式，又称保证金
+定金是在合同订立或在履行之前支付的一定数额的金钱作为担保的担保方式，又称保证金
 
 《担保法》第八十九条当事人可以约定一方向对方给付定金作为债权的担保。
 
@@ -248,7 +248,7 @@
 无权要求返还定金;收受定金的一方不履行约定的债务的，应当双倍返还定金。
 </td><td class="confluenceTd"><span>无权要求返还定金</span></td></tr><tr><td class="confluenceTd">订金</td><td class="confluenceTd">
 
-在购房者与[发展商](http://www.fang.com/juhe/31283/)就房屋买卖的意向初步达成协议后，准备进一步协商签订的临时认购协议，
+在购房者与发展商就房屋买卖的意向初步达成协议后，准备进一步协商签订的临时认购协议，
 
 通常的做法是在约定所选房号、面积、房屋单价及总价款后，约定一个期限，买方需在此期限
 
@@ -261,9 +261,9 @@
 
 “认筹”就是购房者表现出买房的诚意，这个诚意需要通过缴纳“认筹金”来体现。在缴纳“认筹金”后，
 
-购房者可以获得房屋的优先购买权，并在[房价](http://www.fang.com/juhe/31359/)上享受一定程度的优惠。等到楼盘正式开盘销售时，
+购房者可以获得房屋的优先购买权，并在房价上享受一定程度的优惠。等到楼盘正式开盘销售时，
 
-“认筹”的购房者再以“优先选择”的顺序选房，选中房屋后与[开发商](http://www.fang.com/juhe/31768/)签订正式的房屋买卖合同。
+“认筹”的购房者再以“优先选择”的顺序选房，选中房屋后与开发商签订正式的房屋买卖合同。
 
 如果购房者没有选中理想的房屋，开发商将把“认筹金”如数退还给购房者。但是“认筹金”的实质
 
@@ -277,31 +277,31 @@
 交易主体为了各自的利益往往会违背诚实信用的原则，从而损害一方的利益。
 </td><td colspan="1" class="confluenceTd">无条件退款</td></tr></tbody></table></div>
 
-综上所述，后三者都是可以无条件退款的，即使是这样，签订任何条款是也要看清楚，要留心眼。例如在[房产](http://www.fang.com/juhe/31310/)中介门店看房时，如果需要付意向金的话，只要收下[房产中介](http://www.fang.com/juhe/31320/)开具的收据即可。对于房产中介人员提出的签订协议的要求，一定要慎重，如果房屋买卖双方仅仅是想建立一个定房关系的话，在签约时，可以要求中介公司将“居间协议”附件“房屋买卖协议”划掉，以保护自己的权益。
+综上所述，后三者都是可以无条件退款的，即使是这样，签订任何条款是也要看清楚，要留心眼。例如在房产中介门店看房时，如果需要付意向金的话，只要收下房产中介开具的收据即可。对于房产中介人员提出的签订协议的要求，一定要慎重，如果房屋买卖双方仅仅是想建立一个定房关系的话，在签约时，可以要求中介公司将“居间协议”附件“房屋买卖协议”划掉，以保护自己的权益。
 
-### 4. [绿化率多少合适 住宅小区绿化率标准](http://hf.haoju.cn/news/2095580)
+### 4. <a name="绿化率多少合适住宅小区绿化率标准">[绿化率多少合适 住宅小区绿化率标准](http://hf.haoju.cn/news/2095580)</a>
 
 ![](attachments/1086212/1246245.png)
 
-### 5.[楼层净高](https://baike.baidu.com/item/%E6%A5%BC%E5%B1%82%E5%87%80%E9%AB%98/10657207?fr=aladdin)
+### 5.<a name="楼层净高">[楼层净高](https://baike.baidu.com/item/%E6%A5%BC%E5%B1%82%E5%87%80%E9%AB%98/10657207?fr=aladdin)</a>
 
 ![](attachments/1086212/1246242.png)
 
-### 6.[为什么每层住宅楼层默认高是在 3 米左右？](https://www.zhihu.com/question/19768121)
+### 6.<a name="为什么每层住宅楼层默认高是在3米左右？">[为什么每层住宅楼层默认高是在 3 米左右？](https://www.zhihu.com/question/19768121)</a>
 
-### 7.杭州2017年的现房销售政策
+### 7.<a name="杭州2017年的现房销售政策">杭州2017年的现房销售政策</a>
 
 [现房销售时代，真的来临了吗](http://zzhz.zjol.com.cn/system/2017/05/04/021506056.shtml)
 
 [杭州土地出让取消现房销售规则](http://zj.zjol.com.cn/news/696408.html)
 
-### 8.[3分钟！搞定杭州人才居住证！](https://mp.weixin.qq.com/s/2zbRdzXfYc78Wt3si5EIUw) 
+### 8.<a name="3分钟！搞定杭州人才居住证！">[3分钟！搞定杭州人才居住证！](https://mp.weixin.qq.com/s/2zbRdzXfYc78Wt3si5EIUw) </a>
 
-### 9.买房选择东边套 西边套 还是中间套？
+### 9.<a name="买房选择东边套西边套还是中间套？">买房选择东边套 西边套 还是中间套？</a>
 
 边套：边套是指有一面墙完全承受日晒的套房，其中在东边的称东边套，西边的西边套。西套因为承受下午日晒，俗话说西晒，居室内相对较热。
 
-中间套：中间套是2个边套（东边套、西边套）中间的房子，一般客厅、餐厅、[阳台](http://www.fang.com/juhe/32986/)连为一体，阳台较大、视野较为开阔。
+中间套：中间套是2个边套（东边套、西边套）中间的房子，一般客厅、餐厅、阳台连为一体，阳台较大、视野较为开阔。
 <div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh"> </th><th class="confluenceTh">优点</th><th class="confluenceTh">缺点</th><th class="confluenceTh">选择意见</th></tr><tr><td class="confluenceTd">东边套</td><td class="confluenceTd">
 
 1、三面采光，窗明几净，阳光充足；
@@ -313,7 +313,7 @@
 <span> </span>不存在西晒。
 </td><td class="confluenceTd">
 
-1、[客厅](http://www.jiwu.com/zhuanti/1525/ "客厅风水")阳光照射时间短，冬天比较阴冷；
+1、客厅阳光照射时间短，冬天比较阴冷；
 
 2、在南方的话，受雨季和风向的影响，
 
@@ -322,9 +322,9 @@
 而且更为潮湿。
 </td><td class="confluenceTd">
 
-<span style="color: rgb(102,102,102);">注意看房屋的防潮</span>[防水](http://www.jiwu.com/zhuanti/3953/ "防水材料十大品牌")<span style="color: rgb(102,102,102);">措施是否妥当，避免出现</span>[漏水](http://www.jiwu.com/zhuanti/2265/ "房顶漏水修补方法")<span style="color: rgb(102,102,102);">，也略微减轻室内的潮湿程度。</span>
+<span style="color: rgb(102,102,102);">注意看房屋的防潮</span>防水<span style="color: rgb(102,102,102);">措施是否妥当，避免出现</span>漏水<span style="color: rgb(102,102,102);">，也略微减轻室内的潮湿程度。</span>
 
-<span style="color: rgb(102,102,102);"> </span><span style="color: rgb(102,102,102);">东边套和西边套来比较，东边套的采光和通风性往往更好，这也是人们选择</span>[户型](http://www.fang.com/juhe/31520/)<span style="color: rgb(102,102,102);">时</span>
+<span style="color: rgb(102,102,102);"> </span><span style="color: rgb(102,102,102);">东边套和西边套来比较，东边套的采光和通风性往往更好，这也是人们选择</span>户型<span style="color: rgb(102,102,102);">时</span>
 
 <span style="color: rgb(102,102,102);"><span>比较看重的，而且夏天不会有西晒问题，室内较西边套更为凉爽，如果你比较怕热，</span></span>
 
@@ -382,7 +382,7 @@
 3<span>、</span>中间的房子可能听到隔壁邻居传来的声音。
 </td><td class="confluenceTd"><span style="color: rgb(102,102,102);">注意选择南北通透的户型。</span></td></tr></tbody></table></div>
 
-### 10.公摊面积
+### 10.<a name="公摊面积">公摊面积</a>
 
 ![](attachments/1086212/1246246.png)
 
@@ -392,16 +392,16 @@
 
 2．公用建筑面积＝整栋房子建筑物的建筑面积－整栋建筑物各套（单元）套内房子建筑面积之和－已作为独立使用的空间销售或者用来出租的地下室、
 
-车棚及人防工程等建筑面积。套内建筑面积＝套内[使用面积](http://www.fang.com/juhe/32491/)＋套内墙体面积＋阳台建筑面积。
-### 11.房子如何买及首付要求
+车棚及人防工程等建筑面积。套内建筑面积＝套内使用面积＋套内墙体面积＋阳台建筑面积。
+### 11.<a name="房子如何买及首付要求">房子如何买及首付要求</a>
 
 ![](attachments/1086212/房子如何买及首付要求.jpg)
 
-### 12.二手房购买攻略
-[https://zhuanlan.zhihu.com/p/33623170) 杭州二手房看房、询价、谈判、过户技巧
+### 12.<a name="二手房购买攻略">二手房购买攻略</a>
+https://zhuanlan.zhihu.com/p/33623170 杭州二手房看房、询价、谈判、过户技巧
 
-## 三：杭州开发商信息与对比(还没写)
-## 四：杭州房产信息渠道
+## 三：<a name="杭州开发商信息与对比">杭州开发商信息与对比</a>(还没写)
+## 四：<a name="杭州房产信息渠道">杭州房产信息渠道</a>
 
 ### 1.透明售房网
 
