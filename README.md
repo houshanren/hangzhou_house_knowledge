@@ -32,25 +32,25 @@
 	*   [11.房子如何买及首付要求](#房子如何买及首付要求)
 	*   [12.二手房购买攻略](#房子如何买及首付要求)
 *   [三：杭州开发商信息与对比(还没写)](#杭州开发商信息与对比)
-*   [四：杭州房产信息渠道](#i杭州房产信息渠道)
+*   [四：杭州房产信息渠道](#杭州房产信息渠道)
 
-	*   [1.透明售房网](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E9%80%8F%E6%98%8E%E5%94%AE%E6%88%BF%E7%BD%91)
-	*   [2.口水楼市](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E5%8F%A3%E6%B0%B4%E6%A5%BC%E5%B8%82)
-	*   [3.19楼房产](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-3.19%E6%A5%BC%E6%88%BF%E4%BA%A7)
-	*   [4.公众号](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-4.%E5%85%AC%E4%BC%97%E5%8F%B7)
-	*   [5.政府网站](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E6%94%BF%E5%BA%9C%E7%BD%91%E7%AB%99)
-	*   [6.一些QQ群](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E4%B8%80%E4%BA%9BQQ%E7%BE%A4)
+	*   [1.透明售房网](#透明售房网)
+	*   [2.口水楼市](#口水楼市)
+	*   [3.19楼房产](#19楼房产)
+	*   [4.公众号](#公众号)
+	*   [5.政府网站](#政府网站)
+	*   [6.一些QQ群](#一些QQ群)
 
-*   [五：地铁交通规划与现状](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%9B%9B%EF%BC%9A%E5%9C%B0%E9%93%81%E4%BA%A4%E9%80%9A%E8%A7%84%E5%88%92%E4%B8%8E%E7%8E%B0%E7%8A%B6)
+*   [五：地铁交通规划与现状](#i地铁交通规划与现状)
 
-	*   [1.目前的杭州地铁(2017)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E7%9B%AE%E5%89%8D%E7%9A%84%E6%9D%AD%E5%B7%9E%E5%9C%B0%E9%93%81(2017))
-	*   [2.杭州三期地铁(2022)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E6%9D%AD%E5%B7%9E%E4%B8%89%E6%9C%9F%E5%9C%B0%E9%93%81(2022))
-	*   [3.当前杭州交通地图(2017)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-3.%E5%BD%93%E5%89%8D%E6%9D%AD%E5%B7%9E%E4%BA%A4%E9%80%9A%E5%9C%B0%E5%9B%BE(2017))
-	*   [4.规划局杭州道路交通规划图2017版(2022)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-4.%E8%A7%84%E5%88%92%E5%B1%80%E6%9D%AD%E5%B7%9E%E9%81%93%E8%B7%AF%E4%BA%A4%E9%80%9A%E8%A7%84%E5%88%92%E5%9B%BE2017%E7%89%88(2022))
-	*   [5.综合交通枢纽体系图](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E7%BB%BC%E5%90%88%E4%BA%A4%E9%80%9A%E6%9E%A2%E7%BA%BD%E4%BD%93%E7%B3%BB%E5%9B%BE)
-	*   [6.杭州水上巴士](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E6%9D%AD%E5%B7%9E%E6%B0%B4%E4%B8%8A%E5%B7%B4%E5%A3%AB)
+	*   [1.目前的杭州地铁(2017)](#目前的杭州地铁)
+	*   [2.杭州三期地铁(2022)](#杭州三期地铁)
+	*   [3.当前杭州交通地图(2017)](#当前杭州交通地图)
+	*   [4.规划局杭州道路交通规划图2017版(2022)](#i规划局杭州道路交通规划图2017版)
+	*   [5.综合交通枢纽体系图](#综合交通枢纽体系图)
+	*   [6.杭州水上巴士](#杭州水上巴士)
 
-*   [六：拆迁](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%BA%94%EF%BC%9A%E6%8B%86%E8%BF%81)
+*   [六：拆迁](#拆迁)
 
 	*   [1.三改一拆是什么](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E4%B8%89%E6%94%B9%E4%B8%80%E6%8B%86%E6%98%AF%E4%BB%80%E4%B9%88)
 	*   [2.2018年棚户区改造计划(第三批)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.2018%E5%B9%B4%E6%A3%9A%E6%88%B7%E5%8C%BA%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92(%E7%AC%AC%E4%B8%89%E6%89%B9))
@@ -59,29 +59,29 @@
 	*   [5.余杭区2017-2019年城中村改造示意图](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E4%BD%99%E6%9D%AD%E5%8C%BA2017-2019%E5%B9%B4%E5%9F%8E%E4%B8%AD%E6%9D%91%E6%94%B9%E9%80%A0%E7%A4%BA%E6%84%8F%E5%9B%BE)
 	*   [6.杭州各区拟订2018 年“三改一拆”旧住宅区改造计划 ](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E6%9D%AD%E5%B7%9E%E5%90%84%E5%8C%BA%E6%8B%9F%E8%AE%A22018%E5%B9%B4%E2%80%9C%E4%B8%89%E6%94%B9%E4%B8%80%E6%8B%86%E2%80%9D%E6%97%A7%E4%BD%8F%E5%AE%85%E5%8C%BA%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92)
 
-*   [七：2017-2021年杭州市区住宅用地供应中期规划汇总表](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%85%AD%EF%BC%9A2017-2021%E5%B9%B4%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%8C%BA%E4%BD%8F%E5%AE%85%E7%94%A8%E5%9C%B0%E4%BE%9B%E5%BA%94%E4%B8%AD%E6%9C%9F%E8%A7%84%E5%88%92%E6%B1%87%E6%80%BB%E8%A1%A8)
-*   [八：土拍分析](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%B8%83%EF%BC%9A%E5%9C%9F%E6%8B%8D%E5%88%86%E6%9E%90)
-*   [九：2020年人口目标 ](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%85%AB%EF%BC%9A2020%E5%B9%B4%E4%BA%BA%E5%8F%A3%E7%9B%AE%E6%A0%87)
-*   [十：杭州重点发展项目](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E4%B9%9D%EF%BC%9A%E6%9D%AD%E5%B7%9E%E9%87%8D%E7%82%B9%E5%8F%91%E5%B1%95%E9%A1%B9%E7%9B%AE)
-*   [十一：杭州市政规划](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%8D%81%EF%BC%9A%E6%9D%AD%E5%B7%9E%E5%B8%82%E6%94%BF%E8%A7%84%E5%88%92)
-*   [十二:关于学区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%8D%81%E4%B8%80:%E5%85%B3%E4%BA%8E%E5%AD%A6%E5%8C%BA)
+*   [七：2017-2021年杭州市区住宅用地供应中期规划汇总表](#2021年杭州市区住宅用地供应中期规划汇总表)
+*   [八：土拍分析](#土拍分析)
+*   [九：2020年人口目标](#2020年人口目标)
+*   [十：杭州重点发展项目](#杭州重点发展项目)
+*   [十一：杭州市政规划](#杭州市政规划)
+*   [十二:关于学区](#关于学区)
 
-	*   [1.分表制度](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E5%88%86%E8%A1%A8%E5%88%B6%E5%BA%A6)
-	*   [2.学区划分](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E5%AD%A6%E5%8C%BA%E5%88%92%E5%88%86)
+	*   [1.分表制度](#分表制度)
+	*   [2.学区划分](#学区划分)
 
-*   [十三: 配套设施分析(道路，医院，学校，综合体)](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%8D%81%E4%BA%8C:%E9%85%8D%E5%A5%97%E8%AE%BE%E6%96%BD%E5%88%86%E6%9E%90(%E9%81%93%E8%B7%AF%EF%BC%8C%E5%8C%BB%E9%99%A2%EF%BC%8C%E5%AD%A6%E6%A0%A1%EF%BC%8C%E7%BB%BC%E5%90%88%E4%BD%93))
-*   [十四: 各区域详细规划与价值分析](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%8D%81%E4%B8%89:%E5%90%84%E5%8C%BA%E5%9F%9F%E8%AF%A6%E7%BB%86%E8%A7%84%E5%88%92%E4%B8%8E%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90)
+*   [十三: 配套设施分析(道路，医院，学校，综合体)](#配套设施分析)
+*   [十四: 各区域详细规划与价值分析](#各区域详细规划与价值分析)
 
 	*   [1.上城区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-1.%E4%B8%8A%E5%9F%8E%E5%8C%BA)
 	*   [2.下城区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-2.%E4%B8%8B%E5%9F%8E%E5%8C%BA)
 	*   [3.西湖区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-3.%E8%A5%BF%E6%B9%96%E5%8C%BA)
 	*   [4.江干区](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-4.%E6%B1%9F%E5%B9%B2%E5%8C%BA)
 	*   [5.下沙](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-5.%E4%B8%8B%E6%B2%99)
-	*   [6.良渚新城](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-6.%E8%89%AF%E6%B8%9A%E6%96%B0%E5%9F%8E)
-	*   [7.智慧网谷小镇](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-7.%E6%99%BA%E6%85%A7%E7%BD%91%E8%B0%B7%E5%B0%8F%E9%95%87)
-	*   [8.未来科技城金融岛](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-8.%E6%9C%AA%E6%9D%A5%E7%A7%91%E6%8A%80%E5%9F%8E%E9%87%91%E8%9E%8D%E5%B2%9B)
+	*   [6.良渚新城](#良渚新城)
+	*   [7.智慧网谷小镇](#智慧网谷小镇)
+	*   [8.未来科技城金融岛](#未来科技城金融岛)
 
-*   [十五: 关于买房的几张图](#id-%E6%9D%AD%E5%B7%9E%E6%88%BF%E4%BA%A7-%E5%8D%81%E5%9B%9B:%E5%85%B3%E4%BA%8E%E4%B9%B0%E6%88%BF%E7%9A%84%E5%87%A0%E5%BC%A0%E5%9B%BE)
+*   [十五:关于买房的几张图](#关于买房的几张图)
 
 
 ## <a name="id-杭州房产-一：认识杭州从板块说起">一：认识杭州从板块说起</a>
@@ -403,7 +403,7 @@ https://zhuanlan.zhihu.com/p/33623170 杭州二手房看房、询价、谈判、
 ## 三：<a name="杭州开发商信息与对比">杭州开发商信息与对比</a>(还没写)
 ## 四：<a name="杭州房产信息渠道">杭州房产信息渠道</a>
 
-### 1.透明售房网
+### 1.<a name="透明售房网">透明售房网</a>
 
 [http://www.tmsf.com/](http://www.tmsf.com/)
 
@@ -522,9 +522,9 @@ Q群:284513258
 
 Q群:554239288
 
-## 五：地铁交通规划与现状
+## 五：<a name="地铁交通规划与现状">地铁交通规划与现状</a>
 
-### 1.目前的杭州地铁(2018.02)
+### 1.<a name="目前的杭州地铁">目前的杭州地铁(2018.02)</a>
 
 
 ![](attachments/1086212/hangzhou.png)
@@ -561,7 +561,7 @@ Q群:554239288
 
 [http://hz.bendibao.com/traffic/shuishangbus/](http://hz.bendibao.com/traffic/shuishangbus/)
 
-## 六：拆迁
+## 六：<a name="拆迁">拆迁</a>
 
 ### 1.三改一拆是什么
 
@@ -611,13 +611,13 @@ Q群:554239288
 
 目前，各区正对照上述要求，结合实际开展前期勘察、设计，合理确定项目实施主体、范围、内容、工期、方案、经费等具体要素，编排项目计划和资金预算。
 
-## 七：2017-2021年杭州市区住宅用地供应中期规划汇总表
+## 七：<a name="2017-2021年杭州市区住宅用地供应中期规划汇总表">2017-2021年杭州市区住宅用地供应中期规划汇总表</a>
 <div class="table-wrap"><table class="confluenceTable"><colgroup><col /> <col /> <col /> <col /> </colgroup><tbody><tr><th rowspan="2" class="confluenceTh">序号</th><th rowspan="2" class="confluenceTh">城区</th><th colspan="2" class="confluenceTh">2017年住宅供应规模</th><th colspan="2" class="confluenceTh">2018年住宅供应规模</th><th colspan="2" class="confluenceTh">2019年住宅供应规模</th><th colspan="2" class="confluenceTh">2020年住宅供应规模</th><th colspan="2" class="confluenceTh">2021年住宅供应规模</th><th colspan="2" class="confluenceTh">5年合计</th></tr><tr><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th><th class="confluenceTh">宗数</th><th class="confluenceTh">面积</th></tr><tr><td class="confluenceTd">1</td><td class="confluenceTd">主城区</td><td class="confluenceTd">38</td><td class="confluenceTd">2271</td><td class="confluenceTd">41</td><td class="confluenceTd">2226</td><td class="confluenceTd">44</td><td class="confluenceTd">2240</td><td class="confluenceTd">39</td><td class="confluenceTd">2251</td><td class="confluenceTd">41</td><td class="confluenceTd">2365</td><td class="confluenceTd">203</td><td class="confluenceTd">11353</td></tr><tr><td class="confluenceTd">2</td><td class="confluenceTd">萧山区</td><td class="confluenceTd">35</td><td class="confluenceTd">2213</td><td class="confluenceTd">30</td><td class="confluenceTd">2522</td><td class="confluenceTd">37</td><td class="confluenceTd">2479</td><td class="confluenceTd">20</td><td class="confluenceTd">2452</td><td class="confluenceTd">17</td><td class="confluenceTd">2497</td><td class="confluenceTd">139</td><td class="confluenceTd">12163</td></tr><tr><td class="confluenceTd">3</td><td class="confluenceTd">大江东产业
  集聚区</td><td class="confluenceTd">10</td><td class="confluenceTd">564</td><td class="confluenceTd">8</td><td class="confluenceTd">709</td><td class="confluenceTd">8</td><td class="confluenceTd">745</td><td class="confluenceTd">8</td><td class="confluenceTd">810</td><td class="confluenceTd">8</td><td class="confluenceTd">820</td><td class="confluenceTd">42</td><td class="confluenceTd">3648</td></tr><tr><td class="confluenceTd">4</td><td class="confluenceTd">余杭区</td><td class="confluenceTd">25</td><td class="confluenceTd">1810</td><td class="confluenceTd">28</td><td class="confluenceTd">1999</td><td class="confluenceTd">21</td><td class="confluenceTd">1711</td><td class="confluenceTd">17</td><td class="confluenceTd">2071</td><td class="confluenceTd">21</td><td class="confluenceTd">1964</td><td class="confluenceTd">112</td><td class="confluenceTd">9556</td></tr><tr><td class="confluenceTd">5</td><td class="confluenceTd">富阳区</td><td class="confluenceTd">11</td><td class="confluenceTd">819</td><td class="confluenceTd">9</td><td class="confluenceTd">704</td><td class="confluenceTd">9</td><td class="confluenceTd">1184</td><td class="confluenceTd">5</td><td class="confluenceTd">925</td><td class="confluenceTd">7</td><td class="confluenceTd">975</td><td class="confluenceTd">41</td><td class="confluenceTd">4607</td></tr><tr><td colspan="2" class="confluenceTd">合计</td><td class="confluenceTd">119</td><td class="confluenceTd">7677</td><td class="confluenceTd">116</td><td class="confluenceTd">8160</td><td class="confluenceTd">119</td><td class="confluenceTd">8359</td><td class="confluenceTd">89</td><td class="confluenceTd">8509</td><td class="confluenceTd">94</td><td class="confluenceTd">8622</td><td class="confluenceTd">537</td><td class="confluenceTd">41327</td></tr></tbody></table></div>
 
-## 八：土拍分析
+## 八：<a name="土拍分析">土拍分析</a>
 
-## 九：<span style="color: rgb(62,62,62);">2020年人口目标</span> 
+## 九：<a name="2020年人口目标">2020年人口目标</a> 
 
 <span>2016年底，按年末常住人口统计，北京是2172.9万人，上海是2419.7万人，广州是1404.35万人，深圳是1190.84万人。而杭州是多</span>918.8万人。
 
@@ -667,7 +667,7 @@ Q群:554239288
 
 ![](attachments/1086212/1246234.png)
 
-## 十：杭州重点发展项目
+## 十：<a name="杭州重点发展项目">杭州重点发展项目</a>
 
 <span style="color: rgb(62,62,62);">“十三五”时期重点培育的<span>17</span><span>个增长极</span></span>
 
@@ -716,7 +716,7 @@ Q群:554239288
 
 ### 17.特色小镇
 
-## 十一：杭州市政规划
+## 十一：<a name="杭州市政规划">杭州市政规划</a>
 
 1.[杭州市政五年规划](http://www.hzghy.com.cn/index.php/project/info/45/51)
 
@@ -728,21 +728,21 @@ Q群:554239288
 
 5.[杭州各区拟定2018拆迁改造计划;六个火车站!杭州中轴快线、中环规划出炉](https://hz.focus.cn/zixun/7d09483e4380904a.html)
 
-## 十二:关于学区
+## 十二:<a name="关于学区">关于学区</a>
 
-### 1.分表制度
+### 1.<a name="分表制度">分表制度</a>
 
 ![](attachments/1086212/1246049.jpeg)
 
-### 2.学区划分
+### 2.<a name="学区划分">学区划分</a>
 
 [2017年杭州城区学区划分](http://www.19lou.com/forum-263-thread-6631457491565752-1-1.html)
 
 [2017杭州各区学区划分大汇总](https://www.kan3721.com/news/show-7932.html)
 
-## 十三: 配套设施分析(道路，医院，学校，综合体)
+## 十三: <a name="配套设施分析">配套设施分析(道路，医院，学校，综合体)</a>
 
-## 十四: 各区域详细规划与价值分析
+## 十四: <a name="各区域详细规划与价值分析">各区域详细规划与价值分析</a>
 
 [https://mp.weixin.qq.com/s/LXzDLVNGy9iybiw-Ic2ovA](https://mp.weixin.qq.com/s/LXzDLVNGy9iybiw-Ic2ovA)
 <div class="_2bu9_ueOXSaDecU0ejsIOy"><div class="zGxAUxmh3iVIrVA0Ki4mZ"><div class="_1guk2929wY6VIUbsPC2orn"><div class="_1S_TjXVYjV91ADwjZWaCx1 _1D4BWrRmNahcH1KgQoDh9D"><div class="_1cVLm7ZPcyT7MeFr2I0lmt" style="text-align: justify;">
@@ -875,25 +875,10 @@ Q群:554239288
 学校：在教育设施配套上，按照服务半径300米控制，规划共布置51所幼儿园，共计695班，以每班30人来算，可以解决2万多孩子的入学问题。除了幼儿园，下沙还要建设26所小学、11所中学、5所九年一贯制学校，共计小学1014班，中学486班。
 
 ### 6.城北新城
-
 ![](attachments/1086212/杭州城北规划.jpg)
-
 ![](attachments/1086212/1246011.jpg)
-
 ![](attachments/1086212/1246012.jpg)
-
-
 ### <span class="_8i6wdd-C388qMirX5s_xe">7.智慧网谷小镇</span>
-
 ### <span class="_8i6wdd-C388qMirX5s_xe">8.未来科技城金融岛</span>
-
-<span class="_8i6wdd-C388qMirX5s_xe">
-</span>
-
-## 十五: 关于买房的几张图
-
+## 十五: <a name="关于买房的几张图">关于买房的几张图</a>
 ![](attachments/1086212/1246090.jpg)![](attachments/1086212/1246091.jpeg)
-
-<span class="_8i6wdd-C388qMirX5s_xe">
-</span>
-
