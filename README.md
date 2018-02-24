@@ -127,9 +127,9 @@
 
 <span style="color: rgb(62,62,62);">分别为</span>**<span style="color: rgb(192,0,0);">江南副中心、下沙副中心、临平副中心、大江东副中心、城西科创城市副中心、城北副中心、富阳副中心。</span>**
 	<div class="aui-message hint shadowed information-macro">
-	                        <span class="aui-icon icon-hint">Icon</span>
+	                        <span class="aui-icon icon-hint"></span>
 	            <div class="message-content">
-	                        > 1 城北副中心
+	                         1 城北副中心
 
 **<span style="color: rgb(192,0,0);">区域：</span>**以勾庄一带为核心，由运河新城、北部新城核心区组成，辐射良渚组团、瓶窑组团
 
@@ -165,18 +165,17 @@
 
 **<span style="color: rgb(192,0,0);">发展定位：</span>**融总部商务、商业金融、文化展示、旅游休闲和高端居住等于一体的生态智慧型楼宇经济示范区
 
-	                </div>
-	</div>
+
 
 ## 二：关于房子要知道的一些概念
 
 一些房产的基本名词有助于看懂规划图
 
 ### 1.[用地性质](https://baike.baidu.com/item/%E7%94%A8%E5%9C%B0%E6%80%A7%E8%B4%A8/7418473) 
-
+![](images/icons/grey_arrow_down.png)
 <div id="expander-2136437052" class="expand-container">
 <div id="expander-control-2136437052" class="expand-control">
-    <span class="expand-control-icon">![](images/icons/grey_arrow_down.png)</span><span class="expand-control-text">用地性质对照表</span>
+    <span class="expand-control-icon"></span><span class="expand-control-text">用地性质对照表</span>
 </div>
 <div id="expander-content-2136437052" class="expand-content">    <div class="aui-message success shadowed information-macro">
                             <span class="aui-icon icon-success">Icon</span>
@@ -205,7 +204,7 @@
 债务人履行债务后，定金应当抵作价款或者收回。给付定金的一方不履行约定的债务的，
 
 无权要求返还定金;收受定金的一方不履行约定的债务的，应当双倍返还定金。
-</td><td class="confluenceTd"><span>无权要求返还定金</span></td></tr><tr><td class="confluenceTd">**订金**</td><td class="confluenceTd">
+</td><td class="confluenceTd"><span>无权要求返还定金</span></td></tr><tr><td class="confluenceTd">订金</td><td class="confluenceTd">
 
 在购房者与[发展商](http://www.fang.com/juhe/31283/)就房屋买卖的意向初步达成协议后，准备进一步协商签订的临时认购协议，
 
@@ -216,7 +215,7 @@
 预付款不具有担保债的履行的作用，也不能证明合同的成立。预付款在合同正常履行的情况下,成为价
 
 款的一部分,在合同没有得到履行的情况下,不管是给付一方当事人违约,还是接受方违约,预付款都要原数返回。
-</td><td class="confluenceTd">无条件退款</td></tr><tr><td class="confluenceTd">**认筹金**</td><td class="confluenceTd">
+</td><td class="confluenceTd">无条件退款</td></tr><tr><td class="confluenceTd">认筹金</td><td class="confluenceTd">
 
 “认筹”就是购房者表现出买房的诚意，这个诚意需要通过缴纳“认筹金”来体现。在缴纳“认筹金”后，
 
@@ -227,7 +226,7 @@
 如果购房者没有选中理想的房屋，开发商将把“认筹金”如数退还给购房者。但是“认筹金”的实质
 
 作用是开发商在开盘前得到的大笔资金并在短时期内收回大笔资金，解决开发商的燃眉之急。
-</td><td class="confluenceTd">无条件退款</td></tr><tr><td colspan="1" class="confluenceTd">**诚意金**</td><td colspan="1" class="confluenceTd">
+</td><td class="confluenceTd">无条件退款</td></tr><tr><td colspan="1" class="confluenceTd">诚意金</td><td colspan="1" class="confluenceTd">
 
 即意向金，这在中介与买房和卖房双方签定的合同中多有体现，其实法律上并没有诚意金之说，
 
@@ -296,7 +295,7 @@
 
 2、渗水的可能性比较小；
 
-3、冬天比较温暖，省了[暖气](http://www.jiwu.com/zhuanti/116709/ "暖气")钱；
+3、冬天比较温暖，省了暖气钱；
 
 4、比东边套价格便宜。
 </td><td class="confluenceTd">
@@ -355,8 +354,7 @@
 
 ## 三：杭州房产信息渠道
 
-\#\## 
-1.透明售房网
+### 1.透明售房网
 
 [http://www.tmsf.com/](http://www.tmsf.com/)
 
