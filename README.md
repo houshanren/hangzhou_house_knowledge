@@ -4,7 +4,7 @@
 
 
 
-[附上 gitbook地址 ](https://www.gitbook.com/read/book/houshanren/hangzhou_house_knowledge)
+[附上 gitbook地址，烦请大家移到gitbook上阅读 ](https://www.gitbook.com/read/book/houshanren/hangzhou_house_knowledge)
 
 
 *   [一：认识杭州从板块说起](#id-杭州房产-一：认识杭州从板块说起)
