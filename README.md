@@ -526,6 +526,7 @@ https://zhuanlan.zhihu.com/p/33623170 杭州二手房看房、询价、谈判、
 <span class="s1"> [http://www.shangcheng.gov.cn/col/col1267801/index.html](http://www.shangcheng.gov.cn/col/col1267801/index.html) 上城</span>
 
 ### 6.一些QQ群
+Q群:689857827
 
 Q群:322612404
 
