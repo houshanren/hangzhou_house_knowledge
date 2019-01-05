@@ -1,14 +1,9 @@
 
 	   杭州房产知识扫盲
 	   -- 图片来自网络，如侵权删
-	   -- 数据不保证完全准确，有些错误的地方海涵，有错误的请自己求证。、
+	   -- 数据不保证完全准确，有些错误的地方海涵，有错误的请自己求证。
+*   [新增各地控规文件](#新增各地区控规文件)
 
-	   -- 实在对不起大家，issue已经关闭。Github是讨论代码的，讨论房子欢迎加群。
-	   -- 如果大家觉得写的不错，看就好。
-
-
-
-[附上 gitbook地址，烦请大家移到gitbook上阅读 ](https://www.gitbook.com/read/book/houshanren/hangzhou_house_knowledge)
 
 
 *   [一：认识杭州从板块说起](#id-杭州房产-一：认识杭州从板块说起)
@@ -788,6 +783,40 @@ Q群:554239288
 ### 17.特色小镇
 
 ## 十一：<a name="杭州市政规划">杭州市政规划</a>
+
+<a name="新增各地区控规文件">新增各地区控规文件</a>
+
+[杭州轨道交通专项规划](attachments/files/杭州轨道交通专项规划.zip)
+
+[杭州体育设施规划图](attachments/files/杭州体育设施规划图.zip)
+
+[钱江世纪城控规](attachments/files/钱江世纪城控规.zip)
+
+[余杭分区规划1](attachments/files/余杭分区规划1.zip)
+
+[余杭分区规划2](attachments/files/余杭分区规划2.zip)
+
+[余杭分区规划3](attachments/files/余杭分区规划3.zip)
+
+[古荡西溪玉泉控规](attachments/files/古荡西溪玉泉控规.zip)
+
+[杭州北部新城规划图](attachments/files/杭州北部新城规划图.zip)
+
+[蒋村单元控规](attachments/files/蒋村单元控规.zip)
+
+[留下控规](attachments/files/留下控规.zip)
+
+[申花单元控规](attachments/files/申花单元控规.zip)
+
+[双桥三墩北控规](attachments/files/双桥三墩北控规.zip)
+
+[下沙中心控规](attachments/files/下沙中心控规.zip)
+
+[祥符单元控规](attachments/files/祥符单元控规.zip)
+
+[之江转塘控制规划](attachments/files/之江转塘控制规划.zip)
+
+
 
 1.[杭州市政五年规划](http://www.hzghy.com.cn/index.php/project/info/45/51)
 
