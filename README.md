@@ -830,6 +830,7 @@ Q群:284513258
 
 [之江转塘控制规划](attachments/files/之江转塘控制规划.zip)
 
+0.[2019年度杭州市经营性用地出让、收储和做地计划地块汇总表](attachments/1086212/2019年度杭州市经营性用地出让、收储和做地计划地块汇总表.xls)
 
 
 1.[杭州市政五年规划](http://www.hzghy.com.cn/index.php/project/info/45/51)
