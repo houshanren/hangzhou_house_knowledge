@@ -443,82 +443,76 @@ https://zhuanlan.zhihu.com/p/33623170 杭州二手房看房、询价、谈判、
 
 ### 4.公众号
 
-
-
-1) 杭州住宅销售数据 ---- 每天的销售数据(<span style="color: rgb(255,0,0);">重点关注</span>)
-
-![](attachments/1086212/1246016.png)
-
-2) 钱报杭州房产 ---- 房产信息导购资讯(<span style="color: rgb(255,0,0);">重点关注</span>)
+1) 钱报杭州房产 ---- 房产信息导购资讯(<span style="color: rgb(255,0,0);">重点关注</span>)
 
 ![](attachments/1086212/1550534921852.jpg)
 
-3) 拿地宝 ---- 土拍信息，土地规划(<span style="color: rgb(255,0,0);">重点关注</span>)
+2) 拿地宝 ---- 土拍信息，土地规划(<span style="color: rgb(255,0,0);">重点关注</span>)
 
 ![](attachments/1086212/1246020.png)
 
-4) 杭州发布 —  权威的信息发布(<span style="color: rgb(255,0,0);">重点关注</span>)
+3) 杭州发布 —  权威的信息发布(<span style="color: rgb(255,0,0);">重点关注</span>)
 
 ![](attachments/1086212/1246019.png)
 
-5) 透明售房网 —  微信端的透明售房网咨询整合(<span style="color: rgb(255,0,0);">重点关注</span>)
+4) 透明售房网 —  微信端的透明售房网咨询整合(<span style="color: rgb(255,0,0);">重点关注</span>)
 
 ![](attachments/1086212/1246021.png)
 
-6) 杭州口水楼市 —  网友论坛每天的咨询汇总(<span style="color: rgb(255,0,0);">重点关注</span>)
+5) 杭州口水楼市 —  网友论坛每天的咨询汇总(<span style="color: rgb(255,0,0);">重点关注</span>)
 
 ![](attachments/1086212/1246022.png)
 
-7) 杭州住保房管 —  住保房管的政策信息公布获取渠道
+6) 杭州住保房管 —  住保房管的政策信息公布获取渠道
 
 ![](attachments/1086212/1246023.png)
 
-8) 杭州公安 —  便民查询，政策咨询
+7) 杭州公安 —  便民查询，政策咨询
 
 ![](attachments/1086212/1246024.png)
 
-9) 钱江晚报 —  在浙江，新闻快，资讯多，服务全
+8) 钱江晚报 —  在浙江，新闻快，资讯多，服务全
 
 ![](attachments/1086212/1521978210833.jpg)
 
 
-10)  层楼 —  个人评楼公众号(<span style="color: rgb(255,0,0);">重点关注</span>)
+9)  层楼 —  个人评楼公众号(<span style="color: rgb(255,0,0);">重点关注</span>)
 
 ![](attachments/1086212/1246026.png)
 
-11)  独立评房 —  个人评楼公众号
+10)  独立评房 —  个人评楼公众号
 
 ![](attachments/1086212/1246025.png)
 
-12) 维维说房 —  个人评楼公众号(<span style="color: rgb(255,0,0);">重点关注</span>)
+11) 维维说房 —  个人评楼公众号(<span style="color: rgb(255,0,0);">重点关注</span>)
 
 ![](attachments/1086212/1246034.png)
 
-13) 丁祖昱评楼 —  个人评楼公众号(<span style="color: rgb(255,0,0);">重点关注</span>)
+12) 丁祖昱评楼 —  个人评楼公众号(<span style="color: rgb(255,0,0);">重点关注</span>)
 
 ![](attachments/1086212/1246028.png)
 
-14) 严肃买房报告 —  个人评楼公众号
+13) 严肃买房报告 —  个人评楼公众号
 
 ![](attachments/1086212/1246017.png)
 
-15) 微余杭 —  
+14) 微余杭 —  
 
 ![](attachments/1086212/1246018.png)
 
-16) 今日拱墅 —  (<span style="color: rgb(255,0,0);">重点关注</span>)
+15) 今日拱墅 —  (<span style="color: rgb(255,0,0);">重点关注</span>)
 
 ![](attachments/1086212/1246029.png)
 
-17) 杭州建设
+16) 杭州建设
 
 ![](attachments/1086212/1246032.png)
 
-18) 乐活在杭州
+17) 乐活在杭州
 
 ![](attachments/1086212/1246033.png)
 
-19) 良渚文化城
+18) 良渚文化城
 
 ![](attachments/1086212/1246030.png)
 
